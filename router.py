@@ -39,6 +39,27 @@ Consider:
 - Need for creativity vs precision
 """
 
+EVALUATION_PROMPT_TEMPLATE = """You are an AI response evaluator. Given a user prompt and multiple AI model responses, determine which response is the best.
+
+User prompt: "{user_prompt}"
+
+Responses:
+{responses}
+
+Evaluate the responses based on:
+- Accuracy and correctness
+- Completeness and depth
+- Clarity and coherence
+- Relevance to the prompt
+- Helpfulness to the user
+
+Respond with ONLY a JSON object in this exact format:
+{{
+    "best_model": "model name that provided the best response",
+    "reasoning": "Brief explanation of why this response is best",
+    "ranking": ["first_model", "second_model", ...] // ranked from best to worst
+}}"""
+
 @dataclass
 class ModelProfile:
     """Profile for each model with its strengths and characteristics"""
@@ -203,6 +224,129 @@ class AIRouter:
         )
         
         return response, analysis
+    
+    def parallel_route(self, 
+                      messages: List[Dict[str, str]], 
+                      **kwargs) -> Tuple[Any, Dict[str, Any]]:
+        """Call all models in parallel and return the best response"""
+        import concurrent.futures
+        
+        # Extract user prompt
+        user_prompt = ""
+        for msg in reversed(messages):
+            if msg.get("role") == "user":
+                user_prompt = msg.get("content", "")
+                break
+        
+        # Function to call a model and return its response
+        def call_model(model_key: str, model_profile: ModelProfile):
+            try:
+                model_id = f"{model_profile.provider}:{model_profile.model_id}"
+                response = self.client.chat.completions.create(
+                    model=model_id,
+                    messages=messages,
+                    **kwargs
+                )
+                return {
+                    "model_key": model_key,
+                    "model_name": model_profile.name,
+                    "response": response.choices[0].message.content,
+                    "model_id": model_id,
+                    "cost_per_1k": model_profile.cost_per_1k_tokens
+                }
+            except Exception as e:
+                return {
+                    "model_key": model_key,
+                    "model_name": model_profile.name,
+                    "response": f"Error: {str(e)}",
+                    "model_id": model_id,
+                    "cost_per_1k": model_profile.cost_per_1k_tokens,
+                    "error": True
+                }
+        
+        # Call all models in parallel
+        responses = []
+        with concurrent.futures.ThreadPoolExecutor(max_workers=len(self.models)) as executor:
+            future_to_model = {
+                executor.submit(call_model, key, profile): key 
+                for key, profile in self.models.items()
+            }
+            
+            for future in concurrent.futures.as_completed(future_to_model):
+                result = future.result()
+                if not result.get("error", False):
+                    responses.append(result)
+        
+        # If no successful responses, return an error
+        if not responses:
+            raise Exception("All models failed to generate responses")
+        
+        # Evaluate responses using GPT-4o
+        evaluation = self._evaluate_responses(user_prompt, responses)
+        
+        # Find the best response
+        best_model_key = evaluation["best_model"]
+        best_response = next(r for r in responses if r["model_name"] == best_model_key)
+        
+        # Create a response object matching the expected format
+        class MockResponse:
+            class Choice:
+                class Message:
+                    def __init__(self, content):
+                        self.content = content
+                
+                def __init__(self, content):
+                    self.message = self.Message(content)
+            
+            def __init__(self, content):
+                self.choices = [self.Choice(content)]
+        
+        return MockResponse(best_response["response"]), {
+            "selected_model": best_response["model_key"],
+            "model_id": best_response["model_id"],
+            "evaluation": evaluation,
+            "all_responses": responses,
+            "parallel_mode": True
+        }
+    
+    def _evaluate_responses(self, user_prompt: str, responses: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """Use GPT-4o to evaluate multiple responses and select the best one"""
+        # Format responses for evaluation
+        formatted_responses = "\n\n".join([
+            f"Model: {r['model_name']}\nResponse: {r['response']}"
+            for r in responses
+        ])
+        
+        evaluation_prompt = EVALUATION_PROMPT_TEMPLATE.format(
+            user_prompt=user_prompt,
+            responses=formatted_responses
+        )
+        
+        # Get evaluation from GPT-4o
+        eval_response = self.client.chat.completions.create(
+            model=self.router_model,
+            messages=[{"role": "user", "content": evaluation_prompt}],
+            temperature=0.1,
+            max_tokens=300
+        )
+        
+        # Parse evaluation response
+        try:
+            eval_content = eval_response.choices[0].message.content
+            start = eval_content.find('{')
+            end = eval_content.rfind('}') + 1
+            if start >= 0 and end > start:
+                json_str = eval_content[start:end]
+                return json.loads(json_str)
+        except (json.JSONDecodeError, ValueError):
+            pass
+        
+        # Default to first response if parsing fails
+        return {
+            "best_model": responses[0]["model_name"],
+            "reasoning": "Failed to parse evaluation",
+            "ranking": [r["model_name"] for r in responses]
+        }
 
 
 def main():
@@ -213,45 +357,87 @@ def main():
         "anthropic": {"api_key": os.getenv("ANTHROPIC_API_KEY")}
     })
     
-    # Example prompts to test routing
-    test_prompts = [
-        "Write a creative short story about a robot learning to paint",
-        "Calculate the derivative of f(x) = 3x^2 + 2x - 5",
-        "Generate a Python function to sort a list of dictionaries",
-        "Explain quantum computing in simple terms",
-        "Analyze the ethical implications of AI in healthcare",
-        "What's the weather like today?",
-        "Help me debug this React component that's not rendering"
-    ]
-    
     print("AI Router Demo\n" + "="*50 + "\n")
     
-    for prompt in test_prompts:
-        print(f"\nPrompt: {prompt}")
-        print("-" * 50)
+    # Test normal routing mode
+    print("\n1. NORMAL ROUTING MODE (selects best model)")
+    print("="*50)
+    
+    test_prompt = "Write a haiku about programming"
+    messages = [{"role": "user", "content": test_prompt}]
+    
+    try:
+        response, metadata = router.route_with_metadata(
+            messages=messages,
+            temperature=0.7,
+            max_tokens=150
+        )
         
-        # Get routing decision and send to selected model
-        messages = [{"role": "user", "content": prompt}]
+        print(f"Prompt: {test_prompt}")
+        print(f"Selected Model: {metadata['selected_model']}")
+        print(f"Reasoning: {metadata['reasoning']}")
+        print(f"Response: {response.choices[0].message.content}")
+    except Exception as e:
+        print(f"Error: {str(e)}")
+    
+    # Test parallel mode
+    print("\n\n2. PARALLEL MODE (calls all models, selects best response)")
+    print("="*50)
+    
+    test_prompt = "Explain the concept of recursion with a simple example"
+    messages = [{"role": "user", "content": test_prompt}]
+    
+    try:
+        response, metadata = router.parallel_route(
+            messages=messages,
+            temperature=0.7,
+            max_tokens=200
+        )
         
-        try:
-            # Route the request and get both response and metadata
-            response, metadata = router.route_with_metadata(
-                messages=messages,
-                temperature=0.7,
-                max_tokens=150  # Limit for demo purposes
-            )
-            
-            # Display routing information
-            print(f"Selected Model: {metadata['selected_model']}")
-            print(f"Reasoning: {metadata['reasoning']}")
-            print(f"Confidence: {metadata['confidence']:.2f}")
-            print(f"\nModel Response:")
-            print(response.choices[0].message.content)
-            
-        except Exception as e:
-            print(f"Error: {str(e)}")
+        print(f"Prompt: {test_prompt}")
+        print(f"\nAll model responses:")
+        for resp in metadata["all_responses"]:
+            print(f"\n{resp['model_name']}:")
+            print(f"{resp['response'][:100]}..." if len(resp['response']) > 100 else resp['response'])
         
-        print("=" * 50)
+        print(f"\n\nEvaluation Results:")
+        print(f"Best Model: {metadata['evaluation']['best_model']}")
+        print(f"Reasoning: {metadata['evaluation']['reasoning']}")
+        print(f"Ranking: {metadata['evaluation']['ranking']}")
+        
+        print(f"\n\nBest Response (from {metadata['evaluation']['best_model']}):")
+        print(response.choices[0].message.content)
+        
+    except Exception as e:
+        print(f"Error: {str(e)}")
+    
+    # Demo comparison
+    print("\n\n3. COMPARISON: Same prompt, different modes")
+    print("="*50)
+    
+    comparison_prompt = "What are the key differences between lists and tuples in Python?"
+    messages = [{"role": "user", "content": comparison_prompt}]
+    
+    print(f"Prompt: {comparison_prompt}\n")
+    
+    # Normal routing
+    try:
+        print("Normal Routing:")
+        response1, metadata1 = router.route_with_metadata(messages=messages, max_tokens=150)
+        print(f"Selected: {metadata1['selected_model']} (confidence: {metadata1['confidence']:.2f})")
+        print(f"Response preview: {response1.choices[0].message.content[:100]}...")
+    except Exception as e:
+        print(f"Error: {str(e)}")
+    
+    # Parallel routing
+    try:
+        print("\nParallel Routing:")
+        response2, metadata2 = router.parallel_route(messages=messages, max_tokens=150)
+        print(f"Selected: {metadata2['evaluation']['best_model']}")
+        print(f"Ranking: {metadata2['evaluation']['ranking']}")
+        print(f"Response preview: {response2.choices[0].message.content[:100]}...")
+    except Exception as e:
+        print(f"Error: {str(e)}")
 
 
 if __name__ == "__main__":
