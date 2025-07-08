@@ -1,3 +1,38 @@
+# AI Router
+
+The `router_examples.py` file demonstrates how to use the intelligent AI router that automatically selects the best model for your prompt. 
+
+## Setup
+
+Before running the examples, create a `.env` file in the project root with your API keys:
+
+```
+OPENAI_API_KEY=your-openai-api-key
+ANTHROPIC_API_KEY=your-anthropic-api-key
+```
+
+## Running the Examples
+
+Run the examples:
+
+```shell
+python router_examples.py
+```
+
+## Information
+
+The router supports:
+- **Claude Code**: For in-repo software engineering tasks
+- **Claude Opus 4**: For coding responses without repository operations
+- **O3**: For complex reasoning and mathematical problems
+- **GPT-4o**: For general-purpose tasks
+- **GPT-4o-mini**: For simple, quick queries
+
+The router includes three routing modes:
+1. **Smart Route**: Automatically selects the best model based on prompt analysis
+2. **Parallel Best**: Calls all models and selects the best response
+3. **Parallel Synthesize**: Calls all models and synthesizes their responses into one
+
 # aisuite
 
 [![PyPI](https://img.shields.io/pypi/v/aisuite)](https://pypi.org/project/aisuite/)
