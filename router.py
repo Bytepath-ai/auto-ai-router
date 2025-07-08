@@ -8,6 +8,7 @@ the best model to use (GPT-4o vs Claude) based on the prompt characteristics.
 
 import os
 import json
+import subprocess
 from typing import Dict, List, Any, Optional, Tuple
 from dataclasses import dataclass
 import aisuite as ai
@@ -21,13 +22,14 @@ ROUTING_PROMPT_TEMPLATE = """You are an AI model router. Analyze the following u
 Available models:
 1. GPT-4o: {gpt4o_strengths}
 2. Claude 3.5 Sonnet: {claude_strengths}
+3. Claude Code: {claude_code_strengths}
 
 User prompt:
 "{user_prompt}"
 
 Respond with ONLY a JSON object in this exact format:
 {{
-    "model": "gpt-4o" or "claude",
+    "model": "gpt-4o" or "claude" or "claude-code",
     "reasoning": "Brief explanation of why this model is best for this prompt",
     "confidence": 0.0 to 1.0
 }}
@@ -78,6 +80,7 @@ class AIRouter:
         return ROUTING_PROMPT_TEMPLATE.format(
             gpt4o_strengths=', '.join(self.models['gpt-4o'].strengths),
             claude_strengths=', '.join(self.models['claude'].strengths),
+            claude_code_strengths=', '.join(self.models['claude-code'].strengths),
             user_prompt=user_prompt
         )
     
@@ -122,6 +125,24 @@ class AIRouter:
                     "long-form content"
                 ],
                 cost_per_1k_tokens=0.009  # ($3 input + $15 output) / 2
+            ),
+            "claude-code": ModelProfile(
+                name="Claude Code",
+                provider="terminal",
+                model_id="claude",
+                strengths=[
+                    "software engineering",
+                    "code implementation",
+                    "debugging",
+                    "file system operations",
+                    "bash commands",
+                    "project structure understanding",
+                    "refactoring",
+                    "test writing",
+                    "technical documentation",
+                    "CLI tool development"
+                ],
+                cost_per_1k_tokens=0.0  # Free when running locally
             )
         }
         
@@ -147,6 +168,27 @@ class AIRouter:
         
         # Default to GPT-4o if parsing fails
         return "gpt-4o", "Failed to parse routing decision", 0.5
+    
+    def _call_claude_code(self, prompt: str) -> str:
+        """Execute Claude Code via terminal and return the response"""
+        try:
+            # Execute claude command with the prompt
+            result = subprocess.run(
+                ['claude', '--dangerously-skip-permissions', '-p', prompt],
+                capture_output=True,
+                text=True,
+                check=False
+            )
+            
+            if result.returncode == 0:
+                return result.stdout.strip()
+            else:
+                error_msg = result.stderr.strip() if result.stderr else "Unknown error"
+                return f"Error calling Claude Code: {error_msg}"
+        except FileNotFoundError:
+            return "Error: Claude Code CLI not found. Please ensure 'claude' is installed and in PATH."
+        except Exception as e:
+            return f"Error calling Claude Code: {str(e)}"
     
     def analyze_prompt(self, prompt: str) -> Dict[str, Any]:
         """Analyze a prompt and determine the best model to use"""
@@ -194,7 +236,26 @@ class AIRouter:
         print(f"Routing to: {analysis['selected_model']} (confidence: {analysis['confidence']:.2f})")
         print(f"Reasoning: {analysis['reasoning']}")
         
-        # Forward request to selected model
+        # Handle Claude Code differently
+        if analysis['selected_model'] == 'claude-code':
+            response_content = self._call_claude_code(user_prompt)
+            
+            # Create a mock response object to match the expected format
+            class MockResponse:
+                class Choice:
+                    class Message:
+                        def __init__(self, content):
+                            self.content = content
+                    
+                    def __init__(self, content):
+                        self.message = self.Message(content)
+                
+                def __init__(self, content):
+                    self.choices = [self.Choice(content)]
+            
+            return MockResponse(response_content)
+        
+        # Forward request to selected model (GPT-4o or Claude)
         return self.client.chat.completions.create(
             model=selected_model_id,
             messages=messages,
@@ -216,12 +277,31 @@ class AIRouter:
         analysis = self.analyze_prompt(user_prompt)
         selected_model_id = analysis["model_id"]
         
-        # Forward request to selected model
-        response = self.client.chat.completions.create(
-            model=selected_model_id,
-            messages=messages,
-            **kwargs
-        )
+        # Handle Claude Code differently
+        if analysis['selected_model'] == 'claude-code':
+            response_content = self._call_claude_code(user_prompt)
+            
+            # Create a mock response object to match the expected format
+            class MockResponse:
+                class Choice:
+                    class Message:
+                        def __init__(self, content):
+                            self.content = content
+                    
+                    def __init__(self, content):
+                        self.message = self.Message(content)
+                
+                def __init__(self, content):
+                    self.choices = [self.Choice(content)]
+            
+            response = MockResponse(response_content)
+        else:
+            # Forward request to selected model
+            response = self.client.chat.completions.create(
+                model=selected_model_id,
+                messages=messages,
+                **kwargs
+            )
         
         return response, analysis
     
@@ -242,6 +322,19 @@ class AIRouter:
         def call_model(model_key: str, model_profile: ModelProfile):
             try:
                 model_id = f"{model_profile.provider}:{model_profile.model_id}"
+                
+                # Handle Claude Code differently
+                if model_key == 'claude-code':
+                    response_content = self._call_claude_code(user_prompt)
+                    return {
+                        "model_key": model_key,
+                        "model_name": model_profile.name,
+                        "response": response_content,
+                        "model_id": model_id,
+                        "cost_per_1k": model_profile.cost_per_1k_tokens
+                    }
+                
+                # Call other models via aisuite
                 response = self.client.chat.completions.create(
                     model=model_id,
                     messages=messages,
@@ -363,7 +456,7 @@ def main():
     print("\n1. NORMAL ROUTING MODE (selects best model)")
     print("="*50)
     
-    test_prompt = "Write a haiku about programming"
+    test_prompt = "Create factorial.py with a factorial function"
     messages = [{"role": "user", "content": test_prompt}]
     
     try:
@@ -377,65 +470,6 @@ def main():
         print(f"Selected Model: {metadata['selected_model']}")
         print(f"Reasoning: {metadata['reasoning']}")
         print(f"Response: {response.choices[0].message.content}")
-    except Exception as e:
-        print(f"Error: {str(e)}")
-    
-    # Test parallel mode
-    print("\n\n2. PARALLEL MODE (calls all models, selects best response)")
-    print("="*50)
-    
-    test_prompt = "Explain the concept of recursion with a simple example"
-    messages = [{"role": "user", "content": test_prompt}]
-    
-    try:
-        response, metadata = router.parallel_route(
-            messages=messages,
-            temperature=0.7,
-            max_tokens=200
-        )
-        
-        print(f"Prompt: {test_prompt}")
-        print(f"\nAll model responses:")
-        for resp in metadata["all_responses"]:
-            print(f"\n{resp['model_name']}:")
-            print(f"{resp['response'][:100]}..." if len(resp['response']) > 100 else resp['response'])
-        
-        print(f"\n\nEvaluation Results:")
-        print(f"Best Model: {metadata['evaluation']['best_model']}")
-        print(f"Reasoning: {metadata['evaluation']['reasoning']}")
-        print(f"Ranking: {metadata['evaluation']['ranking']}")
-        
-        print(f"\n\nBest Response (from {metadata['evaluation']['best_model']}):")
-        print(response.choices[0].message.content)
-        
-    except Exception as e:
-        print(f"Error: {str(e)}")
-    
-    # Demo comparison
-    print("\n\n3. COMPARISON: Same prompt, different modes")
-    print("="*50)
-    
-    comparison_prompt = "What are the key differences between lists and tuples in Python?"
-    messages = [{"role": "user", "content": comparison_prompt}]
-    
-    print(f"Prompt: {comparison_prompt}\n")
-    
-    # Normal routing
-    try:
-        print("Normal Routing:")
-        response1, metadata1 = router.route_with_metadata(messages=messages, max_tokens=150)
-        print(f"Selected: {metadata1['selected_model']} (confidence: {metadata1['confidence']:.2f})")
-        print(f"Response preview: {response1.choices[0].message.content[:100]}...")
-    except Exception as e:
-        print(f"Error: {str(e)}")
-    
-    # Parallel routing
-    try:
-        print("\nParallel Routing:")
-        response2, metadata2 = router.parallel_route(messages=messages, max_tokens=150)
-        print(f"Selected: {metadata2['evaluation']['best_model']}")
-        print(f"Ranking: {metadata2['evaluation']['ranking']}")
-        print(f"Response preview: {response2.choices[0].message.content[:100]}...")
     except Exception as e:
         print(f"Error: {str(e)}")
 
