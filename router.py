@@ -8,7 +8,6 @@ the best model to use (GPT-4o vs Claude) based on the prompt characteristics.
 
 import os
 import json
-import subprocess
 from typing import Dict, List, Any, Optional, Tuple
 from dataclasses import dataclass
 import aisuite as ai
@@ -128,7 +127,7 @@ class AIRouter:
             ),
             "claude-code": ModelProfile(
                 name="Claude Code",
-                provider="terminal",
+                provider="claude_code",
                 model_id="claude",
                 strengths=[
                     "software engineering",
@@ -169,26 +168,6 @@ class AIRouter:
         # Default to GPT-4o if parsing fails
         return "gpt-4o", "Failed to parse routing decision", 0.5
     
-    def _call_claude_code(self, prompt: str) -> str:
-        """Execute Claude Code via terminal and return the response"""
-        try:
-            # Execute claude command with the prompt
-            result = subprocess.run(
-                ['claude', '--dangerously-skip-permissions', '-p', prompt],
-                capture_output=True,
-                text=True,
-                check=False
-            )
-            
-            if result.returncode == 0:
-                return result.stdout.strip()
-            else:
-                error_msg = result.stderr.strip() if result.stderr else "Unknown error"
-                return f"Error calling Claude Code: {error_msg}"
-        except FileNotFoundError:
-            return "Error: Claude Code CLI not found. Please ensure 'claude' is installed and in PATH."
-        except Exception as e:
-            return f"Error calling Claude Code: {str(e)}"
     
     def analyze_prompt(self, prompt: str) -> Dict[str, Any]:
         """Analyze a prompt and determine the best model to use"""
@@ -236,26 +215,7 @@ class AIRouter:
         print(f"Routing to: {analysis['selected_model']} (confidence: {analysis['confidence']:.2f})")
         print(f"Reasoning: {analysis['reasoning']}")
         
-        # Handle Claude Code differently
-        if analysis['selected_model'] == 'claude-code':
-            response_content = self._call_claude_code(user_prompt)
-            
-            # Create a mock response object to match the expected format
-            class MockResponse:
-                class Choice:
-                    class Message:
-                        def __init__(self, content):
-                            self.content = content
-                    
-                    def __init__(self, content):
-                        self.message = self.Message(content)
-                
-                def __init__(self, content):
-                    self.choices = [self.Choice(content)]
-            
-            return MockResponse(response_content)
-        
-        # Forward request to selected model (GPT-4o or Claude)
+        # Forward request to selected model
         return self.client.chat.completions.create(
             model=selected_model_id,
             messages=messages,
@@ -277,31 +237,12 @@ class AIRouter:
         analysis = self.analyze_prompt(user_prompt)
         selected_model_id = analysis["model_id"]
         
-        # Handle Claude Code differently
-        if analysis['selected_model'] == 'claude-code':
-            response_content = self._call_claude_code(user_prompt)
-            
-            # Create a mock response object to match the expected format
-            class MockResponse:
-                class Choice:
-                    class Message:
-                        def __init__(self, content):
-                            self.content = content
-                    
-                    def __init__(self, content):
-                        self.message = self.Message(content)
-                
-                def __init__(self, content):
-                    self.choices = [self.Choice(content)]
-            
-            response = MockResponse(response_content)
-        else:
-            # Forward request to selected model
-            response = self.client.chat.completions.create(
-                model=selected_model_id,
-                messages=messages,
-                **kwargs
-            )
+        # Forward request to selected model
+        response = self.client.chat.completions.create(
+            model=selected_model_id,
+            messages=messages,
+            **kwargs
+        )
         
         return response, analysis
     
@@ -323,18 +264,7 @@ class AIRouter:
             try:
                 model_id = f"{model_profile.provider}:{model_profile.model_id}"
                 
-                # Handle Claude Code differently
-                if model_key == 'claude-code':
-                    response_content = self._call_claude_code(user_prompt)
-                    return {
-                        "model_key": model_key,
-                        "model_name": model_profile.name,
-                        "response": response_content,
-                        "model_id": model_id,
-                        "cost_per_1k": model_profile.cost_per_1k_tokens
-                    }
-                
-                # Call other models via aisuite
+                # Call models via aisuite
                 response = self.client.chat.completions.create(
                     model=model_id,
                     messages=messages,
@@ -447,7 +377,8 @@ def main():
     # Initialize router with API keys
     router = AIRouter({
         "openai": {"api_key": os.getenv("OPENAI_API_KEY")},
-        "anthropic": {"api_key": os.getenv("ANTHROPIC_API_KEY")}
+        "anthropic": {"api_key": os.getenv("ANTHROPIC_API_KEY")},
+        "claude_code": {}  # No API key needed for local Claude Code
     })
     
     print("AI Router Demo\n" + "="*50 + "\n")
