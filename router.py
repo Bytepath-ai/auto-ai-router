@@ -3,7 +3,12 @@
 Intelligent AI Model Router using aisuite
 
 This router uses GPT-4o to analyze prompts and automatically determine 
-the best model to use (GPT-4o vs Claude) based on the prompt characteristics.
+the best model to use based on the prompt characteristics:
+- Claude Code: For coding tasks that need to be applied in repo
+- Claude Opus 4: For coding responses without applying in repo
+- O3: For complex reasoning tasks
+- GPT-4o: For general/overall tasks
+- GPT-4o-mini: For simple quick queries
 """
 
 import os
@@ -19,16 +24,18 @@ load_dotenv()
 ROUTING_PROMPT_TEMPLATE = """You are an AI model router. Analyze the following user prompt and determine which model would be best suited to handle it.
 
 Available models:
-1. GPT-4o: {gpt4o_strengths}
-2. Claude 3.5 Sonnet: {claude_strengths}
-3. Claude Code: {claude_code_strengths}
+1. Claude Code: {claude_code_strengths}
+2. Claude Opus 4: {claude_opus_strengths}
+3. O3: {o3_strengths}
+4. GPT-4o: {gpt4o_strengths}
+5. GPT-4o-mini: {gpt4o_mini_strengths}
 
 User prompt:
 "{user_prompt}"
 
 Respond with ONLY a JSON object in this exact format:
 {{
-    "model": "gpt-4o" or "claude" or "claude-code",
+    "model": "claude-code" or "claude-opus" or "o3" or "gpt-4o" or "gpt-4o-mini",
     "reasoning": "Brief explanation of why this model is best for this prompt",
     "confidence": 0.0 to 1.0
 }}
@@ -93,9 +100,11 @@ class AIRouter:
     def _create_routing_prompt(self, user_prompt: str) -> str:
         """Create the prompt for the routing decision"""
         return ROUTING_PROMPT_TEMPLATE.format(
-            gpt4o_strengths=', '.join(self.models['gpt-4o'].strengths),
-            claude_strengths=', '.join(self.models['claude'].strengths),
             claude_code_strengths=', '.join(self.models['claude-code'].strengths),
+            claude_opus_strengths=', '.join(self.models['claude-opus'].strengths),
+            o3_strengths=', '.join(self.models['o3'].strengths),
+            gpt4o_strengths=', '.join(self.models['gpt-4o'].strengths),
+            gpt4o_mini_strengths=', '.join(self.models['gpt-4o-mini'].strengths),
             user_prompt=user_prompt
         )
     
@@ -125,37 +134,69 @@ class AIRouter:
                 ],
                 cost_per_1k_tokens=0.00375  # ($2.50 input + $5.00 output) / 2
             ),
-            "claude": ModelProfile(
-                name="Claude 3.5 Sonnet",
+            "claude-opus": ModelProfile(
+                name="Claude Opus 4",
                 provider="anthropic",
-                model_id="claude-3-5-sonnet-20241022",
+                model_id="claude-opus-4-20250514",
                 strengths=[
-                    "creative writing",
                     "code generation",
-                    "complex reasoning",
-                    "nuanced understanding",
-                    "ethical considerations",
-                    "detailed explanations",
-                    "context retention",
-                    "long-form content"
+                    "programming solutions",
+                    "algorithm design",
+                    "code explanation",
+                    "technical documentation",
+                    "code review",
+                    "debugging assistance",
+                    "API design"
                 ],
-                cost_per_1k_tokens=0.009  # ($3 input + $15 output) / 2
+                cost_per_1k_tokens=0.015  # Estimated cost
+            ),
+            "o3": ModelProfile(
+                name="O3",
+                provider="openai",
+                model_id="o3",
+                strengths=[
+                    "complex reasoning",
+                    "mathematical proofs",
+                    "logical analysis",
+                    "problem solving",
+                    "strategic thinking",
+                    "scientific reasoning",
+                    "multi-step reasoning",
+                    "abstract thinking"
+                ],
+                cost_per_1k_tokens=0.020  # Estimated cost
+            ),
+            "gpt-4o-mini": ModelProfile(
+                name="GPT-4o-mini",
+                provider="openai",
+                model_id="gpt-4o-mini",
+                strengths=[
+                    "quick responses",
+                    "simple queries",
+                    "basic information",
+                    "lightweight tasks",
+                    "cost efficiency",
+                    "fast processing",
+                    "straightforward answers",
+                    "basic explanations"
+                ],
+                cost_per_1k_tokens=0.00015  # ($0.15 input + $0.60 output) / 2000
             ),
             "claude-code": ModelProfile(
                 name="Claude Code",
                 provider="claude_code",
                 model_id="claude",
                 strengths=[
-                    "software engineering",
-                    "code implementation",
-                    "debugging",
-                    "file system operations",
-                    "bash commands",
-                    "project structure understanding",
-                    "refactoring",
-                    "test writing",
-                    "technical documentation",
-                    "CLI tool development"
+                    "in repo software engineering",
+                    "in repo code implementation",
+                    "in repo debugging",
+                    "in repo file system operations",
+                    "in repo bash commands",
+                    "in repo project structure understanding",
+                    "in repo refactoring",
+                    "in repo test writing",
+                    "in repo technical documentation",
+                    "in repo CLI tool development"
                 ],
                 cost_per_1k_tokens=0.0  # Free when running locally
             )
@@ -491,57 +532,3 @@ class AIRouter:
         
         return synth_response.choices[0].message.content
 
-
-def main():
-    """Example usage of the AI Router"""
-    # Initialize router with API keys
-    router = AIRouter({
-        "openai": {"api_key": os.getenv("OPENAI_API_KEY")},
-        "anthropic": {"api_key": os.getenv("ANTHROPIC_API_KEY")},
-        "claude_code": {}  # No API key needed for local Claude Code
-    })
-    
-    print("AI Router Parallel Modes Demo\n" + "="*50 + "\n")
-    
-    test_prompt = "What are the key principles of clean code?"
-    messages = [{"role": "user", "content": test_prompt}]
-    
-    # Test parallelbest mode
-    print("\n1. PARALLELBEST MODE (calls all models, selects best response)")
-    print("="*50)
-    
-    try:
-        response, metadata = router.parallelbest_route(
-            messages=messages,
-            temperature=0.7,
-            max_tokens=300
-        )
-        
-        print(f"Prompt: {test_prompt}")
-        print(f"Best Model: {metadata['evaluation']['best_model']}")
-        print(f"Reasoning: {metadata['evaluation']['reasoning']}")
-        print(f"\nBest Response:\n{response.choices[0].message.content}")
-        print(f"\nModels evaluated: {', '.join([r['model_name'] for r in metadata['all_responses']])}")
-    except Exception as e:
-        print(f"Error: {str(e)}")
-    
-    # Test parallelsynthetize mode
-    print("\n\n2. PARALLELSYNTHETIZE MODE (calls all models, synthesizes responses)")
-    print("="*50)
-    
-    try:
-        response, metadata = router.parallelsynthetize_route(
-            messages=messages,
-            temperature=0.7,
-            max_tokens=300
-        )
-        
-        print(f"Prompt: {test_prompt}")
-        print(f"Models used: {', '.join(metadata['models_used'])}")
-        print(f"\nSynthesized Response:\n{response.choices[0].message.content}")
-    except Exception as e:
-        print(f"Error: {str(e)}")
-
-
-if __name__ == "__main__":
-    main()
