@@ -16,6 +16,28 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
+ROUTING_PROMPT_TEMPLATE = """You are an AI model router. Analyze the following user prompt and determine which model would be best suited to handle it.
+
+Available models:
+1. GPT-4o: {gpt4o_strengths}
+2. Claude 3.5 Sonnet: {claude_strengths}
+
+User prompt:
+"{user_prompt}"
+
+Respond with ONLY a JSON object in this exact format:
+{{
+    "model": "gpt-4o" or "claude",
+    "reasoning": "Brief explanation of why this model is best for this prompt",
+    "confidence": 0.0 to 1.0
+}}
+
+Consider:
+- Task complexity and type
+- Required capabilities
+- Length of expected response
+- Need for creativity vs precision
+"""
 
 @dataclass
 class ModelProfile:
@@ -29,6 +51,14 @@ class ModelProfile:
 
 class AIRouter:
     """Intelligent router that uses GPT-4o to determine the best model for a given prompt"""
+    
+    def _create_routing_prompt(self, user_prompt: str) -> str:
+        """Create the prompt for the routing decision"""
+        return ROUTING_PROMPT_TEMPLATE.format(
+            gpt4o_strengths=', '.join(self.models['gpt-4o'].strengths),
+            claude_strengths=', '.join(self.models['claude'].strengths),
+            user_prompt=user_prompt
+        )
     
     def __init__(self, config: Optional[Dict[str, Any]] = None):
         """Initialize the router with configuration"""
@@ -76,31 +106,6 @@ class AIRouter:
         
         # Router model (always GPT-4o for fast, consistent routing decisions)
         self.router_model = "openai:gpt-4o"
-    
-    def _create_routing_prompt(self, user_prompt: str) -> str:
-        """Create the prompt for the routing decision"""
-        return f"""You are an AI model router. Analyze the following user prompt and determine which model would be best suited to handle it.
-
-Available models:
-1. GPT-4o: {', '.join(self.models['gpt-4o'].strengths)}
-2. Claude 3.5 Sonnet: {', '.join(self.models['claude'].strengths)}
-
-User prompt:
-"{user_prompt}"
-
-Respond with ONLY a JSON object in this exact format:
-{{
-    "model": "gpt-4o" or "claude",
-    "reasoning": "Brief explanation of why this model is best for this prompt",
-    "confidence": 0.0 to 1.0
-}}
-
-Consider:
-- Task complexity and type
-- Required capabilities
-- Length of expected response
-- Need for creativity vs precision
-"""
     
     def _parse_routing_decision(self, response: str) -> Tuple[str, str, float]:
         """Parse the routing decision from GPT-4o response"""
