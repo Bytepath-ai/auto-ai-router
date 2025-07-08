@@ -61,6 +61,22 @@ Respond with ONLY a JSON object in this exact format:
     "ranking": ["first_model", "second_model", ...] // ranked from best to worst
 }}"""
 
+SYNTHESIS_PROMPT_TEMPLATE = """You are an AI response synthesizer. Given a user prompt and multiple AI model responses, create a comprehensive synthesis that combines the best elements from all responses.
+
+User prompt: "{user_prompt}"
+
+Responses:
+{responses}
+
+Create a synthesized response that:
+- Combines the strengths and unique insights from each model
+- Eliminates redundancy while preserving important details
+- Maintains coherence and natural flow
+- Incorporates the best explanations, examples, and approaches from all responses
+- Preserves any unique valuable contributions from individual models
+
+Provide ONLY the synthesized response, without any meta-commentary about the synthesis process."""
+
 @dataclass
 class ModelProfile:
     """Profile for each model with its strengths and characteristics"""
@@ -246,7 +262,7 @@ class AIRouter:
         
         return response, analysis
     
-    def parallel_route(self, 
+    def parallelbest_route(self, 
                       messages: List[Dict[str, str]], 
                       **kwargs) -> Tuple[Any, Dict[str, Any]]:
         """Call all models in parallel and return the best response"""
@@ -329,7 +345,88 @@ class AIRouter:
             "model_id": best_response["model_id"],
             "evaluation": evaluation,
             "all_responses": responses,
-            "parallel_mode": True
+            "parallelbest_mode": True
+        }
+    
+    def parallelsynthetize_route(self, 
+                                messages: List[Dict[str, str]], 
+                                **kwargs) -> Tuple[Any, Dict[str, Any]]:
+        """Call all models in parallel and synthesize their responses into one comprehensive answer"""
+        import concurrent.futures
+        
+        # Extract user prompt
+        user_prompt = ""
+        for msg in reversed(messages):
+            if msg.get("role") == "user":
+                user_prompt = msg.get("content", "")
+                break
+        
+        # Function to call a model and return its response
+        def call_model(model_key: str, model_profile: ModelProfile):
+            try:
+                model_id = f"{model_profile.provider}:{model_profile.model_id}"
+                
+                # Call models via aisuite
+                response = self.client.chat.completions.create(
+                    model=model_id,
+                    messages=messages,
+                    **kwargs
+                )
+                return {
+                    "model_key": model_key,
+                    "model_name": model_profile.name,
+                    "response": response.choices[0].message.content,
+                    "model_id": model_id,
+                    "cost_per_1k": model_profile.cost_per_1k_tokens
+                }
+            except Exception as e:
+                return {
+                    "model_key": model_key,
+                    "model_name": model_profile.name,
+                    "response": f"Error: {str(e)}",
+                    "model_id": model_id,
+                    "cost_per_1k": model_profile.cost_per_1k_tokens,
+                    "error": True
+                }
+        
+        # Call all models in parallel
+        responses = []
+        with concurrent.futures.ThreadPoolExecutor(max_workers=len(self.models)) as executor:
+            future_to_model = {
+                executor.submit(call_model, key, profile): key 
+                for key, profile in self.models.items()
+            }
+            
+            for future in concurrent.futures.as_completed(future_to_model):
+                result = future.result()
+                if not result.get("error", False):
+                    responses.append(result)
+        
+        # If no successful responses, return an error
+        if not responses:
+            raise Exception("All models failed to generate responses")
+        
+        # Synthesize responses using GPT-4o
+        synthesized_response = self._synthesize_responses(user_prompt, responses)
+        
+        # Create a response object matching the expected format
+        class MockResponse:
+            class Choice:
+                class Message:
+                    def __init__(self, content):
+                        self.content = content
+                
+                def __init__(self, content):
+                    self.message = self.Message(content)
+            
+            def __init__(self, content):
+                self.choices = [self.Choice(content)]
+        
+        return MockResponse(synthesized_response), {
+            "synthesis_mode": True,
+            "parallelsynthetize_mode": True,
+            "all_responses": responses,
+            "models_used": [r["model_name"] for r in responses]
         }
     
     def _evaluate_responses(self, user_prompt: str, responses: List[Dict[str, Any]]) -> Dict[str, Any]:
@@ -370,6 +467,29 @@ class AIRouter:
             "reasoning": "Failed to parse evaluation",
             "ranking": [r["model_name"] for r in responses]
         }
+    
+    def _synthesize_responses(self, user_prompt: str, responses: List[Dict[str, Any]]) -> str:
+        """Use GPT-4o to synthesize multiple responses into a comprehensive answer"""
+        # Format responses for synthesis
+        formatted_responses = "\n\n".join([
+            f"Model: {r['model_name']}\nResponse: {r['response']}"
+            for r in responses
+        ])
+        
+        synthesis_prompt = SYNTHESIS_PROMPT_TEMPLATE.format(
+            user_prompt=user_prompt,
+            responses=formatted_responses
+        )
+        
+        # Get synthesis from GPT-4o
+        synth_response = self.client.chat.completions.create(
+            model=self.router_model,
+            messages=[{"role": "user", "content": synthesis_prompt}],
+            temperature=0.3,  # Slightly higher than evaluation for more creative synthesis
+            max_tokens=2000  # Allow for longer synthesized responses
+        )
+        
+        return synth_response.choices[0].message.content
 
 
 def main():
@@ -381,26 +501,44 @@ def main():
         "claude_code": {}  # No API key needed for local Claude Code
     })
     
-    print("AI Router Demo\n" + "="*50 + "\n")
+    print("AI Router Parallel Modes Demo\n" + "="*50 + "\n")
     
-    # Test normal routing mode
-    print("\n1. NORMAL ROUTING MODE (selects best model)")
-    print("="*50)
-    
-    test_prompt = "Create factorial.py with a factorial function"
+    test_prompt = "What are the key principles of clean code?"
     messages = [{"role": "user", "content": test_prompt}]
     
+    # Test parallelbest mode
+    print("\n1. PARALLELBEST MODE (calls all models, selects best response)")
+    print("="*50)
+    
     try:
-        response, metadata = router.route_with_metadata(
+        response, metadata = router.parallelbest_route(
             messages=messages,
             temperature=0.7,
-            max_tokens=150
+            max_tokens=300
         )
         
         print(f"Prompt: {test_prompt}")
-        print(f"Selected Model: {metadata['selected_model']}")
-        print(f"Reasoning: {metadata['reasoning']}")
-        print(f"Response: {response.choices[0].message.content}")
+        print(f"Best Model: {metadata['evaluation']['best_model']}")
+        print(f"Reasoning: {metadata['evaluation']['reasoning']}")
+        print(f"\nBest Response:\n{response.choices[0].message.content}")
+        print(f"\nModels evaluated: {', '.join([r['model_name'] for r in metadata['all_responses']])}")
+    except Exception as e:
+        print(f"Error: {str(e)}")
+    
+    # Test parallelsynthetize mode
+    print("\n\n2. PARALLELSYNTHETIZE MODE (calls all models, synthesizes responses)")
+    print("="*50)
+    
+    try:
+        response, metadata = router.parallelsynthetize_route(
+            messages=messages,
+            temperature=0.7,
+            max_tokens=300
+        )
+        
+        print(f"Prompt: {test_prompt}")
+        print(f"Models used: {', '.join(metadata['models_used'])}")
+        print(f"\nSynthesized Response:\n{response.choices[0].message.content}")
     except Exception as e:
         print(f"Error: {str(e)}")
 
