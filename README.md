@@ -114,6 +114,16 @@ print(f"Ranking: {metadata['evaluation']['ranking']}")
 print(f"All responses: {len(metadata['all_responses'])}")
 ```
 
+**Statistics Tracking**: The `parallelbest_route` method now automatically tracks:
+- Task category (coding, reasoning, general, creative, analysis, simple)
+- Best model selection
+- All statistics are saved to `parallel_route_stats.txt` (simple format: task_category,best_model)
+
+To view statistics:
+```bash
+python view_stats.py
+```
+
 #### Parallel Synthesize Mode
 
 This mode combines insights from all models into a comprehensive response:

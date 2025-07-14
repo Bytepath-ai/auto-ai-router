@@ -17,6 +17,8 @@ from typing import Dict, List, Any, Optional, Tuple
 from dataclasses import dataclass
 import aisuite as ai
 from dotenv import load_dotenv
+from datetime import datetime
+import threading
 
 # Load environment variables from .env file
 load_dotenv()
@@ -84,6 +86,40 @@ Create a synthesized response that:
 
 Provide ONLY the synthesized response, without any meta-commentary about the synthesis process."""
 
+TASK_CATEGORIZATION_PROMPT = """Analyze the following user prompt and generate a concise task name (3-8 words) that captures the essence of what is being requested.
+
+User prompt: "{user_prompt}"
+
+Respond with ONLY a JSON object in this exact format:
+{{
+    "task_name": "concise descriptive name of the task",
+    "task_category": "for example one of: coding, reasoning, general, creative, analysis, simple"
+}}"""
+
+RESPONSE_SCORING_PROMPT = """Score the following AI model responses to a user prompt. Each response should be scored on a scale of 1-10.
+
+User prompt: "{user_prompt}"
+
+Responses:
+{responses}
+
+Scoring criteria:
+- Accuracy and correctness (0-2 points)
+- Completeness and depth (0-2 points)
+- Clarity and coherence (0-2 points)
+- Relevance to the prompt (0-2 points)
+- Helpfulness to the user (0-2 points)
+
+Respond with ONLY a JSON object in this exact format:
+{{
+    "scores": {{
+        "model_name_1": score_1_to_10,
+        "model_name_2": score_2_to_10,
+        ...
+    }},
+    "brief_reasoning": "1-2 sentence explanation of the scoring"
+}}"""
+
 @dataclass
 class ModelProfile:
     """Profile for each model with its strengths and characteristics"""
@@ -108,7 +144,7 @@ class AIRouter:
             user_prompt=user_prompt
         )
     
-    def __init__(self, config: Optional[Dict[str, Any]] = None):
+    def __init__(self, config: Optional[Dict[str, Any]] = None, stats_file: str = "parallel_route_stats.txt"):
         """Initialize the router with configuration"""
         self.client = ai.Client()
         
@@ -204,6 +240,10 @@ class AIRouter:
         
         # Router model (always GPT-4o for fast, consistent routing decisions)
         self.router_model = "openai:gpt-4o"
+        
+        # Statistics tracking
+        self.stats_file = stats_file
+        self.stats_lock = threading.Lock()
     
     def _parse_routing_decision(self, response: str) -> Tuple[str, str, float]:
         """Parse the routing decision from GPT-4o response"""
@@ -361,12 +401,37 @@ class AIRouter:
         if not responses:
             raise Exception("All models failed to generate responses")
         
+        # Categorize the task
+        task_info = self._categorize_task(user_prompt)
+        
+        # Score the responses
+        scoring_result = self._score_responses(user_prompt, responses)
+        
         # Evaluate responses using GPT-4o
         evaluation = self._evaluate_responses(user_prompt, responses)
         
         # Find the best response
         best_model_key = evaluation["best_model"]
         best_response = next(r for r in responses if r["model_name"] == best_model_key)
+        
+        # Prepare statistics data
+        stats_data = {
+            'timestamp': datetime.now().isoformat(),
+            'task_name': task_info['task_name'],
+            'task_category': task_info['task_category'],
+            'user_prompt': user_prompt[:500],  # Limit prompt length for CSV
+            'claude_code_score': scoring_result['scores'].get('Claude Code', 0),
+            'claude_opus_score': scoring_result['scores'].get('Claude Opus 4', 0),
+            'o3_score': scoring_result['scores'].get('O3', 0),
+            'gpt4o_score': scoring_result['scores'].get('GPT-4o', 0),
+            'gpt4o_mini_score': scoring_result['scores'].get('GPT-4o-mini', 0),
+            'best_model': best_model_key,
+            'scoring_reasoning': scoring_result.get('brief_reasoning', ''),
+            'evaluation_reasoning': evaluation.get('reasoning', '')
+        }
+        
+        # Save statistics
+        self._save_statistics(stats_data)
         
         # Create a response object matching the expected format
         class MockResponse:
@@ -386,6 +451,8 @@ class AIRouter:
             "model_id": best_response["model_id"],
             "evaluation": evaluation,
             "all_responses": responses,
+            "task_info": task_info,
+            "scoring": scoring_result,
             "parallelbest_mode": True
         }
     
@@ -531,4 +598,75 @@ class AIRouter:
         )
         
         return synth_response.choices[0].message.content
+    
+    def _categorize_task(self, user_prompt: str) -> Dict[str, str]:
+        """Use GPT-4o to categorize the task and generate a task name"""
+        categorization_prompt = TASK_CATEGORIZATION_PROMPT.format(user_prompt=user_prompt)
+        
+        response = self.client.chat.completions.create(
+            model=self.router_model,
+            messages=[{"role": "user", "content": categorization_prompt}],
+            temperature=0.1,
+            max_tokens=100
+        )
+        
+        try:
+            content = response.choices[0].message.content
+            start = content.find('{')
+            end = content.rfind('}') + 1
+            if start >= 0 and end > start:
+                json_str = content[start:end]
+                return json.loads(json_str)
+        except (json.JSONDecodeError, ValueError):
+            pass
+        
+        # Default if parsing fails
+        return {
+            "task_name": "Unknown Task",
+            "task_category": "general"
+        }
+    
+    def _score_responses(self, user_prompt: str, responses: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """Use GPT-4o to score model responses"""
+        # Format responses for scoring
+        formatted_responses = "\n\n".join([
+            f"Model: {r['model_name']}\nResponse: {r['response']}"
+            for r in responses
+        ])
+        
+        scoring_prompt = RESPONSE_SCORING_PROMPT.format(
+            user_prompt=user_prompt,
+            responses=formatted_responses
+        )
+        
+        response = self.client.chat.completions.create(
+            model=self.router_model,
+            messages=[{"role": "user", "content": scoring_prompt}],
+            temperature=0.1,
+            max_tokens=300
+        )
+        
+        try:
+            content = response.choices[0].message.content
+            start = content.find('{')
+            end = content.rfind('}') + 1
+            if start >= 0 and end > start:
+                json_str = content[start:end]
+                return json.loads(json_str)
+        except (json.JSONDecodeError, ValueError):
+            pass
+        
+        # Default scores if parsing fails
+        default_scores = {r['model_name']: 5 for r in responses}
+        return {
+            "scores": default_scores,
+            "brief_reasoning": "Failed to parse scoring response"
+        }
+    
+    def _save_statistics(self, stats_data: Dict[str, Any]):
+        """Save statistics to file with proper locking"""
+        with self.stats_lock:
+            with open(self.stats_file, 'a', encoding='utf-8') as f:
+                # Save only task_category and best_model
+                f.write(f"{stats_data['task_category']},{stats_data['best_model']}\n")
 
