@@ -121,7 +121,7 @@ def example_basic_routing():
         # Actually call the selected model
         messages = [{"role": "user", "content": prompt}]
         try:
-            response = router.route(messages, max_tokens=50)  # Limit tokens for demo
+            response = router.route(messages)  # Limit tokens for demo
             actual_response = response.choices[0].message.content
             print_result_box(prompt, result, actual_response)
         except Exception as e:
@@ -138,7 +138,7 @@ def example_parallelbest_mode():
     messages = [{"role": "user", "content": "Make factorial.py with a factorial function"}]
     
     try:
-        response, metadata = router.parallelbest_route(messages, max_tokens=100)
+        response, metadata = router.parallelbest_route(messages)
         response_preview = response.choices[0].message.content
         print_parallel_results("parallelbest", metadata, response_preview)
     except Exception as e:
@@ -154,7 +154,7 @@ def example_parallelsynthetize_mode():
     messages = [{"role": "user", "content": "Make subtraction.py with a subtraction function"}]
     
     try:
-        response, metadata = router.parallelsynthetize_route(messages, max_tokens=100)
+        response, metadata = router.parallelsynthetize_route(messages)
         response_preview = response.choices[0].message.content
         print_parallel_results("parallelsynthetize", metadata, response_preview)
     except Exception as e:
@@ -170,7 +170,7 @@ def example_route_with_metadata():
     messages = [{"role": "user", "content": "Explain quantum computing"}]
     
     # Get both response and metadata
-    response, metadata = router.route_with_metadata(messages, max_tokens=100)
+    response, metadata = router.route_with_metadata(messages)
     
     # Create fancy output
     print("\n╭─────────────────────────────────────────────────────────────────╮")

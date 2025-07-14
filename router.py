@@ -32,6 +32,8 @@ Available models:
 4. GPT-4o: {gpt4o_strengths}
 5. GPT-4o-mini: {gpt4o_mini_strengths}
 
+{historical_stats}
+
 User prompt:
 "{user_prompt}"
 
@@ -47,6 +49,7 @@ Consider:
 - Required capabilities
 - Length of expected response
 - Need for creativity vs precision
+- Historical performance data for similar tasks
 """
 
 EVALUATION_PROMPT_TEMPLATE = """You are an AI response evaluator. Given a user prompt and multiple AI model responses, determine which response is the best.
@@ -135,12 +138,28 @@ class AIRouter:
     
     def _create_routing_prompt(self, user_prompt: str) -> str:
         """Create the prompt for the routing decision"""
+        # Load historical statistics
+        stats = self._load_statistics()
+        
+        # Format historical statistics for the prompt
+        historical_stats_text = ""
+        if stats:
+            historical_stats_text = "Historical performance data:\n"
+            for category, model_counts in stats.items():
+                if model_counts:
+                    best_model = max(model_counts.items(), key=lambda x: x[1])
+                    historical_stats_text += f"- {category} tasks: {best_model[0]} performed best ({best_model[1]} times)\n"
+            historical_stats_text = historical_stats_text.strip()
+        else:
+            historical_stats_text = "No historical performance data available yet."
+        
         return ROUTING_PROMPT_TEMPLATE.format(
             claude_code_strengths=', '.join(self.models['claude-code'].strengths),
             claude_opus_strengths=', '.join(self.models['claude-opus'].strengths),
             o3_strengths=', '.join(self.models['o3'].strengths),
             gpt4o_strengths=', '.join(self.models['gpt-4o'].strengths),
             gpt4o_mini_strengths=', '.join(self.models['gpt-4o-mini'].strengths),
+            historical_stats=historical_stats_text,
             user_prompt=user_prompt
         )
     
@@ -245,6 +264,18 @@ class AIRouter:
         self.stats_file = stats_file
         self.stats_lock = threading.Lock()
     
+    def _transform_kwargs_for_model(self, model_id: str, kwargs: Dict[str, Any]) -> Dict[str, Any]:
+        """Transform kwargs based on model requirements"""
+        # Create a copy to avoid modifying the original
+        transformed_kwargs = kwargs.copy()
+        
+        # Special handling for o3 model
+        if "o3" in model_id and "max_tokens" in transformed_kwargs:
+            # o3 requires max_completion_tokens instead of max_tokens
+            transformed_kwargs["max_completion_tokens"] = transformed_kwargs.pop("max_tokens")
+        
+        return transformed_kwargs
+    
     def _parse_routing_decision(self, response: str) -> Tuple[str, str, float]:
         """Parse the routing decision from GPT-4o response"""
         try:
@@ -274,8 +305,7 @@ class AIRouter:
         response = self.client.chat.completions.create(
             model=self.router_model,
             messages=[{"role": "user", "content": routing_prompt}],
-            temperature=0.1,  # Low temperature for consistent routing
-            max_tokens=200
+            temperature=0.1  # Low temperature for consistent routing
         )
         
         model_choice, reasoning, confidence = self._parse_routing_decision(
@@ -312,11 +342,14 @@ class AIRouter:
         print(f"Routing to: {analysis['selected_model']} (confidence: {analysis['confidence']:.2f})")
         print(f"Reasoning: {analysis['reasoning']}")
         
+        # Transform kwargs for the selected model
+        transformed_kwargs = self._transform_kwargs_for_model(selected_model_id, kwargs)
+        
         # Forward request to selected model
         return self.client.chat.completions.create(
             model=selected_model_id,
             messages=messages,
-            **kwargs
+            **transformed_kwargs
         )
     
     def route_with_metadata(self, 
@@ -334,11 +367,14 @@ class AIRouter:
         analysis = self.analyze_prompt(user_prompt)
         selected_model_id = analysis["model_id"]
         
+        # Transform kwargs for the selected model
+        transformed_kwargs = self._transform_kwargs_for_model(selected_model_id, kwargs)
+        
         # Forward request to selected model
         response = self.client.chat.completions.create(
             model=selected_model_id,
             messages=messages,
-            **kwargs
+            **transformed_kwargs
         )
         
         return response, analysis
@@ -361,11 +397,14 @@ class AIRouter:
             try:
                 model_id = f"{model_profile.provider}:{model_profile.model_id}"
                 
+                # Transform kwargs for the specific model
+                transformed_kwargs = self._transform_kwargs_for_model(model_id, kwargs)
+                
                 # Call models via aisuite
                 response = self.client.chat.completions.create(
                     model=model_id,
                     messages=messages,
-                    **kwargs
+                    **transformed_kwargs
                 )
                 return {
                     "model_key": model_key,
@@ -474,11 +513,14 @@ class AIRouter:
             try:
                 model_id = f"{model_profile.provider}:{model_profile.model_id}"
                 
+                # Transform kwargs for the specific model
+                transformed_kwargs = self._transform_kwargs_for_model(model_id, kwargs)
+                
                 # Call models via aisuite
                 response = self.client.chat.completions.create(
                     model=model_id,
                     messages=messages,
-                    **kwargs
+                    **transformed_kwargs
                 )
                 return {
                     "model_key": model_key,
@@ -514,6 +556,37 @@ class AIRouter:
         if not responses:
             raise Exception("All models failed to generate responses")
         
+        # Categorize the task
+        task_info = self._categorize_task(user_prompt)
+        
+        # Score the responses
+        scoring_result = self._score_responses(user_prompt, responses)
+        
+        # Evaluate responses to determine the best individual model
+        evaluation = self._evaluate_responses(user_prompt, responses)
+        
+        # Find the best model based on evaluation
+        best_model_name = evaluation["best_model"]
+        
+        # Prepare statistics data
+        stats_data = {
+            'timestamp': datetime.now().isoformat(),
+            'task_name': task_info['task_name'],
+            'task_category': task_info['task_category'],
+            'user_prompt': user_prompt[:500],  # Limit prompt length for CSV
+            'claude_code_score': scoring_result['scores'].get('Claude Code', 0),
+            'claude_opus_score': scoring_result['scores'].get('Claude Opus 4', 0),
+            'o3_score': scoring_result['scores'].get('O3', 0),
+            'gpt4o_score': scoring_result['scores'].get('GPT-4o', 0),
+            'gpt4o_mini_score': scoring_result['scores'].get('GPT-4o-mini', 0),
+            'best_model': best_model_name,
+            'scoring_reasoning': scoring_result.get('brief_reasoning', ''),
+            'evaluation_reasoning': evaluation.get('reasoning', '')
+        }
+        
+        # Save statistics
+        self._save_statistics(stats_data)
+        
         # Synthesize responses using GPT-4o
         synthesized_response = self._synthesize_responses(user_prompt, responses)
         
@@ -534,7 +607,11 @@ class AIRouter:
             "synthesis_mode": True,
             "parallelsynthetize_mode": True,
             "all_responses": responses,
-            "models_used": [r["model_name"] for r in responses]
+            "models_used": [r["model_name"] for r in responses],
+            "task_info": task_info,
+            "scoring": scoring_result,
+            "evaluation": evaluation,
+            "best_individual_model": best_model_name
         }
     
     def _evaluate_responses(self, user_prompt: str, responses: List[Dict[str, Any]]) -> Dict[str, Any]:
@@ -554,8 +631,7 @@ class AIRouter:
         eval_response = self.client.chat.completions.create(
             model=self.router_model,
             messages=[{"role": "user", "content": evaluation_prompt}],
-            temperature=0.1,
-            max_tokens=300
+            temperature=0.1
         )
         
         # Parse evaluation response
@@ -593,8 +669,7 @@ class AIRouter:
         synth_response = self.client.chat.completions.create(
             model=self.router_model,
             messages=[{"role": "user", "content": synthesis_prompt}],
-            temperature=0.3,  # Slightly higher than evaluation for more creative synthesis
-            max_tokens=2000  # Allow for longer synthesized responses
+            temperature=0.3  # Slightly higher than evaluation for more creative synthesis
         )
         
         return synth_response.choices[0].message.content
@@ -606,8 +681,7 @@ class AIRouter:
         response = self.client.chat.completions.create(
             model=self.router_model,
             messages=[{"role": "user", "content": categorization_prompt}],
-            temperature=0.1,
-            max_tokens=100
+            temperature=0.1
         )
         
         try:
@@ -642,8 +716,7 @@ class AIRouter:
         response = self.client.chat.completions.create(
             model=self.router_model,
             messages=[{"role": "user", "content": scoring_prompt}],
-            temperature=0.1,
-            max_tokens=300
+            temperature=0.1
         )
         
         try:
@@ -669,4 +742,27 @@ class AIRouter:
             with open(self.stats_file, 'a', encoding='utf-8') as f:
                 # Save only task_category and best_model
                 f.write(f"{stats_data['task_category']},{stats_data['best_model']}\n")
+    
+    def _load_statistics(self) -> Dict[str, Dict[str, int]]:
+        """Load and parse statistics from file"""
+        stats = {}
+        try:
+            with self.stats_lock:
+                with open(self.stats_file, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        line = line.strip()
+                        if line and ',' in line:
+                            category, model = line.split(',', 1)
+                            if category not in stats:
+                                stats[category] = {}
+                            if model not in stats[category]:
+                                stats[category][model] = 0
+                            stats[category][model] += 1
+        except FileNotFoundError:
+            # File doesn't exist yet, return empty stats
+            pass
+        except Exception as e:
+            print(f"Warning: Error loading statistics: {e}")
+        
+        return stats
 
