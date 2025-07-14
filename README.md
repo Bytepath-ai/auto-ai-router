@@ -1,37 +1,175 @@
 # AI Router
 
-The `router_examples.py` file demonstrates how to use the intelligent AI router that automatically selects the best model for your prompt. 
+An intelligent AI model router that automatically selects the best AI model for your prompt or can run multiple models in parallel for optimal results.
+
+## Overview
+
+The AI Router uses GPT-4o to analyze your prompts and intelligently route them to the most suitable AI model based on the task requirements. It supports multiple routing strategies to ensure you get the best possible response for your specific use case.
+
+## Supported Models
+
+- **Claude Code**: Specialized for in-repository software engineering tasks
+  - Code implementation and debugging within repos
+  - File system operations and bash commands
+  - Project structure understanding and refactoring
+  - Test writing and technical documentation
+  
+- **Claude Opus 4**: Optimized for standalone coding tasks
+  - Code generation and algorithm design
+  - Programming solutions and explanations
+  - Code review and API design
+  - Technical documentation
+  
+- **O3**: Designed for complex reasoning
+  - Mathematical proofs and logical analysis
+  - Multi-step problem solving
+  - Scientific reasoning and abstract thinking
+  - Strategic planning
+  
+- **GPT-4o**: General-purpose powerhouse
+  - General knowledge and reasoning
+  - Data analysis and mathematics
+  - Structured output and function calling
+  - Vision capabilities
+  
+- **GPT-4o-mini**: Fast and efficient for simple tasks
+  - Quick responses and basic queries
+  - Straightforward answers
+  - Cost-efficient processing
 
 ## Setup
 
-Before running the examples, create a `.env` file in the project root with your API keys:
-
+1. Install the required dependencies:
+```bash
+pip install aisuite python-dotenv
 ```
+
+2. Create a `.env` file in the project root with your API keys:
+```env
 OPENAI_API_KEY=your-openai-api-key
 ANTHROPIC_API_KEY=your-anthropic-api-key
 ```
 
-## Running the Examples
+## Usage
 
-Run the examples:
+### Basic Routing
 
-```shell
+The simplest way to use the AI Router is to let it automatically select the best model:
+
+```python
+from router import AIRouter
+
+# Initialize the router
+router = AIRouter()
+
+# Create your messages
+messages = [{"role": "user", "content": "Write a Python function to calculate fibonacci"}]
+
+# Route to the best model automatically
+response = router.route(messages)
+print(response.choices[0].message.content)
+```
+
+### Analyzing Prompts
+
+You can analyze a prompt to see which model would be selected and why:
+
+```python
+# Analyze which model would be best for a prompt
+analysis = router.analyze_prompt("Prove that sqrt(2) is irrational")
+print(f"Selected model: {analysis['selected_model']}")
+print(f"Confidence: {analysis['confidence']:.2%}")
+print(f"Reasoning: {analysis['reasoning']}")
+```
+
+### Getting Routing Metadata
+
+To get both the response and detailed routing information:
+
+```python
+response, metadata = router.route_with_metadata(messages)
+
+print(f"Model used: {metadata['selected_model']}")
+print(f"Model ID: {metadata['model_id']}")
+print(f"Confidence: {metadata['confidence']}")
+print(f"Reasoning: {metadata['reasoning']}")
+print(f"Response: {response.choices[0].message.content}")
+```
+
+### Parallel Routing Modes
+
+#### Parallel Best Mode
+
+This mode calls all models in parallel and selects the best response:
+
+```python
+response, metadata = router.parallelbest_route(messages)
+
+# The response contains the best answer
+print(response.choices[0].message.content)
+
+# Metadata includes evaluation details
+print(f"Best model: {metadata['evaluation']['best_model']}")
+print(f"Ranking: {metadata['evaluation']['ranking']}")
+print(f"All responses: {len(metadata['all_responses'])}")
+```
+
+#### Parallel Synthesize Mode
+
+This mode combines insights from all models into a comprehensive response:
+
+```python
+response, metadata = router.parallelsynthetize_route(messages)
+
+# The response is a synthesis of all model outputs
+print(response.choices[0].message.content)
+
+# Metadata shows which models contributed
+print(f"Models used: {metadata['models_used']}")
+print(f"Number of responses: {len(metadata['all_responses'])}")
+```
+
+## Advanced Configuration
+
+You can provide custom configuration when initializing the router:
+
+```python
+config = {
+    "openai": {"api_key": "your-key"},
+    "anthropic": {"api_key": "your-key"}
+}
+
+router = AIRouter(config=config)
+```
+
+## Cost Considerations
+
+Each model has different cost implications:
+- **Claude Code**: Free when running locally
+- **GPT-4o-mini**: Most cost-efficient (~$0.00015 per 1k tokens)
+- **GPT-4o**: Moderate cost (~$0.00375 per 1k tokens)
+- **Claude Opus 4**: Higher cost (~$0.015 per 1k tokens)
+- **O3**: Premium pricing (~$0.020 per 1k tokens)
+
+## Examples
+
+Run the comprehensive examples to see all features in action:
+
+```bash
 python router_examples.py
 ```
 
-## Information
+This will demonstrate:
+- Basic routing with various prompt types
+- Parallel best mode for quality comparison
+- Parallel synthesize mode for comprehensive answers
+- Routing with metadata for transparency
 
-The router supports:
-- **Claude Code**: For in-repo software engineering tasks
-- **Claude Opus 4**: For coding responses without repository operations
-- **O3**: For complex reasoning and mathematical problems
-- **GPT-4o**: For general-purpose tasks
-- **GPT-4o-mini**: For simple, quick queries
+## When to Use Each Mode
 
-The router includes three routing modes:
-1. **Smart Route**: Automatically selects the best model based on prompt analysis
-2. **Parallel Best**: Calls all models and selects the best response
-3. **Parallel Synthesize**: Calls all models and synthesizes their responses into one
+- **Standard Routing (`route`)**: Best for most use cases where you want fast, efficient responses
+- **Parallel Best (`parallelbest_route`)**: When quality is paramount and you want the absolute best response
+- **Parallel Synthesize (`parallelsynthetize_route`)**: When you need comprehensive coverage combining multiple perspectives
 
 # aisuite
 
