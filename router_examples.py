@@ -106,7 +106,7 @@ def example_basic_routing():
     # Test various prompts
     test_prompts = [
         "Write a Python function to calculate fibonacci in fibonacci.py",
-        "How are you?",
+        "How are you? Use Gemini model",
         "List all cities in Europe.",
         "Prove that sqrt(2) is irrational",
         "Write a Python function to calculate fibonacci in fibonacci.py in the current repo"

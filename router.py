@@ -32,6 +32,7 @@ Available models:
 4. GPT-4o: {gpt4o_strengths}
 5. GPT-4o-mini: {gpt4o_mini_strengths}
 6. Grok-4: {grok4_strengths}
+7. Gemini 2.5 Pro: {gemini_25_pro_strengths}
 
 {historical_stats}
 
@@ -40,7 +41,7 @@ User prompt:
 
 Respond with ONLY a JSON object in this exact format:
 {{
-    "model": "claude-code" or "claude-opus" or "o3" or "gpt-4o" or "gpt-4o-mini" or "grok-4",
+    "model": "claude-code" or "claude-opus" or "o3" or "gpt-4o" or "gpt-4o-mini" or "grok-4" or "gemini-2.5-pro",
     "reasoning": "Brief explanation of why this model is best for this prompt",
     "confidence": 0.0 to 1.0
 }}
@@ -161,6 +162,7 @@ class AIRouter:
             gpt4o_strengths=', '.join(self.models['gpt-4o'].strengths),
             gpt4o_mini_strengths=', '.join(self.models['gpt-4o-mini'].strengths),
             grok4_strengths=', '.join(self.models['grok-4'].strengths),
+            gemini_25_pro_strengths=', '.join(self.models['gemini-2.5-pro'].strengths),
             historical_stats=historical_stats_text,
             user_prompt=user_prompt
         )
@@ -272,6 +274,22 @@ class AIRouter:
                     "contextual understanding"
                 ],
                 cost_per_1k_tokens=0.01  # Estimated cost
+            ),
+            "gemini-2.5-pro": ModelProfile(
+                name="Gemini 2.5 Pro",
+                provider="google",
+                model_id="gemini-2.5-pro",
+                strengths=[
+                    "multimodal understanding",
+                    "long context window",
+                    "complex reasoning",
+                    "code generation",
+                    "mathematical analysis",
+                    "creative writing",
+                    "multilingual capabilities",
+                    "structured data analysis"
+                ],
+                cost_per_1k_tokens=0.0125  # Estimated cost
             )
         }
         
@@ -483,6 +501,7 @@ class AIRouter:
             'gpt4o_score': scoring_result['scores'].get('GPT-4o', 0),
             'gpt4o_mini_score': scoring_result['scores'].get('GPT-4o-mini', 0),
             'grok4_score': scoring_result['scores'].get('Grok-4', 0),
+            'gemini_25_pro_score': scoring_result['scores'].get('Gemini 2.5 Pro', 0),
             'best_model': best_model_key,
             'scoring_reasoning': scoring_result.get('brief_reasoning', ''),
             'evaluation_reasoning': evaluation.get('reasoning', '')
@@ -599,6 +618,7 @@ class AIRouter:
             'gpt4o_score': scoring_result['scores'].get('GPT-4o', 0),
             'gpt4o_mini_score': scoring_result['scores'].get('GPT-4o-mini', 0),
             'grok4_score': scoring_result['scores'].get('Grok-4', 0),
+            'gemini_25_pro_score': scoring_result['scores'].get('Gemini 2.5 Pro', 0),
             'best_model': best_model_name,
             'scoring_reasoning': scoring_result.get('brief_reasoning', ''),
             'evaluation_reasoning': evaluation.get('reasoning', '')
