@@ -225,8 +225,8 @@ def run_all_examples():
     print("🚀 AI ROUTER EXAMPLES SHOWCASE 🚀".center(80))
     print("🌟" * 40)
     
-    example_basic_routing()
-    print("\n" + "~" * 80 + "\n")
+    # example_basic_routing()
+    # print("\n" + "~" * 80 + "\n")
     
     example_parallelbest_mode()
     print("\n" + "~" * 80 + "\n")
@@ -234,11 +234,11 @@ def run_all_examples():
     example_parallelsynthetize_mode()
     print("\n" + "~" * 80 + "\n")
     
-    example_route_with_metadata()
+    # example_route_with_metadata()
     
-    print("\n" + "🌟" * 40)
-    print("✅ ALL EXAMPLES COMPLETED! ✅".center(80))
-    print("🌟" * 40 + "\n")
+    # print("\n" + "🌟" * 40)
+    # print("✅ ALL EXAMPLES COMPLETED! ✅".center(80))
+    # print("🌟" * 40 + "\n")
 
 
 if __name__ == "__main__":

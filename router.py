@@ -779,30 +779,77 @@ class AIRouter:
     def _save_statistics(self, stats_data: Dict[str, Any]):
         """Save statistics to file with proper locking"""
         with self.stats_lock:
-            with open(self.stats_file, 'a', encoding='utf-8') as f:
-                # Save only task_category and best_model
-                f.write(f"{stats_data['task_category']},{stats_data['best_model']}\n")
+            # First, load existing statistics
+            existing_stats = self._load_statistics_raw()
+            
+            # Update the statistics
+            category = stats_data['task_category']
+            model = stats_data['best_model']
+            
+            if category not in existing_stats:
+                existing_stats[category] = {}
+            if model not in existing_stats[category]:
+                existing_stats[category][model] = 0
+            existing_stats[category][model] += 1
+            
+            # Write the aggregated statistics
+            with open(self.stats_file, 'w', encoding='utf-8') as f:
+                for cat, models in sorted(existing_stats.items()):
+                    model_counts = []
+                    for mod, count in sorted(models.items(), key=lambda x: -x[1]):  # Sort by count desc
+                        if count > 1:
+                            model_counts.append(f"{mod} {count}x")
+                        else:
+                            model_counts.append(mod)
+                    f.write(f"{cat}: {', '.join(model_counts)}\n")
     
-    def _load_statistics(self) -> Dict[str, Dict[str, int]]:
-        """Load and parse statistics from file"""
+    def _load_statistics_raw(self) -> Dict[str, Dict[str, int]]:
+        """Load raw statistics from file, handling both old and new formats"""
         stats = {}
         try:
-            with self.stats_lock:
-                with open(self.stats_file, 'r', encoding='utf-8') as f:
-                    for line in f:
-                        line = line.strip()
-                        if line and ',' in line:
-                            category, model = line.split(',', 1)
-                            if category not in stats:
-                                stats[category] = {}
-                            if model not in stats[category]:
-                                stats[category][model] = 0
-                            stats[category][model] += 1
+            with open(self.stats_file, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    
+                    # Handle new format: "category: model1 2x, model2"
+                    if ': ' in line:
+                        category, models_str = line.split(': ', 1)
+                        if category not in stats:
+                            stats[category] = {}
+                        
+                        for model_entry in models_str.split(', '):
+                            model_entry = model_entry.strip()
+                            if model_entry.endswith('x'):
+                                # Extract count from "model 2x" format
+                                parts = model_entry.rsplit(' ', 1)
+                                if len(parts) == 2 and parts[1].endswith('x'):
+                                    model = parts[0]
+                                    count = int(parts[1][:-1])
+                                    stats[category][model] = count
+                                else:
+                                    stats[category][model_entry] = 1
+                            else:
+                                stats[category][model_entry] = 1
+                    
+                    # Handle old format: "category,model"
+                    elif ',' in line:
+                        category, model = line.split(',', 1)
+                        if category not in stats:
+                            stats[category] = {}
+                        if model not in stats[category]:
+                            stats[category][model] = 0
+                        stats[category][model] += 1
         except FileNotFoundError:
-            # File doesn't exist yet, return empty stats
             pass
         except Exception as e:
             print(f"Warning: Error loading statistics: {e}")
         
         return stats
+    
+    def _load_statistics(self) -> Dict[str, Dict[str, int]]:
+        """Load and parse statistics from file"""
+        with self.stats_lock:
+            return self._load_statistics_raw()
 
