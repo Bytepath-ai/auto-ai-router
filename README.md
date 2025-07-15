@@ -41,13 +41,14 @@ The AI Router uses GPT-4o to analyze your prompts and intelligently route them t
 
 1. Install the required dependencies:
 ```bash
-pip install aisuite python-dotenv
+pip install aisuite python-dotenv tavily-python
 ```
 
 2. Create a `.env` file in the project root with your API keys:
 ```env
 OPENAI_API_KEY=your-openai-api-key
 ANTHROPIC_API_KEY=your-anthropic-api-key
+TAVILY_API_KEY=your-tavily-api-key  # Optional, for web search capabilities
 ```
 
 ## Usage
@@ -95,6 +96,25 @@ print(f"Confidence: {metadata['confidence']}")
 print(f"Reasoning: {metadata['reasoning']}")
 print(f"Response: {response.choices[0].message.content}")
 ```
+
+### Web Search with Tavily
+
+The AI Router automatically includes Tavily web search capabilities for all models. This allows models to search the web for current information when needed:
+
+```python
+# Example: Ask about current events or real-time information
+messages = [{"role": "user", "content": "What are the latest AI breakthroughs in 2024?"}]
+
+response = router.route(messages)
+# The model can now use web search to find current information
+print(response.choices[0].message.content)
+```
+
+The Tavily tool is automatically added to all routing methods:
+- `route()` - Basic routing with web search
+- `route_with_metadata()` - Routing with metadata and web search
+- `parallelbest_route()` - Parallel routing with web search for all models
+- `parallelsynthetize_route()` - Synthesis mode with web search
 
 ### Parallel Routing Modes
 

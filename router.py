@@ -19,9 +19,62 @@ import aisuite as ai
 from dotenv import load_dotenv
 from datetime import datetime
 import threading
+from tavily import TavilyClient
 
 # Load environment variables from .env file
 load_dotenv()
+
+# Initialize Tavily client
+tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY", "tvly-YOUR_API_KEY"))
+
+def tavily_search(query: str, max_results: int = 5):
+    """Search the web using Tavily API.
+    
+    Args:
+        query (str): The search query
+        max_results (int): Maximum number of results to return (default: 5)
+    
+    Returns:
+        str: Formatted search results
+    """
+    try:
+        response = tavily_client.search(query, max_results=max_results)
+        
+        # Format results
+        results = []
+        for idx, result in enumerate(response.get('results', []), 1):
+            results.append(f"{idx}. {result.get('title', 'No title')}")
+            results.append(f"   URL: {result.get('url', 'No URL')}")
+            results.append(f"   {result.get('content', 'No content')[:200]}...")
+            results.append("")
+        
+        return "\n".join(results) if results else "No results found."
+    except Exception as e:
+        return f"Error performing search: {str(e)}"
+
+# Tavily tool in OpenAI format
+TAVILY_TOOL = {
+    "type": "function",
+    "function": {
+        "name": "tavily_search",
+        "description": "Search the web using Tavily API to get current information and real-time results",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "The search query to look up on the web"
+                },
+                "max_results": {
+                    "type": "integer",
+                    "description": "Maximum number of results to return (default: 5)",
+                    "default": 5
+                }
+            },
+            "required": ["query"]
+        }
+    }
+}
 
 ROUTING_PROMPT_TEMPLATE = """You are an AI model router. Analyze the following user prompt and determine which model would be best suited to handle it.
 
@@ -384,6 +437,16 @@ class AIRouter:
         # Transform kwargs for the selected model
         transformed_kwargs = self._transform_kwargs_for_model(selected_model_id, kwargs)
         
+        # Add Tavily tool to tools if not already present
+        if "tools" not in transformed_kwargs:
+            transformed_kwargs["tools"] = []
+        elif transformed_kwargs["tools"] is None:
+            transformed_kwargs["tools"] = []
+        
+        # Add Tavily tool if not already in the tools list
+        if not any(tool.get("function", {}).get("name") == "tavily_search" for tool in transformed_kwargs["tools"]):
+            transformed_kwargs["tools"].append(TAVILY_TOOL)
+        
         # Forward request to selected model
         return self.client.chat.completions.create(
             model=selected_model_id,
@@ -408,6 +471,16 @@ class AIRouter:
         
         # Transform kwargs for the selected model
         transformed_kwargs = self._transform_kwargs_for_model(selected_model_id, kwargs)
+        
+        # Add Tavily tool to tools if not already present
+        if "tools" not in transformed_kwargs:
+            transformed_kwargs["tools"] = []
+        elif transformed_kwargs["tools"] is None:
+            transformed_kwargs["tools"] = []
+        
+        # Add Tavily tool if not already in the tools list
+        if not any(tool.get("function", {}).get("name") == "tavily_search" for tool in transformed_kwargs["tools"]):
+            transformed_kwargs["tools"].append(TAVILY_TOOL)
         
         # Forward request to selected model
         response = self.client.chat.completions.create(
@@ -438,6 +511,16 @@ class AIRouter:
                 
                 # Transform kwargs for the specific model
                 transformed_kwargs = self._transform_kwargs_for_model(model_id, kwargs)
+                
+                # Add Tavily tool to tools if not already present
+                if "tools" not in transformed_kwargs:
+                    transformed_kwargs["tools"] = []
+                elif transformed_kwargs["tools"] is None:
+                    transformed_kwargs["tools"] = []
+                
+                # Add Tavily tool if not already in the tools list
+                if not any(tool.get("function", {}).get("name") == "tavily_search" for tool in transformed_kwargs["tools"]):
+                    transformed_kwargs["tools"].append(TAVILY_TOOL)
                 
                 # Call models via aisuite
                 response = self.client.chat.completions.create(
@@ -563,6 +646,16 @@ class AIRouter:
                 
                 # Transform kwargs for the specific model
                 transformed_kwargs = self._transform_kwargs_for_model(model_id, kwargs)
+                
+                # Add Tavily tool to tools if not already present
+                if "tools" not in transformed_kwargs:
+                    transformed_kwargs["tools"] = []
+                elif transformed_kwargs["tools"] is None:
+                    transformed_kwargs["tools"] = []
+                
+                # Add Tavily tool if not already in the tools list
+                if not any(tool.get("function", {}).get("name") == "tavily_search" for tool in transformed_kwargs["tools"]):
+                    transformed_kwargs["tools"].append(TAVILY_TOOL)
                 
                 # Call models via aisuite
                 response = self.client.chat.completions.create(
