@@ -67,6 +67,9 @@ Evaluate the responses based on:
 - Clarity and coherence
 - Relevance to the prompt
 - Helpfulness to the user
+- Quality of reasoning/thinking (if provided)
+
+Note: Some models may include their thinking/reasoning process. Consider both the thinking process and the final response when evaluating.
 
 Respond with ONLY a JSON object in this exact format:
 {{
@@ -442,10 +445,17 @@ class AIRouter:
                     messages=messages,
                     **transformed_kwargs
                 )
+                
+                # Extract both content and reasoning content
+                message = response.choices[0].message
+                content = message.content if hasattr(message, 'content') else str(message)
+                reasoning_content = getattr(message, 'reasoning_content', None) if hasattr(message, 'reasoning_content') else None
+                
                 return {
                     "model_key": model_key,
                     "model_name": model_profile.name,
-                    "response": response.choices[0].message.content,
+                    "response": content,
+                    "reasoning_content": reasoning_content,
                     "model_id": model_id,
                     "cost_per_1k": model_profile.cost_per_1k_tokens
                 }
@@ -560,10 +570,17 @@ class AIRouter:
                     messages=messages,
                     **transformed_kwargs
                 )
+                
+                # Extract both content and reasoning content
+                message = response.choices[0].message
+                content = message.content if hasattr(message, 'content') else str(message)
+                reasoning_content = getattr(message, 'reasoning_content', None) if hasattr(message, 'reasoning_content') else None
+                
                 return {
                     "model_key": model_key,
                     "model_name": model_profile.name,
-                    "response": response.choices[0].message.content,
+                    "response": content,
+                    "reasoning_content": reasoning_content,
                     "model_id": model_id,
                     "cost_per_1k": model_profile.cost_per_1k_tokens
                 }
@@ -656,16 +673,23 @@ class AIRouter:
     
     def _evaluate_responses(self, user_prompt: str, responses: List[Dict[str, Any]]) -> Dict[str, Any]:
         """Use GPT-4o to evaluate multiple responses and select the best one"""
-        # Format responses for evaluation
-        formatted_responses = "\n\n".join([
-            f"Model: {r['model_name']}\nResponse: {r['response']}"
-            for r in responses
-        ])
+        # Format responses for evaluation, including thinking traces if available
+        formatted_responses = []
+        for r in responses:
+            response_text = f"Model: {r['model_name']}\n"
+            if r.get('reasoning_content'):
+                response_text += f"Thinking/Reasoning: {r['reasoning_content']}\n"
+            response_text += f"Response: {r['response']}"
+            formatted_responses.append(response_text)
+        formatted_responses = "\n\n".join(formatted_responses)
         
         evaluation_prompt = EVALUATION_PROMPT_TEMPLATE.format(
             user_prompt=user_prompt,
             responses=formatted_responses
         )
+        
+        print(f"User prompt: \"{user_prompt}\"")
+        print(f"Responses:\n{formatted_responses}")
         
         # Get evaluation from GPT-4o
         eval_response = self.client.chat.completions.create(
@@ -694,11 +718,15 @@ class AIRouter:
     
     def _synthesize_responses(self, user_prompt: str, responses: List[Dict[str, Any]]) -> str:
         """Use GPT-4o to synthesize multiple responses into a comprehensive answer"""
-        # Format responses for synthesis
-        formatted_responses = "\n\n".join([
-            f"Model: {r['model_name']}\nResponse: {r['response']}"
-            for r in responses
-        ])
+        # Format responses for synthesis, including thinking traces if available
+        formatted_responses = []
+        for r in responses:
+            response_text = f"Model: {r['model_name']}\n"
+            if r.get('reasoning_content'):
+                response_text += f"Thinking/Reasoning: {r['reasoning_content']}\n"
+            response_text += f"Response: {r['response']}"
+            formatted_responses.append(response_text)
+        formatted_responses = "\n\n".join(formatted_responses)
         
         synthesis_prompt = SYNTHESIS_PROMPT_TEMPLATE.format(
             user_prompt=user_prompt,
@@ -742,11 +770,15 @@ class AIRouter:
     
     def _score_responses(self, user_prompt: str, responses: List[Dict[str, Any]]) -> Dict[str, Any]:
         """Use GPT-4o to score model responses"""
-        # Format responses for scoring
-        formatted_responses = "\n\n".join([
-            f"Model: {r['model_name']}\nResponse: {r['response']}"
-            for r in responses
-        ])
+        # Format responses for scoring, including thinking traces if available
+        formatted_responses = []
+        for r in responses:
+            response_text = f"Model: {r['model_name']}\n"
+            if r.get('reasoning_content'):
+                response_text += f"Thinking/Reasoning: {r['reasoning_content']}\n"
+            response_text += f"Response: {r['response']}"
+            formatted_responses.append(response_text)
+        formatted_responses = "\n\n".join(formatted_responses)
         
         scoring_prompt = RESPONSE_SCORING_PROMPT.format(
             user_prompt=user_prompt,
