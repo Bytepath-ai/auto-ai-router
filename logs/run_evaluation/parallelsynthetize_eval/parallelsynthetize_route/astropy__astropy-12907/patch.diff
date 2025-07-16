@@ -1,0 +1,70 @@
+diff --git a/astropy/modeling/separable.py b/astropy/modeling/separable.py
+index b2c8b0f..4c15a6b 100644
+--- a/astropy/modeling/separable.py
++++ b/astropy/modeling/separable.py
+@@ -21,42 +21,37 @@
+     """
+ 
+     if not model.fittable and model.n_inputs > 0:
+         return np.ones((model.n_outputs, model.n_inputs), dtype=bool)
+ 
+-    if not isinstance(model, CompoundModel):
+-        if model.n_inputs == 0:
+-            return np.empty((model.n_outputs, 0), dtype=bool)
+-        # TODO: This doesn't handle multidimensional separable models
+-        # correctly
+-        if model.separable:
+-            return np.diag(np.ones(model.n_inputs, dtype=bool))
+-        else:
+-            return np.ones((model.n_outputs, model.n_inputs), dtype=bool)
++    if isinstance(model, CompoundModel):
++        # Handle CompoundModel with &, |, and >> operators
++        op = model.op
+ 
+-    # Now for the more complicated part: CompoundModel
+-    # For now this only supports compound models made with &, |, and >>
+-    # It might be possible to support other operators like +, -, *, etc. but
+-    # for now this will suffice.
+-    op = model.op
++        if op == '&':
++            # Block-diagonal matrix for & operator
++            left_sep = separability_matrix(model.left)
++            right_sep = separability_matrix(model.right)
++            result = np.zeros((model.n_outputs, model.n_inputs), dtype=bool)
++            result[:left_sep.shape[0], :left_sep.shape[1]] = left_sep
++            result[left_sep.shape[0]:, left_sep.shape[1]:] = right_sep
++            return result
++        elif op in ('|', '>>'):
++            # Dot product for | and >> operators
++            left_sep = separability_matrix(model.left)
++            right_sep = separability_matrix(model.right)
++            return np.dot(right_sep, left_sep).astype(bool)
++        else:
++            # Fallback for other operators
++            return np.ones((model.n_outputs, model.n_inputs), dtype=bool)
+ 
+-    if op == '&':
+-        # For the & operator, the separability matrix is a block-diagonal
+-        # matrix of the separability matrices of the two sub-models
+-        left_sep = separability_matrix(model.left)
+-        right_sep = separability_matrix(model.right)
+-        result = np.zeros((model.n_outputs, model.n_inputs), dtype=bool)
+-        result[:left_sep.shape[0], :left_sep.shape[1]] = left_sep
+-        result[left_sep.shape[0]:, left_sep.shape[1]:] = right_sep
+-        return result
+-    elif op in ('|', '>>'):
+-        # For the | and >> operators, the separability matrix is the dot
+-        # product of the separability matrices of the two sub-models
+-        left_sep = separability_matrix(model.left)
+-        right_sep = separability_matrix(model.right)
+-        return np.dot(right_sep, left_sep).astype(bool)
+-    else:
+-        # Fallback for other operators: Assume all outputs depend on all
+-        # inputs
++    if model.n_inputs == 0:
++        return np.empty((model.n_outputs, 0), dtype=bool)
++    # Handle non-CompoundModel cases
++    if model.separable:
++        return np.diag(np.ones(model.n_inputs, dtype=bool))
++    else:
+         return np.ones((model.n_outputs, model.n_inputs), dtype=bool)

@@ -688,8 +688,8 @@ class AIRouter:
             responses=formatted_responses
         )
         
-        print(f"User prompt: \"{user_prompt}\"")
-        print(f"Responses:\n{formatted_responses}")
+        # print(f"User prompt: \"{user_prompt}\"")
+        # print(f"Responses:\n{formatted_responses}")
         
         # Get evaluation from GPT-4o
         eval_response = self.client.chat.completions.create(

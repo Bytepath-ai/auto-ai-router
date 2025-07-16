@@ -4,6 +4,7 @@ This provider implements support for Claude Code, which runs via the terminal co
 Claude Code is a local CLI tool for software engineering tasks.
 """
 
+import os
 import subprocess
 from typing import Dict, List, Any, Optional
 from aisuite.framework import ChatCompletionResponse
@@ -73,12 +74,16 @@ class Claude_codeProvider(ProviderInterface):
             The response from Claude Code
         """
         try:
-            # Execute claude command with the prompt
+            # Get the absolute path to the playground directory
+            playground_path = os.path.abspath('playground')
+            
+            # Execute claude command with the prompt, using cwd parameter to set working directory
             result = subprocess.run(
                 ['claude', '--dangerously-skip-permissions', '-p', prompt],
                 capture_output=True,
                 text=True,
-                check=False
+                check=False,
+                cwd=playground_path  # Set the working directory for the subprocess
             )
             
             if result.returncode == 0:

@@ -105,10 +105,10 @@ def example_basic_routing():
     
     # Test various prompts
     test_prompts = [
-        "Write a Python function to calculate fibonacci in fibonacci.py",
-        "How are you? Use Gemini model",
-        "List all cities in Europe.",
-        "Prove that sqrt(2) is irrational",
+        # "Write a Python function to calculate fibonacci in fibonacci.py",
+        # "How are you? Use Gemini model",
+        # "List all cities in Europe.",
+        # "Prove that sqrt(2) is irrational",
         "Write a Python function to calculate fibonacci in fibonacci.py in the current repo"
     ]
     
@@ -225,13 +225,13 @@ def run_all_examples():
     print("🚀 AI ROUTER EXAMPLES SHOWCASE 🚀".center(80))
     print("🌟" * 40)
     
-    # example_basic_routing()
+    example_basic_routing()
     # print("\n" + "~" * 80 + "\n")
     
-    example_parallelbest_mode()
+    #example_parallelbest_mode()
     print("\n" + "~" * 80 + "\n")
     
-    example_parallelsynthetize_mode()
+    #example_parallelsynthetize_mode()
     print("\n" + "~" * 80 + "\n")
     
     # example_route_with_metadata()
