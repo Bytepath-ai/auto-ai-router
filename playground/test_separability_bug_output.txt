@@ -1,0 +1,124 @@
+======================================================================
+Testing separability_matrix bug with nested CompoundModels
+======================================================================
+
+Case 1: m.Linear1D(10) & m.Linear1D(5)
+Model: Model: CompoundModel
+    Model_0: Linear1D
+        Coefficients:
+            slope: Parameter('slope', value=1.0)
+            intercept: Parameter('intercept', value=10.0)
+    Model_1: Linear1D
+        Coefficients:
+            slope: Parameter('slope', value=1.0)
+            intercept: Parameter('intercept', value=5.0)
+    Expression: [0] & [1]
+    Components:
+        [0]: <Linear1D(slope=1., intercept=10.)>
+        [1]: <Linear1D(slope=1., intercept=5.)>
+Separability matrix:
+[[ True False]
+ [False  True]]
+Is separable: True
+Expected separability matrix:
+[[ True False]
+ [False  True]]
+Matches expected: True
+
+Case 2: m.Pix2Sky_TAN() & m.Linear1D(10) & m.Linear1D(5)
+Model: Model: CompoundModel
+    Model_0: Pix2Sky_TAN
+    Model_1: Linear1D
+        Coefficients:
+            slope: Parameter('slope', value=1.0)
+            intercept: Parameter('intercept', value=10.0)
+    Model_2: Linear1D
+        Coefficients:
+            slope: Parameter('slope', value=1.0)
+            intercept: Parameter('intercept', value=5.0)
+    Expression: [0] & [1] & [2]
+    Components:
+        [0]: <Pix2Sky_TAN()>
+        [1]: <Linear1D(slope=1., intercept=10.)>
+        [2]: <Linear1D(slope=1., intercept=5.)>
+Separability matrix:
+[[ True  True False False]
+ [ True  True False False]
+ [False False  True False]
+ [False False False  True]]
+Is separable: True
+Expected separability matrix:
+[[ True  True False False]
+ [ True  True False False]
+ [False False  True False]
+ [False False False  True]]
+Matches expected: True
+
+Case 3: m.Pix2Sky_TAN() & cm (where cm = m.Linear1D(10) & m.Linear1D(5))
+Model: Model: CompoundModel
+    Model_0: Pix2Sky_TAN
+    Model_1: CompoundModel
+        Model_0: Linear1D
+            Coefficients:
+                slope: Parameter('slope', value=1.0)
+                intercept: Parameter('intercept', value=10.0)
+        Model_1: Linear1D
+            Coefficients:
+                slope: Parameter('slope', value=1.0)
+                intercept: Parameter('intercept', value=5.0)
+        Expression: [0] & [1]
+        Components:
+            [0]: <Linear1D(slope=1., intercept=10.)>
+            [1]: <Linear1D(slope=1., intercept=5.)>
+    Expression: [0] & [1]
+    Components:
+        [0]: <Pix2Sky_TAN()>
+        [1]: <CompoundModel([0] & [1])>
+Separability matrix:
+[[ True  True  True  True]
+ [ True  True  True  True]
+ [ True  True  True  True]
+ [ True  True  True  True]]
+Is separable: False
+Expected separability matrix:
+[[ True  True False False]
+ [ True  True False False]
+ [False False  True False]
+ [False False False  True]]
+Matches expected: False
+
+======================================================================
+BUG DEMONSTRATION:
+======================================================================
+❌ BUG CONFIRMED: The separability matrices are different!
+
+Direct compound (Case 2) separability matrix:
+[[ True  True False False]
+ [ True  True False False]
+ [False False  True False]
+ [False False False  True]]
+
+Nested compound (Case 3) separability matrix:
+[[ True  True  True  True]
+ [ True  True  True  True]
+ [ True  True  True  True]
+ [ True  True  True  True]]
+
+The issue is that in Case 3, the linear models are incorrectly
+shown as non-separable (all True values in the matrix).
+
+======================================================================
+ADDITIONAL ANALYSIS:
+======================================================================
+
+Individual model properties:
+Pix2Sky_TAN n_inputs: 2, n_outputs: 2
+Linear1D(10) n_inputs: 1, n_outputs: 1
+Linear1D(5) n_inputs: 1, n_outputs: 1
+
+Compound model (cm) properties:
+cm n_inputs: 2, n_outputs: 2
+
+Full model properties:
+model_direct n_inputs: 4, n_outputs: 4
+model_nested n_inputs: 4, n_outputs: 4
