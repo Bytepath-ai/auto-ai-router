@@ -1,0 +1,50 @@
+diff --git a/file.py b/file.py
+--- a/file.py
++++ b/file.py
+```diff
+--- a/astropy/io/ascii/rst.py
++++ b/astropy/io/ascii/rst.py
+@@ -35,16 +35,25 @@
+     """
+ 
+     def write(self, lines):
+-        if "name" not in self.header_rows:
++        if not self.header_rows:
+             return
+-        lines.append(self.get_line(self.col_names, self.col_starts, self.col_ends))
++
++        for row in self.header_rows:
++            if row == "name":
++                vals = self.col_names
++            elif row == "unit":
++                vals = [str(col.unit) if col.unit is not None else "" for col in self.cols]
++            else:
++                raise ValueError(
++                    f"header_rows for rst format can only include 'name' or 'unit', not {row!r}"
++                )
++            lines.append(self.get_line(vals, self.col_starts, self.col_ends))
++
+         lines.append(
+             self.get_line(
+                 [self.underline] * len(self.col_names),
+                 self.col_starts,
+                 self.col_ends,
+             )
+         )
+ 
+ 
+@@ -57,9 +66,10 @@
+     data_class = SimpleRSTData
+     header_class = SimpleRSTHeader
+ 
+-    def __init__(self):
++    def __init__(self, header_rows=None):
+         super().__init__(delimiter_pad=None, bookend=False)
+-
++        if header_rows is not None:
++            self.header.header_rows = header_rows
+ 
+     def write(self, lines):
+         lines = super().write(lines)
+
+```

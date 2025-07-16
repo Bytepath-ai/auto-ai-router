@@ -1,0 +1,29 @@
+diff --git a/astropy/modeling/separable.py b/astropy/modeling/separable.py
+index e8a4c6a..f9b2d1e 100644
+--- a/astropy/modeling/separable.py
++++ b/astropy/modeling/separable.py
+@@ -32,16 +32,12 @@
+     elif isinstance(model, CompoundModel):
+         matrix = np.zeros((model.n_outputs, model.n_inputs), dtype=bool)
+         if model.op == '&':
+-            # For models combined with &, the separability matrix is a block
+-            # diagonal matrix of the separability matrices of the components
+-            i = j = 0
+-            for sub_model in model:
+-                sub_matrix = separability_matrix(sub_model)
+-                matrix[i:i + sub_model.n_outputs,
+-                       j:j + sub_model.n_inputs] = sub_matrix
+-                i += sub_model.n_outputs
+-                j += sub_model.n_inputs
++            # Recursively build the block diagonal matrix from the left and right
++            # operands. This preserves the nested structure of compound models,
++            # which is lost when iterating through a flattened model.
++            left_matrix = separability_matrix(model.left)
++            right_matrix = separability_matrix(model.right)
++            matrix[:model.left.n_outputs, :model.left.n_inputs] = left_matrix
++            matrix[model.left.n_outputs:, model.left.n_inputs:] = right_matrix
+         elif model.op == '|':
+             # For models combined with |, the separability matrix is the
+             # dot product of the separability matrices of the components
+
+```

@@ -1,0 +1,36 @@
+diff --git a/astropy/nddata/mixins/ndarithmetic.py b/astropy/nddata/mixins/ndarithmetic.py
+index 2a52119..a1b342c 100644
+--- a/astropy/nddata/mixins/ndarithmetic.py
++++ b/astropy/nddata/mixins/ndarithmetic.py
+@@ -210,19 +210,16 @@ class NDArithmeticMixin:
+         # 1. Handle the mask
+         # The default behavior is to propagate the mask if only one of the
+         # operands has a mask, and do a bitwise or if both have masks.
+-        if handle_mask is None:
+-            # The default behavior is to take the mask of the other operand
+-            # if self has no mask, and do a bitwise_or if both have masks.
+-            if self.mask is None:
+-                new_mask = mask
+-            elif mask is None:
+-                new_mask = self.mask
++        if self.mask is None:
++            new_mask = mask
++        elif mask is None:
++            new_mask = self.mask
++        else:
++            # If both masks are present, they are combined. The default
++            # combination is a bitwise OR.
++            if handle_mask is None:
++                new_mask = np.bitwise_or(self.mask, mask)
+             else:
+-                new_mask = np.bitwise_or(self.mask, mask)
+-        else:
+-            # If handle_mask is given, it is a function which takes
+-            # (mask1, mask2) and returns a new mask.
+-            new_mask = handle_mask(self.mask, mask)
++                new_mask = handle_mask(self.mask, mask)
+ 
+         # 2. Handle the wcs
+         if compare_wcs is None:
+
+```
