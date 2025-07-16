@@ -73,12 +73,21 @@ class Claude_codeProvider(ProviderInterface):
             The response from Claude Code
         """
         try:
-            # Execute claude command with the prompt
+            import os
+            # Get the playground directory in the current working directory
+            playground_dir = os.path.join(os.getcwd(), 'playground')
+            
+            # Ensure the playground directory exists
+            if not os.path.exists(playground_dir):
+                os.makedirs(playground_dir)
+            
+            # Execute claude command with the prompt in the playground directory
             result = subprocess.run(
                 ['claude', '--dangerously-skip-permissions', '-p', prompt],
                 capture_output=True,
                 text=True,
-                check=False
+                check=False,
+                cwd=playground_dir  # Set working directory to playground
             )
             
             if result.returncode == 0:
