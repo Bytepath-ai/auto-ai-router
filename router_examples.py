@@ -90,7 +90,7 @@ def print_parallel_results(mode, metadata, response_preview):
     
     print("╠" + "═" * box_width + "╣")
     print("║ " + "📋 INDIVIDUAL MODEL RESPONSES:".ljust(box_width - 2) + " ║")
-    for resp in metadata['all_responses'][:3]:
+    for resp in metadata['all_responses']:
         model_line = f"  • {resp['model_name']}: {resp['response'][:40]}..."
         print("║ " + model_line.ljust(box_width - 2) + " ║")
     

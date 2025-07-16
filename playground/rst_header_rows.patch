@@ -1,0 +1,188 @@
+diff --git a/astropy/io/ascii/rst.py b/astropy/io/ascii/rst.py
+index 1234567..abcdefg 100644
+--- a/astropy/io/ascii/rst.py
++++ b/astropy/io/ascii/rst.py
+@@ -25,7 +25,7 @@ class SimpleRSTHeader(FixedWidthHeader):
+         return re.match(match_string, line)
+ 
+     def get_fixedwidth_params(self, lines):
+-        """Get the column start and end positions."""
++        """Get the column start and end positions for fixed width table"""
+         vals, starts, ends = super().get_fixedwidth_params(lines)
+         # The right hand column can be unbounded
+         ends[-1] = None
+@@ -34,6 +34,20 @@ class SimpleRSTHeader(FixedWidthHeader):
+ 
+ class SimpleRSTData(FixedWidthData):
+     pass
++    
++    def get_lines(self, lines):
++        """Get data lines from the table"""
++        # Find delimiter lines
++        delim_indices = []
++        for i, line in enumerate(lines):
++            clean_line = line.strip()
++            if clean_line and set(clean_line) <= {'=', ' '}:
++                delim_indices.append(i)
++        
++        if len(delim_indices) >= 2:
++            # Data starts after second delimiter line
++            data_start = delim_indices[1] + 1
++            return lines[data_start:]
++        return []
+ 
+ 
+ class RST(FixedWidth):
+@@ -49,6 +63,11 @@ class RST(FixedWidth):
+           2    4.5  World
+         ==== ===== ======
+ 
++    Parameters
++    ----------
++    header_rows : int, optional
++        Number of header rows to read. Default is None, which auto-detects
++        header rows between the first and second delimiter lines.
+     """
+     _format_name = 'rst'
+     _io_registry_format_aliases = ['rst']
+@@ -57,9 +76,10 @@ class RST(FixedWidth):
+     data_class = SimpleRSTData
+     header_class = SimpleRSTHeader
+ 
+-    def __init__(self):
++    def __init__(self, header_rows=None):
+         super().__init__(delimiter_pad=None, bookend=False)
+-
++        self.header_rows = header_rows
++        self.header.header_rows = header_rows
+ 
+     def write(self, lines):
+         lines = super().write(lines)
+diff --git a/astropy/io/ascii/fixedwidth.py b/astropy/io/ascii/fixedwidth.py
+index 2345678..3456789 100644
+--- a/astropy/io/ascii/fixedwidth.py
++++ b/astropy/io/ascii/fixedwidth.py
+@@ -102,6 +102,7 @@ class FixedWidthHeader(BasicHeader):
+         return match.group()
+ 
+     def get_lines(self, lines):
++        """Get the lines from the table input which form the header"""
+         """
+         Return the column definition lines from the table ``lines``.
+ 
+@@ -110,7 +111,25 @@ class FixedWidthHeader(BasicHeader):
+         re_comment = re.compile(self.comment)
+         for i, line in enumerate(lines):
+             if not re_comment.match(line):
+-                return lines[i], [line]
++                if hasattr(self, 'header_rows') and self.header_rows is not None:
++                    # For RST tables with specified header_rows
++                    if hasattr(self, '_get_rst_header_lines'):
++                        return self._get_rst_header_lines(lines, i)
++                    else:
++                        # For regular FixedWidth tables
++                        return lines[i:i+self.header_rows]
++                else:
++                    return lines[i], [line]
++                    
++    def _get_rst_header_lines(self, lines, start_idx):
++        """Get header lines for RST tables when header_rows is specified"""
++        # Find delimiter lines for RST tables
++        delim_indices = []
++        for i, line in enumerate(lines):
++            clean_line = line.strip()
++            if clean_line and set(clean_line) <= {'=', ' '}:
++                delim_indices.append(i)
++        
++        if len(delim_indices) >= 2:
++            header_start = delim_indices[0] + 1
++            if self.header_rows is not None:
++                # Use specified number of header rows
++                header_end = min(header_start + self.header_rows, delim_indices[1])
++                header_lines = lines[header_start:header_end]
++                if len(header_lines) < self.header_rows:
++                    raise ValueError(f'Table has only {len(header_lines)} header lines, '
++                                   f'but header_rows={self.header_rows} was specified')
++                return header_lines
++            else:
++                # Auto-detect: all lines between delimiters
++                return lines[header_start:delim_indices[1]]
++        else:
++            raise ValueError('RST table must have at least two delimiter lines')
+ 
+     def get_fixedwidth_params(self, lines):
+         """
+diff --git a/astropy/io/ascii/tests/test_rst.py b/astropy/io/ascii/tests/test_rst.py
+index 4567890..1234567 100644
+--- a/astropy/io/ascii/tests/test_rst.py
++++ b/astropy/io/ascii/tests/test_rst.py
+@@ -112,3 +112,67 @@ def test_rst_read_unbounded_right_column():
+     ==== ===== ======
+     """
+     ascii.read(table, format='rst')
++
++
++def test_rst_header_rows_single():
++    """Test RST reader with header_rows=1"""
++    text = """
++    ==== ===== ======
++    Col1  Col2  Col3
++    m     km    desc
++    ==== ===== ======
++      1    2.3  Hello
++      2    4.5  World
++    ==== ===== ======
++    """
++    # With header_rows=1, only first line is header
++    t = ascii.read(text, format='rst', header_rows=1)
++    assert list(t.colnames) == ['Col1', 'Col2', 'Col3']
++    assert len(t) == 3  # Includes the units row as data
++    
++
++def test_rst_header_rows_multiple():
++    """Test RST reader with header_rows=2"""
++    text = """
++    ==== ===== ======
++    Col1  Col2  Col3
++    m     km    desc
++    ==== ===== ======
++      1    2.3  Hello
++      2    4.5  World
++    ==== ===== ======
++    """
++    # With header_rows=2, both lines are headers
++    t = ascii.read(text, format='rst', header_rows=['name', 'unit'])
++    assert list(t.colnames) == ['Col1', 'Col2', 'Col3']
++    assert t['Col1'].unit == u.m
++    assert t['Col2'].unit == u.km
++    assert len(t) == 2  # Only data rows
++
++
++def test_rst_header_rows_with_qtable():
++    """Test RST writer with header_rows for QTable"""
++    tbl = QTable({'wave': [350, 950]*u.nm, 'response': [0.7, 1.2]*u.count})
++    
++    # Test writing with header_rows
++    output = StringIO()
++    tbl.write(output, format="ascii.rst", header_rows=["name", "unit"])
++    output.seek(0)
++    result = output.read()
++    
++    # Check that output contains both name and unit rows
++    lines = result.strip().split('\n')
++    assert len(lines) == 6  # 3 delimiter lines + 2 header rows + 2 data rows
++    assert 'wave' in lines[1] and 'response' in lines[1]
++    assert 'nm' in lines[2] and 'ct' in lines[2]
++
++
++def test_rst_header_rows_too_many():
++    """Test RST reader with header_rows exceeding available lines"""
++    text = """
++    ==== ===== ======
++    Col1  Col2  Col3
++    ==== ===== ======
++      1    2.3  Hello
++    ==== ===== ======
++    """
++    with pytest.raises(ValueError, match='Table has only 1 header lines'):
++        ascii.read(text, format='rst', header_rows=2)

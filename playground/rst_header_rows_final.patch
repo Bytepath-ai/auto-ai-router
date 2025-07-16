@@ -1,0 +1,77 @@
+diff --git a/astropy/io/ascii/rst.py b/astropy/io/ascii/rst.py
+index 1234567..abcdefg 100644
+--- a/astropy/io/ascii/rst.py
++++ b/astropy/io/ascii/rst.py
+@@ -25,6 +25,31 @@ class SimpleRSTHeader(FixedWidthHeader):
+         return re.match(match_string, line)
+ 
+     def get_fixedwidth_params(self, lines):
++        """Get the column start and end positions for fixed width table"""
++        vals, starts, ends = super().get_fixedwidth_params(lines)
++        # The right hand column can be unbounded
++        ends[-1] = None
++        return vals, starts, ends
++
++    def get_lines(self, lines):
++        """Get header lines from RST table"""
++        # Find delimiter lines (lines with only '=' and spaces)
++        delim_indices = []
++        for i, line in enumerate(lines):
++            clean_line = line.strip()
++            if clean_line and set(clean_line) <= {'=', ' '}:
++                delim_indices.append(i)
++        
++        if len(delim_indices) < 2:
++            raise ValueError('RST table must have at least two delimiter lines')
++        
++        # Get header lines between first two delimiters
++        header_start = delim_indices[0] + 1
++        header_end = delim_indices[1]
++        
++        if hasattr(self, 'header_rows') and self.header_rows is not None:
++            # Use specified number of header rows
++            header_lines = lines[header_start:header_start + self.header_rows]
++            if len(header_lines) < self.header_rows:
++                raise ValueError(f'Table has only {len(header_lines)} header lines, '
++                                 f'but header_rows={self.header_rows} was specified')
++            return header_lines
++        else:
++            # Auto-detect: all lines between delimiters
++            return lines[header_start:header_end]
++
++    def _not_used_get_fixedwidth_params(self, lines):
+         """Get the column start and end positions."""
+         vals, starts, ends = super().get_fixedwidth_params(lines)
+         # The right hand column can be unbounded
+@@ -49,6 +74,11 @@ class RST(FixedWidth):
+           2    4.5  World
+         ==== ===== ======
+ 
++    Parameters
++    ----------
++    header_rows : int, optional
++        Number of header rows to read. Default is None, which auto-detects
++        header rows between the first and second delimiter lines.
+     """
+     _format_name = 'rst'
+     _io_registry_format_aliases = ['rst']
+@@ -57,9 +87,15 @@ class RST(FixedWidth):
+     data_class = SimpleRSTData
+     header_class = SimpleRSTHeader
+ 
+-    def __init__(self):
++    def __init__(self, header_rows=None):
+         super().__init__(delimiter_pad=None, bookend=False)
++        self.header_rows = header_rows
++        # Pass header_rows to header instance
++        if hasattr(self, 'header'):
++            self.header.header_rows = header_rows
+ 
++    def _set_reader_data_splitter_fixed_widths(self):
++        """Override to ensure header_rows is passed to header instance"""
++        super()._set_reader_data_splitter_fixed_widths()
++        if hasattr(self, 'header'):
++            self.header.header_rows = self.header_rows
+ 
+     def write(self, lines):
+         lines = super().write(lines)
