@@ -2,7 +2,7 @@
 """
 Intelligent AI Model Router using aisuite
 
-This router uses GPT-4o to analyze prompts and automatically determine 
+This router uses Gemini 2.5 Pro to analyze prompts and automatically determine 
 the best model to use based on the prompt characteristics:
 - Claude Code: For coding tasks that need to be applied in repo
 - Claude Opus 4: For coding responses without applying in repo
@@ -139,7 +139,7 @@ class ModelProfile:
     
 
 class AIRouter:
-    """Intelligent router that uses GPT-4o to determine the best model for a given prompt"""
+    """Intelligent router that uses Gemini 2.5 Pro to determine the best model for a given prompt"""
     
     def _create_routing_prompt(self, user_prompt: str) -> str:
         """Create the prompt for the routing decision"""
@@ -296,8 +296,8 @@ class AIRouter:
             )
         }
         
-        # Router model (always GPT-4o for fast, consistent routing decisions)
-        self.router_model = "openai:gpt-4o"
+        # Router model (using Gemini 2.5 Pro for routing decisions)
+        self.router_model = "google:gemini-2.5-pro"
         
         # Statistics tracking
         self.stats_file = stats_file
@@ -316,7 +316,7 @@ class AIRouter:
         return transformed_kwargs
     
     def _parse_routing_decision(self, response: str) -> Tuple[str, str, float]:
-        """Parse the routing decision from GPT-4o response"""
+        """Parse the routing decision from Gemini 2.5 Pro response"""
         try:
             # Extract JSON from response
             start = response.find('{')
@@ -340,7 +340,7 @@ class AIRouter:
         """Analyze a prompt and determine the best model to use"""
         routing_prompt = self._create_routing_prompt(prompt)
         
-        # Get routing decision from GPT-4o
+        # Get routing decision from Gemini 2.5 Pro
         response = self.client.chat.completions.create(
             model=self.router_model,
             messages=[{"role": "user", "content": routing_prompt}],
@@ -492,7 +492,7 @@ class AIRouter:
         # Score the responses
         scoring_result = self._score_responses(user_prompt, responses)
         
-        # Evaluate responses using GPT-4o
+        # Evaluate responses using Gemini 2.5 Pro
         evaluation = self._evaluate_responses(user_prompt, responses)
         
         # Find the best response
@@ -644,7 +644,7 @@ class AIRouter:
         # Save statistics
         self._save_statistics(stats_data)
         
-        # Synthesize responses using GPT-4o
+        # Synthesize responses using Gemini 2.5 Pro
         synthesized_response = self._synthesize_responses(user_prompt, responses)
         
         # Create a response object matching the expected format
@@ -672,7 +672,7 @@ class AIRouter:
         }
     
     def _evaluate_responses(self, user_prompt: str, responses: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """Use GPT-4o to evaluate multiple responses and select the best one"""
+        """Use Gemini 2.5 Pro to evaluate multiple responses and select the best one"""
         # Format responses for evaluation, including thinking traces if available
         formatted_responses = []
         for r in responses:
@@ -691,9 +691,9 @@ class AIRouter:
         print(f"User prompt: \"{user_prompt}\"")
         print(f"Responses:\n{formatted_responses}")
         
-        # Get evaluation from GPT-4o
+        # Get evaluation from Gemini 2.5 Pro
         eval_response = self.client.chat.completions.create(
-            model=self.router_model,
+            model="google:gemini-2.5-pro",
             messages=[{"role": "user", "content": evaluation_prompt}],
             temperature=0.1
         )
@@ -717,7 +717,7 @@ class AIRouter:
         }
     
     def _synthesize_responses(self, user_prompt: str, responses: List[Dict[str, Any]]) -> str:
-        """Use GPT-4o to synthesize multiple responses into a comprehensive answer"""
+        """Use Gemini 2.5 Pro to synthesize multiple responses into a comprehensive answer"""
         # Format responses for synthesis, including thinking traces if available
         formatted_responses = []
         for r in responses:
@@ -733,9 +733,9 @@ class AIRouter:
             responses=formatted_responses
         )
         
-        # Get synthesis from GPT-4o
+        # Get synthesis from Gemini 2.5 Pro
         synth_response = self.client.chat.completions.create(
-            model=self.router_model,
+            model="google:gemini-2.5-pro",
             messages=[{"role": "user", "content": synthesis_prompt}],
             temperature=0.3  # Slightly higher than evaluation for more creative synthesis
         )
@@ -743,7 +743,7 @@ class AIRouter:
         return synth_response.choices[0].message.content
     
     def _categorize_task(self, user_prompt: str) -> Dict[str, str]:
-        """Use GPT-4o to categorize the task and generate a task name"""
+        """Use Gemini 2.5 Pro to categorize the task and generate a task name"""
         categorization_prompt = TASK_CATEGORIZATION_PROMPT.format(user_prompt=user_prompt)
         
         response = self.client.chat.completions.create(
@@ -769,7 +769,7 @@ class AIRouter:
         }
     
     def _score_responses(self, user_prompt: str, responses: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """Use GPT-4o to score model responses"""
+        """Use Gemini 2.5 Pro to score model responses"""
         # Format responses for scoring, including thinking traces if available
         formatted_responses = []
         for r in responses:
@@ -884,4 +884,3 @@ class AIRouter:
         """Load and parse statistics from file"""
         with self.stats_lock:
             return self._load_statistics_raw()
-
