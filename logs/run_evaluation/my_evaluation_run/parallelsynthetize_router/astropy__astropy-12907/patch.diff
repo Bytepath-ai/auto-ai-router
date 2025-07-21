@@ -1,0 +1,59 @@
+```diff
+--- a/astropy/modeling/separable.py
++++ b/astropy/modeling/separable.py
+@@ -19,10 +19,29 @@
+     if not isinstance(model, Model):
+         raise TypeError("Expected a model.")
+ 
++    if isinstance(model, CompoundModel) and model.op == '&':
++        # For a model like f & g, the separability matrix is a block
++        # diagonal matrix of the separability matrices of f and g.
++        # This is true even if f or g are not internally separable.
++        left = separability_matrix(model.left)
++        right = separability_matrix(model.right)
++
++        matrix = np.zeros(
++            (model.n_outputs, model.n_inputs), dtype=bool)
++
++        # The top-left corner is the separability matrix of the left
++        # operand
++        matrix[:left.shape[0], :left.shape[1]] = left
++        # The bottom-right corner is the separability matrix of the
++        # right operand
++        matrix[left.shape[0]:, left.shape[1]:] = right
++        return matrix
++
+     if not model.separable:
+         return np.ones((model.n_outputs, model.n_inputs), dtype=bool)
+ 
+     # The base case for the recursion
++    # A CompoundModel with an operator other than & is not separable.
+     if not isinstance(model, CompoundModel):
+         if model.n_inputs == 1 and model.n_outputs == 1:
+             return np.array([[True]])
+@@ -32,24 +51,7 @@
+             return np.ones((model.n_outputs, model.n_inputs), dtype=bool)
+ 
+     # Recursion
+-    if model.op == '&':
+-        # For a model like f & g, the separability matrix is a block
+-        # diagonal matrix of the separability matrices of f and g.
+-        left = separability_matrix(model.left)
+-        right = separability_matrix(model.right)
+-
+-        matrix = np.zeros(
+-            (model.n_outputs, model.n_inputs), dtype=bool)
+-
+-        # The top-left corner is the separability matrix of the left
+-        # operand
+-        matrix[:left.shape[0], :left.shape[1]] = left
+-        # The bottom-right corner is the separability matrix of the
+-        # right operand
+-        matrix[left.shape[0]:, left.shape[1]:] = right
+-    elif model.op == '|':
++    if model.op == '|':
+         # For a model like f | g, the separability matrix is the dot
+         # product of the separability matrices of g and f.
+         left = separability_matrix(model.left)
+
+```

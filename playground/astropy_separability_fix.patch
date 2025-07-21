@@ -1,0 +1,23 @@
+--- a/astropy/modeling/separable.py
++++ b/astropy/modeling/separable.py
+@@ -217,11 +217,17 @@ def _cstack(left, right):
+ 
+     carr = []
+     if isinstance(left, np.ndarray):
+         carr.append(left)
++    elif isinstance(left, CompoundModel):
++        # Recursively get the separability for compound models
++        cleft = _separable(left)
++        carr.append(cleft)
+     else:
+         cleft = _coord_matrix(left, 'left', noutp)
+         carr.append(cleft)
+     if isinstance(right, np.ndarray):
+         carr.append(right)
++    elif isinstance(right, CompoundModel):
++        # Recursively get the separability for compound models
++        cright = _separable(right)
++        carr.append(cright)
+     else:
+         cright = _coord_matrix(right, 'right', noutp)
+         carr.append(cright)
