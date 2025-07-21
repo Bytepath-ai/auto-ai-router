@@ -1,0 +1,78 @@
+```diff
+--- a/astropy/io/ascii/rst.py
++++ b/astropy/io/ascii/rst.py
+@@ -23,10 +23,10 @@
+     _format_name = "rst"
+     _description = "reStructuredText simple table"
+ 
+-    def __init__(self):
++    def __init__(self, header_rows=None):
+         super().__init__()
+-        self.header = RSTHeader()
++        self.header = RSTHeader(header_rows=header_rows)
+         self.data = RSTData()
+ 
+     def write(self, table, output):
+@@ -49,33 +49,42 @@
+     def write(self, table, output):
+         """
+         Write the header for a reST simple table.  This consists of:
++
+         - line of '=' spanning all columns
+-        - column names
++        - header rows (e.g. column names, units)
+         - line of '=' spanning all columns
++
+         """
+         self.data.set_col_starts_ends(table)
+-        widths = [
+-            self.data.get_col_width(col) for col in self.data.base_reader.cols
+-        ]
++        widths = [self.data.get_col_width(col) for col in self.data.base_reader.cols]
+         if self.data.formats:
+             for col in self.data.base_reader.cols:
+                 if col.name in self.data.formats:
+                     col.format = self.data.formats[col.name]
+ 
+         # Write header
+         self.write_header_line(widths, output)
+-        self.write_col_names(widths, output)
++
++        if self.header_rows:
++            for row_spec in self.header_rows:
++                if row_spec == "name":
++                    vals = [col.name for col in self.data.base_reader.cols]
++                elif row_spec == "unit":
++                    vals = [str(col.unit or "") for col in self.data.base_reader.cols]
++                elif row_spec == "dtype":
++                    vals = [str(col.dtype) for col in self.data.base_reader.cols]
++                elif row_spec == "format":
++                    vals = [str(col.format or "") for col in self.data.base_reader.cols]
++                elif row_spec == "description":
++                    vals = [str(col.description or "") for col in self.data.base_reader.cols]
++                else:
++                    raise ValueError(f"row_spec {row_spec} not supported for writing")
++
++                val_strs = [
++                    self.data.stringify_val(val, col)
++                    for val, col in zip(vals, self.data.base_reader.cols)
++                ]
++                val_fmts = [val.center(width) for val, width in zip(val_strs, widths)]
++                output.write(" ".join(val_fmts) + "\n")
++
+         self.write_header_line(widths, output)
+ 
+     def write_header_line(self, widths, output):
+         line = " ".join(["=" * width for width in widths])
+         output.write(line + "\n")
+-
+-    def write_col_names(self, widths, output):
+-        col_names = [
+-            col.name.center(width) for col, width in zip(self.data.base_reader.cols, widths)
+-        ]
+-        output.write(" ".join(col_names) + "\n")
+ 
+ 
+ class RSTData(fixed_width.FixedWidthData):
+
+```

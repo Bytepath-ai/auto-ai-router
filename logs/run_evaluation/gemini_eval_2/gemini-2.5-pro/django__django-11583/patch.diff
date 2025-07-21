@@ -1,0 +1,39 @@
+```diff
+--- a/django/utils/autoreload.py
++++ b/django/utils/autoreload.py
+@@ -129,17 +129,29 @@
+         if spec and spec.has_location and spec.origin:
+             path = Path(spec.origin)
+             if path.is_file():
+                 # If the path is a file, we're done.
+-                results.add(path.resolve().absolute())
++                try:
++                    results.add(path.resolve().absolute())
++                except ValueError:
++                    # path.resolve() may raise ValueError on some systems,
++                    # e.g. when the path contains a null byte.
++                    pass
+             else:
+                 # If it's a directory, we need to walk it.
+                 for p in path.glob('**/*.py'):
+-                    results.add(p.resolve().absolute())
++                    try:
++                        results.add(p.resolve().absolute())
++                    except ValueError:
++                        # p.resolve() may raise ValueError on some systems,
++                        # e.g. when the path contains a null byte.
++                        pass
+ 
+     for path in extra_files:
+-        results.add(Path(path).resolve().absolute())
++        try:
++            results.add(Path(path).resolve().absolute())
++        except ValueError:
++            # Path(path).resolve() may raise ValueError on some systems,
++            # e.g. when the path contains a null byte.
++            pass
+ 
+     return iter(results)
+ 
+
+```

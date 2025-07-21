@@ -1,0 +1,2467 @@
+2025-07-22 00:54:05,203 - INFO - Creating container for django__django-11422...
+2025-07-22 00:54:05,500 - INFO - Container for django__django-11422 created: 4886b043634caa947dc34fb12fa480a23b515d0ff605dc92305f646d7930b924
+2025-07-22 00:54:05,725 - INFO - Container for django__django-11422 started: 4886b043634caa947dc34fb12fa480a23b515d0ff605dc92305f646d7930b924
+2025-07-22 00:54:05,726 - INFO - Intermediate patch for django__django-11422 written to logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/patch.diff, now applying to container...
+2025-07-22 00:54:05,890 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 00:54:05,941 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 00:54:06,009 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 00:54:06,009 - INFO - >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+2025-07-22 00:54:06,011 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,012 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,013 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,014 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,015 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,016 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+patch: **** malformed patch at line 31: -            location = spec.origin
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11422/run_instance.log) for more information.
+
+2025-07-22 00:54:06,017 - INFO - Attempting to stop container sweb.eval.django__django-11422.gemini_eval_2...
+2025-07-22 00:54:23,005 - INFO - Attempting to remove container sweb.eval.django__django-11422.gemini_eval_2...
+2025-07-22 00:54:23,015 - INFO - Container sweb.eval.django__django-11422.gemini_eval_2 removed.
+2025-07-22 00:54:23,015 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-11422:latest...
+2025-07-22 00:54:23,462 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-11422:latest removed.

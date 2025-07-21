@@ -1,0 +1,53 @@
+```diff
+--- a/django/utils/autoreload.py
++++ b/django/utils/autoreload.py
+@@ -193,22 +193,25 @@
+     for module in list(modules):
+         # If the module is a package, we need to find its location.
+         spec = getattr(module, '__spec__', None)
+-        if spec is None:
+-            continue
+-
+-        # We're only interested in files that can be read from the filesystem.
+-        # We can't watch things in zip archives, so we ignore them.
+-        if not getattr(spec, 'has_location', False):
+-            continue
+-
+-        # For packages, the file location is the __init__.py, if it exists.
+-        # If it doesn't, then we have a namespace package, which is a directory
+-        # of other packages and modules. In this case, we're not interested in
+-        # the package itself, but its subpackages and modules, which will be
+-        # found as they are also in sys.modules.
+-        if spec.submodule_search_locations is not None:
+-            if spec.origin is not None and spec.origin.endswith('__init__.py'):
+-                location = spec.origin
++        # __spec__ can be None for __main__ module.
++        if spec is None:
++            if module.__name__ == '__main__' and hasattr(module, '__file__'):
++                location = module.__file__
+             else:
+                 continue
+         else:
+-            location = spec.origin
++            # We're only interested in files that can be read from the filesystem.
++            # We can't watch things in zip archives, so we ignore them.
++            if not getattr(spec, 'has_location', False):
++                continue
++
++            # For packages, the file location is the __init__.py, if it exists.
++            # If it doesn't, then we have a namespace package, which is a
++            # directory of other packages and modules. In this case, we're not
++            # interested in the package itself, but its subpackages and
++            # modules, which will be found as they are also in sys.modules.
++            if spec.submodule_search_locations is not None:
++                if spec.origin is not None and spec.origin.endswith('__init__.py'):
++                    location = spec.origin
++                else:
++                    continue
++            else:
++                location = spec.origin
+ 
+         if location is None:
+             continue
+
+```

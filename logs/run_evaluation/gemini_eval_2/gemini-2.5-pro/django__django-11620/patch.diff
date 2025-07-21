@@ -1,0 +1,25 @@
+```diff
+--- a/django/views/debug.py
++++ b/django/views/debug.py
+@@ -482,13 +482,12 @@
+         resolver = get_resolver()
+         tried = resolver.resolve_error_handler(request, exception)
+-    except Resolver404 as e:
+-        tried = e.args[0]['tried']
+-    except Exception:
+-        # This is unexpected.
+-        tried = []
+-        # Let the exception bubble up to be handled by the 500 handler.
+-        raise
++    except Exception as e:
++        if isinstance(e, Resolver404):
++            tried = e.args[0]['tried']
++        else:
++            # A 404 may be raised trying to resolve the URL. If that happens,
++            # we want to show the 404 template with a simple message.
++            tried = []
+ 
+     # The resolver should never fail to resolve the technical 404 view.
+     callback, param_dict = get_resolver(None).resolve('technical-404/')
+
+```

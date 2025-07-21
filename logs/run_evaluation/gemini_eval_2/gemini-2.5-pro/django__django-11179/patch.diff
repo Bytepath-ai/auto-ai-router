@@ -1,0 +1,20 @@
+```diff
+--- a/django/db/models/deletion.py
++++ b/django/db/models/deletion.py
+@@ -278,7 +278,12 @@
+             for model, instances in self.data.items():
+                 self.deleted_objects[model] += len(instances)
+                 pk_list = [obj.pk for obj in instances]
+                 model._base_manager.using(self.using).filter(pk__in=pk_list).delete()
+-            return sum(self.deleted_objects.values()), dict(self.deleted_objects)
++
++            for model, instances in self.data.items():
++                for instance in instances:
++                    setattr(instance, model._meta.pk.attname, None)
++
++            return sum(self.deleted_objects.values()), dict(self.deleted_objects)
+ 
+         # The logic below is very similar to Collector.collect(), but has a
+         # few differences. It's not refactored into a common method because
+
+```

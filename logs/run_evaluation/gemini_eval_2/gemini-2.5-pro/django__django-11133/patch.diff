@@ -1,0 +1,15 @@
+```diff
+--- a/django/http/response.py
++++ b/django/http/response.py
+@@ -302,6 +302,9 @@
+         # Bytestrings are returned directly.
+         if isinstance(value, bytes):
+             return value
++        # memoryview is converted to bytes.
++        if isinstance(value, memoryview):
++            return bytes(value)
+         # Text is encoded using the charset.
+         if isinstance(value, str):
+             return value.encode(self.charset)
+
+```

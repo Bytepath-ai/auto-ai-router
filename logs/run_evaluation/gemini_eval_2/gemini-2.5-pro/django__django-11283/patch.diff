@@ -1,0 +1,83 @@
+```diff
+--- a/django/contrib/auth/migrations/0011_update_proxy_permissions.py
++++ b/django/contrib/auth/migrations/0011_update_proxy_permissions.py
+@@ -1,13 +1,22 @@
+-from django.db import migrations
++from django.conf import settings
++from django.db import IntegrityError, migrations, transaction
+ 
+ 
+ def update_proxy_permissions(apps, schema_editor):
+     """
+     Update the content_type of proxy permissions to point to the concrete model.
+     """
+     Permission = apps.get_model('auth', 'Permission')
+     ContentType = apps.get_model('contenttypes', 'ContentType')
++    User = apps.get_model(settings.AUTH_USER_MODEL)
++    Group = apps.get_model('auth', 'Group')
+     db_alias = schema_editor.connection.alias
++
++    # We need the user and group models to find references to permissions.
++    # get_user_model() can't be used in migrations, so we have to use
++    # the historical model.
++    UserUserPermissions = User.user_permissions.through
++    GroupPermission = Group.permissions.through
+     for model in apps.get_models():
+         if not model._meta.proxy:
+             continue
+@@ -31,11 +40,49 @@
+         if proxy_content_type == concrete_content_type:
+             continue
+ 
+-        Permission.objects.using(db_alias).filter(
+-            content_type=proxy_content_type,
+-        ).update(
+-            content_type=concrete_content_type,
+-        )
++        # The bulk update can fail if a permission with the same codename
++        # already exists on the concrete model. This can happen if
++        # `create_permissions` runs before this migration.
++        try:
++            with transaction.atomic(using=db_alias):
++                Permission.objects.using(db_alias).filter(
++                    content_type=proxy_content_type,
++                ).update(content_type=concrete_content_type)
++        except IntegrityError:
++            proxy_permissions = Permission.objects.using(db_alias).filter(
++                content_type=proxy_content_type,
++            )
++            for p_proxy in proxy_permissions:
++                try:
++                    with transaction.atomic(using=db_alias):
++                        p_proxy.content_type = concrete_content_type
++                        p_proxy.save(using=db_alias)
++                except IntegrityError:
++                    p_concrete = Permission.objects.using(db_alias).get(
++                        content_type=concrete_content_type,
++                        codename=p_proxy.codename,
++                    )
++                    # Remap user permissions.
++                    user_rels = UserUserPermissions.objects.using(db_alias).filter(permission=p_proxy)
++                    user_ids_with_concrete_permission = set(
++                        UserUserPermissions.objects.using(db_alias)
++                        .filter(permission=p_concrete).values_list('user_id', flat=True)
++                    )
++                    user_rels.exclude(user_id__in=user_ids_with_concrete_permission).update(permission=p_concrete)
++                    user_rels.filter(user_id__in=user_ids_with_concrete_permission).delete()
++
++                    # Remap group permissions.
++                    group_rels = GroupPermission.objects.using(db_alias).filter(permission=p_proxy)
++                    group_ids_with_concrete_permission = set(
++                        GroupPermission.objects.using(db_alias)
++                        .filter(permission=p_concrete).values_list('group_id', flat=True)
++                    )
++                    group_rels.exclude(group_id__in=group_ids_with_concrete_permission).update(permission=p_concrete)
++                    group_rels.filter(group_id__in=group_ids_with_concrete_permission).delete()
++
++                    # The proxy permission is no longer needed.
++                    p_proxy.delete(using=db_alias)
+ 
+ 
+ def revert_proxy_permissions(apps, schema_editor):
+
+```

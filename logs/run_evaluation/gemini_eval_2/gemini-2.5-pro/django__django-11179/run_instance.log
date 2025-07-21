@@ -1,0 +1,2712 @@
+2025-07-22 00:52:31,466 - INFO - Creating container for django__django-11179...
+2025-07-22 00:52:31,721 - INFO - Container for django__django-11179 created: 514e265e5013410a02d736ae14a322f9100d13e7dd93022aef6196f79dc10c43
+2025-07-22 00:52:31,952 - INFO - Container for django__django-11179 started: 514e265e5013410a02d736ae14a322f9100d13e7dd93022aef6196f79dc10c43
+2025-07-22 00:52:31,952 - INFO - Intermediate patch for django__django-11179 written to logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/patch.diff, now applying to container...
+2025-07-22 00:52:32,130 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 00:52:32,233 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 00:52:32,300 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 00:52:32,300 - INFO - >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,306 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,307 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11179: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 FAILED at 278.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/deletion.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11179/run_instance.log) for more information.
+
+2025-07-22 00:52:32,308 - INFO - Attempting to stop container sweb.eval.django__django-11179.gemini_eval_2...
+2025-07-22 00:52:47,580 - INFO - Attempting to remove container sweb.eval.django__django-11179.gemini_eval_2...
+2025-07-22 00:52:47,587 - INFO - Container sweb.eval.django__django-11179.gemini_eval_2 removed.
+2025-07-22 00:52:47,588 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-11179:latest...
+2025-07-22 00:52:47,999 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-11179:latest removed.

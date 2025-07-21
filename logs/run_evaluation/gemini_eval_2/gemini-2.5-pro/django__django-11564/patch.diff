@@ -1,0 +1,32 @@
+```diff
+--- a/django/core/files/storage.py
++++ b/django/core/files/storage.py
+@@ -1,12 +1,14 @@
+ import os
+ import os.path
++from urllib.parse import urljoin, urlparse
+ 
+ from django.conf import settings
+ from django.core.exceptions import ImproperlyConfigured
+ from django.core.signals import setting_changed
++from django.urls import get_script_prefix
+ from django.utils._os import abspathu, safe_join
+ from django.utils.deconstruct import deconstructible
+ from django.utils.encoding import filepath_to_uri
+-from django.utils.six.moves.urllib.parse import urljoin
+ 
+ __all__ = ['Storage', 'FileSystemStorage', 'get_storage_class', 'default_storage']
+ 
+@@ -107,4 +109,9 @@
+     def url(self, name):
+         if self.base_url is None:
+             raise ValueError("This file is not accessible via a URL.")
+-        return urljoin(self.base_url, filepath_to_uri(name))
++        base_url = self.base_url
++        if not urlparse(base_url).netloc and not urlparse(base_url).scheme:
++            base_url = get_script_prefix() + base_url.lstrip('/')
++        return urljoin(base_url, filepath_to_uri(name))
++
++
+
+```

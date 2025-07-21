@@ -1,0 +1,2467 @@
+2025-07-22 00:48:23,628 - INFO - Creating container for astropy__astropy-7746...
+2025-07-22 00:48:24,090 - INFO - Container for astropy__astropy-7746 created: 21e8cbbdcefd5b097d0925e6e721120fd4f4dff2c73e34d2112bf4364f82a17e
+2025-07-22 00:48:24,312 - INFO - Container for astropy__astropy-7746 started: 21e8cbbdcefd5b097d0925e6e721120fd4f4dff2c73e34d2112bf4364f82a17e
+2025-07-22 00:48:24,312 - INFO - Intermediate patch for astropy__astropy-7746 written to logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/patch.diff, now applying to container...
+2025-07-22 00:48:24,512 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 00:48:24,595 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 00:48:24,673 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 00:48:24,673 - INFO - >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,676 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,677 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,678 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,680 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,681 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,682 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,683 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,683 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,683 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,683 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,683 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,683 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,683 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,683 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,683 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,683 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,683 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 16: @@ -1245,6 +1251,11 @@
+
+patching file astropy/wcs/wcs.py
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 00:48:24,683 - INFO - Attempting to stop container sweb.eval.astropy__astropy-7746.gemini_eval_2...
+2025-07-22 00:48:39,977 - INFO - Attempting to remove container sweb.eval.astropy__astropy-7746.gemini_eval_2...
+2025-07-22 00:48:39,984 - INFO - Container sweb.eval.astropy__astropy-7746.gemini_eval_2 removed.
+2025-07-22 00:48:39,984 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.astropy_1776_astropy-7746:latest...
+2025-07-22 00:48:40,150 - INFO - Image swebench/sweb.eval.x86_64.astropy_1776_astropy-7746:latest removed.

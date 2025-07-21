@@ -1,0 +1,35 @@
+```diff
+--- a/django/core/management/commands/sqlmigrate.py
++++ b/django/core/management/commands/sqlmigrate.py
+@@ -37,7 +37,7 @@
+         # Make a fake schema editor
+         editor = connection.schema_editor(atomic=migration.atomic, collect_sql=True)
+         # Are we wrapping this migration in a transaction?
+-        self.output_transaction = migration.atomic
++        self.output_transaction = migration.atomic and connection.features.can_rollback_ddl
+         # Show begin transaction if needed
+         if self.output_transaction:
+             self.stdout.write(
+--- a/tests/migrations/test_commands.py
++++ b/tests/migrations/test_commands.py
+@@ -289,6 +289,18 @@
+         out = io.StringIO()
+         call_command("sqlmigrate", "migrations", "0001", stdout=out)
+         self.assertNotIn(self.get_begin_sql(), out.getvalue())
++
++    def test_sqlmigrate_for_unsupported_transactional_ddl_db(self):
++        """
++        sqlmigrate doesn't wrap migrations in a transaction on databases that
++        don't support transactional DDL.
++        """
++        out = io.StringIO()
++        with mock.patch('django.db.connection.features.can_rollback_ddl', False):
++            call_command("sqlmigrate", "migrations", "0001", stdout=out)
++        output = out.getvalue()
++        self.assertNotIn(self.get_begin_sql(), output)
++        self.assertNotIn(connection.ops.end_transaction_sql(), output)
+ 
+     @override_settings(MIGRATION_MODULES={"migrations": "migrations.test_migrations_empty"})
+     def test_sqlmigrate_empty_migration(self):
+
+```

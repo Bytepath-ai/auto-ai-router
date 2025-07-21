@@ -1,0 +1,113 @@
+```diff
+--- a/django/conf/global_settings.py
++++ b/django/conf/global_settings.py
+@@ -463,7 +463,7 @@
+     'django.core.files.uploadhandler.TemporaryFileUploadHandler',
+ ]
+ FILE_UPLOAD_MAX_MEMORY_SIZE = 2621440  # i.e. 2.5 MB
+-FILE_UPLOAD_PERMISSIONS = None
++FILE_UPLOAD_PERMISSIONS = 0o644
+ FILE_UPLOAD_DIRECTORY_PERMISSIONS = None
+ 
+ # Media files
+--- a/docs/howto/deployment/checklist.txt
++++ b/docs/howto/deployment/checklist.txt
+@@ -165,27 +165,22 @@
+ 
+ ``FILE_UPLOAD_PERMISSIONS``
+ ---------------------------
+-
+-.. versionchanged:: 2.1
+-
+-    The behavior of ``FILE_UPLOAD_PERMISSIONS`` was clarified.
+-
+-If your file upload settings allow users to upload files, you are **strongly**
+-encouraged to set this value to something sensible for your environment. The
+-default of ``None`` may result in inconsistent permissions for uploaded files,
+-depending on the upload handler and the ``umask`` of your process.
+-
+-On most platforms, files uploaded with
+-:class:`~django.core.files.uploadhandler.TemporaryFileUploadHandler` will be
+-saved with permissions of ``0o600``. Files uploaded with
+-:class:`~django.core.files.uploadhandler.MemoryFileUploadHandler` will have
+-permissions determined by your process's ``umask``.
+-
+-By default, Django uses a combination of these handlers. Small files are
+-processed in memory, and large files are written to disk. This means that the
+-size of a user's upload will determine the permissions of the saved file.
+-
+-Setting this value to ``0o644`` (or ``0o640``) is often desirable. This ensures
+-that uploaded files are readable by the user running the Django application, and
+-optionally by other members of the user's group.
++ 
++.. versionchanged:: 3.0
++ 
++    The default value of ``FILE_UPLOAD_PERMISSIONS`` was changed to ``0o644``.
++ 
++By default, Django saves uploaded files with permissions of ``0o644``. This
++ensures that uploaded files are readable by the user running the Django
++application, and readable by other users. If you need different permissions,
++you can change this setting. For example, ``0o640`` would make files readable
++only by the user running the Django application and members of its group.
++ 
++If you set this to ``None``, you will get operating-system dependent behavior
++which may result in inconsistent permissions for uploaded files, depending on
++the upload handler and the ``umask`` of your process. On most platforms, files
++uploaded with
++:class:`~django.core.files.uploadhandler.TemporaryFileUploadHandler` will be
++saved with permissions of ``0o600``. Files uploaded with
++:class:`~django.core.files.uploadhandler.MemoryFileUploadHandler` will have
++permissions determined by your process's ``umask``.
+--- a/docs/ref/settings.txt
++++ b/docs/ref/settings.txt
+@@ -2620,14 +2620,15 @@
+ 
+ FILE_UPLOAD_PERMISSIONS
+ =======================
+-
+-Default: ``None``
+-
+ The numeric mode (e.g. ``0o644``) to set newly uploaded files to.
+ 
+-If this isn't given or is ``None``, you'll get operating-system dependent
+-behavior. On most platforms, temporary files will have a mode of ``0o600``, and
+-files saved from memory will be saved using the system's standard umask.
++Default: ``0o644``
++
++If you set this to ``None``, you'll get operating-system dependent behavior. On
++most platforms, files saved from a temporary file will have a mode of
++``0o600``, and files saved from memory will be saved using the system's
++standard umask. Using the default value is recommended to ensure consistent
++permissions for all uploaded files.
+ 
+ For more details, see :ref:`file-upload-permissions`.
+ 
+@@ -2638,9 +2639,8 @@
+ The numeric mode (e.g. ``0o755``) to set newly created directories to when
+ uploading files.
+ 
+-This value mirrors the functionality and caveats of the
+-:setting:`FILE_UPLOAD_PERMISSIONS` setting.
++If this isn't given or is ``None``, you'll get operating-system dependent
++behavior based on the process's umask.
+ 
+ .. setting:: MEDIA_ROOT
+ 
+--- a/docs/releases/3.0.txt
++++ b/docs/releases/3.0.txt
+@@ -35,6 +35,13 @@
+ 
+ Backwards incompatible changes in 3.0
+ =====================================
++
++* The default value of the :setting:`FILE_UPLOAD_PERMISSIONS` setting is now
++  ``0o644``. Previously it was ``None``, which resulted in file permissions
++  that depended on the file upload handler being used and the process's
++  ``umask``. To restore the previous behavior, set
++  :setting:`FILE_UPLOAD_PERMISSIONS` to ``None``.
++
+ 
+ ``django.utils.encoding.force_text()`` and ``smart_text()``
+ -----------------------------------------------------------
+
+```

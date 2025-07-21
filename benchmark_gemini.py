@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Benchmark script for evaluating parallelsynthetize_route on SWE-bench tasks
+Benchmark script for evaluating Gemini 2.5 Pro on SWE-bench tasks
 """
 
 import json
@@ -17,7 +17,7 @@ from router import AIRouter
 
 
 def create_prompt_for_swebench_task(task: Dict[str, Any]) -> str:
-    """Create a prompt for the AI models to solve a SWE-bench task"""
+    """Create a prompt for Gemini to solve a SWE-bench task"""
     prompt = f"""You are an expert software engineer. You need to solve the following issue by providing a patch.
 
 Repository: {task['repo']}
@@ -54,23 +54,23 @@ fixes=fixes,
     return prompt
 
 
-def generate_prediction_with_parallelsynthetize(router: AIRouter, task: Dict[str, Any]) -> Dict[str, Any]:
-    """Generate a prediction for a single SWE-bench task using parallelsynthetize_route"""
+def generate_prediction_with_gemini(router: AIRouter, task: Dict[str, Any]) -> Dict[str, Any]:
+    """Generate a prediction for a single SWE-bench task using Gemini directly"""
     prompt = create_prompt_for_swebench_task(task)
     
     messages = [{"role": "user", "content": prompt}]
     
     try:
-        # Call parallelsynthetize_route
-        response, metadata = router.parallelsynthetize_route(messages, max_tokens=4000)
+        # Call Gemini directly
+        response = router.call_gemini(messages, max_tokens=4000, temperature=0.1)
         
-        # Extract the synthesized response
+        # Extract the response
         prediction = response.choices[0].message.content
         
         # Create prediction entry
         prediction_entry = {
             "instance_id": task["instance_id"],
-            "model_name_or_path": "parallelsynthetize_router",
+            "model_name_or_path": "gemini-2.5-pro",
             "model_patch": prediction
         }
         
@@ -80,28 +80,42 @@ def generate_prediction_with_parallelsynthetize(router: AIRouter, task: Dict[str
         print(f"Error processing task {task['instance_id']}: {str(e)}")
         return {
             "instance_id": task["instance_id"],
-            "model_name_or_path": "parallelsynthetize_router",
+            "model_name_or_path": "gemini-2.5-pro",
             "model_patch": "",  # Empty patch on error
             "error": str(e)
         }
 
 
-def benchmark_parallelsynthetize(
+def benchmark_gemini(
     dataset_name: str = "princeton-nlp/SWE-bench_Lite",
     output_file: str = None,
     limit: int = None,
     start_idx: int = 0
 ):
-    """Run benchmark on SWE-bench using parallelsynthetize_route"""
+    """Run benchmark on SWE-bench using Gemini 2.5 Pro directly"""
     
     # Initialize router
-    print("Initializing AI Router...")
-    router = AIRouter()
+    print("Initializing AI Router with Gemini 2.5 Pro...")
     
+    # Configure with Google API key
+    config = {
+        "google": {"api_key": os.getenv("GOOGLE_API_KEY")}
+    }
+    
+    if not config["google"]["api_key"]:
+        print("Error: GOOGLE_API_KEY environment variable not set!")
+        sys.exit(1)
+    
+    router = AIRouter(config=config)
+    
+    # Load dataset
+    print(f"Loading dataset: {dataset_name}")
     dataset = load_dataset(dataset_name, split="test")
     
+    # Apply limit if specified
     if limit:
         if limit == 1:
+            # For single item test, use index 10 like in original
             dataset = dataset.select(range(start_idx+10, start_idx + 11))
         else:
             dataset = dataset.select(range(start_idx, min(start_idx + limit, len(dataset))))
@@ -109,7 +123,7 @@ def benchmark_parallelsynthetize(
     # Prepare output file
     if output_file is None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_file = f"predictions_parallelsynthetize_{timestamp}.jsonl"
+        output_file = f"predictions_gemini_{timestamp}.jsonl"
     
     output_path = Path(output_file)
     
@@ -123,6 +137,8 @@ def benchmark_parallelsynthetize(
     
     print(f"Starting benchmark from index {start_idx}")
     print(f"Output will be saved to: {output_file}")
+    print(f"Total tasks to process: {len(dataset)}")
+    print("=" * 80)
     
     # Process tasks
     with open(output_path, 'a' if start_idx > 0 else 'w') as f:
@@ -135,9 +151,10 @@ def benchmark_parallelsynthetize(
                 continue
             
             print(f"\nProcessing [{idx+1}/{len(dataset)}]: {task['instance_id']}")
+            print(f"Repository: {task['repo']}")
             
             # Generate prediction
-            prediction = generate_prediction_with_parallelsynthetize(router, task)
+            prediction = generate_prediction_with_gemini(router, task)
             
             # Write to file immediately
             f.write(json.dumps(prediction) + '\n')
@@ -146,6 +163,8 @@ def benchmark_parallelsynthetize(
             # Print summary
             if not prediction.get('error'):
                 print(f"✓ Generated prediction for: {prediction['instance_id']}")
+                if prediction['model_patch']:
+                    print(f"  Patch length: {len(prediction['model_patch'])} characters")
             else:
                 print(f"✗ Error: {prediction['error']}")
     
@@ -192,7 +211,7 @@ def validate_predictions(predictions_file: str):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Benchmark parallelsynthetize_route on SWE-bench")
+    parser = argparse.ArgumentParser(description="Benchmark Gemini 2.5 Pro on SWE-bench")
     parser.add_argument("--dataset", default="princeton-nlp/SWE-bench_Lite", 
                        help="Dataset name (default: princeton-nlp/SWE-bench_Lite)")
     parser.add_argument("--output", help="Output file path (default: auto-generated)")
@@ -211,7 +230,7 @@ def main():
             print("\n✗ Predictions file has issues!")
     else:
         # Run benchmark
-        predictions_file = benchmark_parallelsynthetize(
+        predictions_file = benchmark_gemini(
             dataset_name=args.dataset,
             output_file=args.output,
             limit=args.limit,
@@ -226,7 +245,7 @@ def main():
             print(f"    --dataset_name {args.dataset} \\")
             print(f"    --predictions_path {predictions_file} \\")
             print(f"    --max_workers 8 \\")
-            print(f"    --run_id parallelsynthetize_eval")
+            print(f"    --run_id gemini_eval")
 
 
 if __name__ == "__main__":

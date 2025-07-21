@@ -1,0 +1,67 @@
+```diff
+--- a/astropy/modeling/core.py
++++ b/astropy/modeling/core.py
+@@ -1113,20 +1113,21 @@
+     def __init__(self, op, left, right, name=None, n_inputs_slotted=None):
+         self._op = op
+         self._left = left
+         self._right = right
+-
+         self._name = name
+         self._n_inputs = n_inputs_slotted
+ 
+-        if op in ['&', '|', '@']:
++        # The separability matrix of a compound model is determined
++        # recursively, and the recursion terminates when a model is
++        # not a CompoundModel. So we need to flatten nested compound
++        # models with & or | operators.
++        if op in ['&', '|']:
++            # The _tree property will re-balance the tree
++            left, right = self._tree
++            self._left = left
++            self._right = right
++        elif op == '@':
+             if op == '@':
+                 op = '|'
+-            tree = self._tree
+-            if tree:
+-                self._op, self._left, self._right = tree
+ 
+         self._initialize_slices()
+ 
+@@ -1678,22 +1679,19 @@
+         # TODO: It might be better to somehow make this a joint_inverse
+         # property of the two models, but that is a bigger change.
+         if self._op == '&':
+-            if isinstance(self._left, CompoundModel) and self._left.op == '&':
+-                left = self._left.left
+-                right = self._left.right & self._right
+-                # To be determined what to do with inverses
+-                return ('&', left, right)
+-            elif isinstance(self._right, CompoundModel) and self._right.op == '&':
+-                right_left = self._right.left
+-                right_right = self._right.right
+-                left = self._left & right_left
+-                right = right_right
+-                # To be determined what to do with inverses
+-                return ('&', left, right)
++            tree = self
++            while isinstance(tree._left, CompoundModel) and tree._left.op == '&':
++                tree = CompoundModel('&', tree._left.left, tree._left.right & tree._right)
++            return tree._left, tree._right
+         elif self._op == '|':
+-            if isinstance(self._left, CompoundModel) and self._left.op == '|':
+-                left = self._left.left
+-                right = self._left.right | self._right
+-                return ('|', left, right)
+-
+-        return None
++            tree = self
++            while isinstance(tree._left, CompoundModel) and tree._left.op == '|':
++                tree = CompoundModel('|', tree._left.left, tree._left.right | tree._right)
++            return tree._left, tree._right
++        # The other operators do not need to be flattened as they can't be
++        # nested, so we just return the left and right models.
++        return self._left, self._right
+
+```

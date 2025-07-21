@@ -1,0 +1,38 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -1659,8 +1659,8 @@
+     description = _("Duration")
+ 
+     default_error_messages = {
+-        'invalid': _("'%(value)s' value has an invalid format. It must be in "
+-                     "[DD] [HH:[MM:]]ss[.uuuuuu] format."),
++        'invalid': _("'%(value)s' value has an invalid format. It must be in "
++                     "[DD] [[HH:]MM:]ss[.uuuuuu] format."),
+         'invalid_days': _("'%(value)s' value has an invalid format for days."),
+         'invalid_time': _("'%(value)s' value has an invalid format for time."),
+     }
+@@ -1711,3 +1711,8 @@
+                 params={'value': value},
+             )
+             return value
++
++    def formfield(self, **kwargs):
++        if not self.help_text and 'help_text' not in kwargs:
++            kwargs['help_text'] = _('Format: [DD] [[HH:]MM:]ss[.uuuuuu]')
++        return super().formfield(**kwargs)
+--- a/django/utils/dateparse.py
++++ b/django/utils/dateparse.py
+@@ -111,8 +111,8 @@
+ def parse_duration(value):
+     """
+     Parse a duration string and return a datetime.timedelta.
+-
+-    The format is ``[DD] [HH:[MM:]]ss[.uuuuuu]``.
++
++    The format is ``[DD] [[HH:]MM:]ss[.uuuuuu]``.
+     """
+     match = duration_re.match(value)
+     if match:
+
+```

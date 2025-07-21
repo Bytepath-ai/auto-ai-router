@@ -888,3 +888,74 @@ class AIRouter:
         """Load and parse statistics from file"""
         with self.stats_lock:
             return self._load_statistics_raw()
+    
+    def call_gemini(self, 
+                    messages: List[Dict[str, str]], 
+                    **kwargs) -> Any:
+        """Direct call to Gemini 2.5 Pro model"""
+        # Use the Gemini 2.5 Pro model directly
+        model_id = f"{self.models['gemini-2.5-pro'].provider}:{self.models['gemini-2.5-pro'].model_id}"
+        
+        # Log the direct call
+        user_prompt = ""
+        for msg in reversed(messages):
+            if msg.get("role") == "user":
+                user_prompt = msg.get("content", "")
+                break
+        
+        print(f"Direct call to Gemini 2.5 Pro")
+        print(f"User prompt: {user_prompt[:100]}..." if len(user_prompt) > 100 else f"User prompt: {user_prompt}")
+        
+        # Make the direct call
+        response = self.client.chat.completions.create(
+            model=model_id,
+            messages=messages,
+            **kwargs
+        )
+        
+        return response
+
+
+def main():
+    """Example usage of the AIRouter with direct Gemini call"""
+    # Load API keys from environment
+    config = {
+        "openai": {"api_key": os.getenv("OPENAI_API_KEY")},
+        "anthropic": {"api_key": os.getenv("ANTHROPIC_API_KEY")},
+        "google": {"api_key": os.getenv("GOOGLE_API_KEY")},
+        "xai": {"api_key": os.getenv("XAI_API_KEY")}
+    }
+    
+    # Create router instance
+    router = AIRouter(config)
+    
+    # Example prompt
+    test_prompt = "Write a Python function that calculates the Fibonacci sequence"
+    
+    # Create messages for the API call
+    messages = [
+        {"role": "user", "content": test_prompt}
+    ]
+    
+    try:
+        print("=" * 80)
+        print("Direct Gemini 2.5 Pro Call Example")
+        print("=" * 80)
+        
+        # Call Gemini directly
+        response = router.call_gemini(messages, temperature=0.7, max_tokens=500)
+        
+        # Extract and display the response
+        gemini_response = response.choices[0].message.content
+        print(f"\nGemini 2.5 Pro Response:")
+        print("-" * 40)
+        print(gemini_response)
+        print("-" * 40)
+        
+    except Exception as e:
+        print(f"Error: {e}")
+        print("Make sure you have set the GOOGLE_API_KEY environment variable")
+
+
+if __name__ == "__main__":
+    main()

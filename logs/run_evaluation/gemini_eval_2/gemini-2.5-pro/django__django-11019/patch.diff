@@ -1,0 +1,292 @@
+```diff
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -1,5 +1,6 @@
+ "HTML Widget classes"
+ 
++import warnings
+ from copy import deepcopy
+ 
+ from django.conf import settings
+@@ -11,6 +12,10 @@
+ from django.utils.safestring import mark_safe
+ from django.utils.translation import gettext_lazy as _
+ 
++
++class MediaOrderConflictWarning(RuntimeWarning):
++    pass
++
+ # A list of time formats that are accepted by TimeField.
+ TIME_INPUT_FORMATS = [
+     '%H:%M:%S',  # '14:30:59'
+@@ -46,16 +51,23 @@
+             self._css_lists = []
+             self._js_lists = []
+ 
+-        if css:
+-            self._css_lists.extend(css.items() if isinstance(css, dict) else [(None, css)])
+-        if js:
+-            self._js_lists.append(js)
++        if css:
++            css_items = css.items() if isinstance(css, dict) else [(None, css)]
++            for medium, path_list in css_items:
++                if not isinstance(path_list, (list, tuple)):
++                    path_list = [path_list]
++                self._css_lists.append((medium, list(dict.fromkeys(path_list))))
++        if js:
++            if not isinstance(js, (list, tuple)):
++                js = [js]
++            self._js_lists.append(list(dict.fromkeys(js)))
+ 
+     def __repr__(self):
+         return 'Media(css=%r, js=%r)' % (self.css, self.js)
+ 
+     def __str__(self):
+         return self.render()
+ 
+     def render(self):
+         return self.render_js() + self.render_css()
+@@ -94,76 +106,161 @@
+     @property
+     def _js(self):
+         if not self._js_lists:
+             return []
+-        # filter(None, ...) avoids calling merge() with empty lists.
+-        js = self._js_lists[0]
+-        for obj in filter(None, self._js_lists[1:]):
+-            js = self.merge(js, obj)
+-        return js
++        return self.merge_js(self._js_lists)
+ 
+     @property
+     def _css(self):
+-        css = {}
+-        for medium, list_of_files in self._css_lists:
+-            if medium not in css:
+-                css[medium] = []
+-            for f in list_of_files:
+-                if f not in css[medium]:
+-                    css[medium].append(f)
+-        return css
++        if not self._css_lists:
++            return {}
++        return self.merge_css(self._css_lists)
+ 
+     def __add__(self, other):
+         new = Media()
+         new._css_lists = self._css_lists + other._css_lists
+         new._js_lists = self._js_lists + other._js_lists
+         return new
+ 
+     @staticmethod
+-    def merge(list1, list2):
+-        """
+-        Merge two lists of scripts. The general idea is to return a list of
+-        scripts that's a combination of both lists, with no duplicates. If a
+-        script is in both lists, it will be returned at the first position it
+-        appears in either list.
+-        """
+-        if not list1:
+-            return list2
+-        if not list2:
+-            return list1
+-
+-        # The merge logic is subtle. It is strongly inspired by
+-        # https://github.com/seb-m/py-generic-merge
+-        # We are trying to preserve the order of both lists.
+-        # For example, if we have list1=[a, b, c] and list2=[a, d, c],
+-        # we want to return [a, b, d, c] and not [a, d, b, c].
+-        # We can do that by finding the longest common subsequence (LCS) of
+-        # both lists. The non-LCS items are then inserted at the right place.
+-        # In our example, LCS is [a, c]. The non-LCS items are [b] and [d].
+-        # [b] is between a and c, so we insert it there.
+-        # [d] is between a and c, so we insert it there.
+-        # The only undefined behavior is where to insert items that are at the
+-        # same place. For example, if list1=[a, b, c] and list2=[a, d, c],
+-        # then both b and d are between a and c. We can insert b then d, or
+-        # d then b. The current implementation favors list1, so it will be
+-        # b then d.
+-        def _merge(list1, list2):
+-            if not list1:
+-                return list2, []
+-            if not list2:
+-                return list1, []
+-
+-            merged, conflicts = [], []
+-            sentinel = object()
+-            i1 = i2 = 0
+-            while i1 < len(list1) or i2 < len(list2):
+-                item1 = list1[i1] if i1 < len(list1) else sentinel
+-                item2 = list2[i2] if i2 < len(list2) else sentinel
+-                if item1 == item2:
+-                    merged.append(item1)
+-                    i1 += 1
+-                    i2 += 1
+-                elif item1 in list2[i2:]:
+-                    if item2 in list1[i1:]:
+-                        conflicts.append((item1, item2))
+-                        # Favor list1 by default.
+-                        merged.append(item1)
+-                        i1 += 1
+-                    else:
+-                        merged.append(item2)
+-                        i2 += 1
+-                else:
+-                    merged.append(item1)
+-                    i1 += 1
+-            return merged, conflicts
+-
+-        merged, conflicts = _merge(list1, list2)
+-        if conflicts:
+-            warnings.warn(
+-                'Detected duplicate Media files in an opposite order:\n' +
+-                '\n'.join('  %s\n  %s' % c for c in conflicts),
+-                MediaOrderConflictWarning, stacklevel=2
+-            )
+-        return merged
++    def merge_js(lists):
++        """
++        Merge lists of scripts, while preserving order and removing duplicates.
++        """
++        if not lists:
++            return []
++
++        # A list of all items that have been seen, in the order they appear
++        # in the resulting list.
++        seen = []
++        # A list of all items that have been included in the resulting list.
++        result = []
++
++        # The dependency graph is a dictionary mapping items to a list of
++        # items that must come after it.
++        dependencies = {}
++
++        # The list of items that have no dependencies, and can be added to
++        # the result list.
++        roots = []
++
++        # A list of all unique items.
++        all_items = []
++
++        # A dictionary mapping items to the list of input lists that they
++        # appear in.
++        lists_containing = {}
++
++        # First, gather all unique items and their locations.
++        for lst in lists:
++            # The list was already deduplicated in __init__() or __add__().
++            for item in lst:
++                if item not in all_items:
++                    all_items.append(item)
++                    lists_containing[item] = []
++                lists_containing[item].append(lst)
++
++        # Build the dependency graph.
++        for item in all_items:
++            dependencies[item] = []
++
++        for lst in lists:
++            for i, item in enumerate(lst):
++                # Every item later in a list is a dependency of the current
++                # item.
++                for dependency in lst[i + 1:]:
++                    dependencies[item].append(dependency)
++
++        # Find the roots (items that are not dependencies of any other item).
++        dependency_items = {
++            dep for deps in dependencies.values() for dep in deps
++        }
++        for item in all_items:
++            if item not in dependency_items:
++                roots.append(item)
++
++        # The main loop.
++        while roots:
++            # The order of items in roots is not significant, so sort them to
++            # ensure a consistent output.
++            roots.sort()
++            root = roots.pop(0)
++
++            if root in seen:
++                continue
++            seen.append(root)
++
++            # Look for cycles.
++            for lst in lists_containing[root]:
++                try:
++                    i = lst.index(root)
++                    for prev_item in lst[:i]:
++                        if prev_item not in seen:
++                            # This is a dependency cycle.
++                            warnings.warn(
++                                'Detected duplicate Media files in an '
++                                'opposite order:\n%s\n%s' % (root, prev_item),
++                                MediaOrderConflictWarning,
++                                stacklevel=2,
++                            )
++                            # Break the cycle by removing the dependency.
++                            dependencies[prev_item].remove(root)
++                except ValueError:
++                    # The root is not in this list, so we don't need to
++                    # check for cycles.
++                    pass
++
++            result.append(root)
++
++            # Update the dependency graph.
++            for dependency in sorted(dependencies.pop(root, [])):
++                # If the dependency is not a dependency of any other item,
++                # it is now a root.
++                is_dependency = any(
++                    dependency in deps for deps in dependencies.values()
++                )
++                if not is_dependency:
++                    roots.append(dependency)
++
++        # If there are any items left in the dependency graph, they are part
++        # of a cycle.
++        if dependencies:
++            # The cycle detection above should have broken all cycles.
++            # This is a fallback to ensure that we don't get into an
++            # infinite loop.
++            result.extend(
++                sorted(item for item in dependencies if item not in result)
++            )
++
++        return result
++
++    @staticmethod
++    def merge_css(lists):
++        """
++        Merge lists of CSS files, while preserving order and removing
++        duplicates.
++        """
++        if not lists:
++            return {}
++
++        # The list of all unique media types.
++        media_types = []
++        for medium, _ in lists:
++            if medium not in media_types:
++                media_types.append(medium)
++
++        # A dictionary mapping media types to a list of all files for that
++        # type.
++        files_by_media = {}
++        for media_type in media_types:
++            files_by_media[media_type] = []
++            for m, files in lists:
++                if m == media_type:
++                    files_by_media[media_type].append(files)
++
++        # Merge the files for each media type.
++        result = {}
++        for media_type in media_types:
++            result[media_type] = Media.merge_js(files_by_media[media_type])
++
++        return result
+ 
+ 
+ class Widget:
+
+```

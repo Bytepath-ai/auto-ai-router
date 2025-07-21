@@ -1,0 +1,28 @@
+```diff
+--- a/astropy/wcs/wcs.py
++++ b/astropy/wcs/wcs.py
+@@ -1220,6 +1220,12 @@
+                 if not all(x.shape == axes[0].shape for x in axes):
+                     raise ValueError("Input arrays must be of the same shape")
+ 
++                # Handle empty arrays
++                if self.naxis > 0 and axes[0].size == 0:
++                    return [np.array([], dtype=np.float_)
++                            for i in range(self.naxis)]
++
+                 xy = np.vstack(axes)
+                 if ra_dec_order and sky == 'input':
+                     xy = self._denormalize_sky(xy)
+@@ -1245,6 +1251,11 @@
+                     "When providing a single array, it must be 2-dimensional")
+ 
+             def _return_array(xy, origin):
++                # Handle empty arrays
++                if xy.shape[0] == 0:
++                    return np.empty((0, self.naxis), dtype=np.float_)
++
+                 if ra_dec_order and sky == 'input':
+                     xy = self._denormalize_sky(xy)
+                 output = func(xy, origin)
+
+```

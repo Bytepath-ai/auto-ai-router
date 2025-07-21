@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -40,7 +40,7 @@
+         # used for compile().
+         self.pre_sql_setup()
+ 
+-        self.ordering_parts = re.compile(r'(.*)\s+(?:ASC|DESC)', re.IGNORECASE)
++        self.ordering_parts = re.compile(r'(.*)\s+(?:ASC|DESC)', re.IGNORECASE | re.DOTALL)
+ 
+     def pre_sql_setup(self):
+         """
+
+```

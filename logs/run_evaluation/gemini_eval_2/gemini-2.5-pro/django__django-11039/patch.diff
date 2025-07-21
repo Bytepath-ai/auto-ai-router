@@ -1,0 +1,47 @@
+```diff
+--- a/django/core/management/commands/sqlmigrate.py
++++ b/django/core/management/commands/sqlmigrate.py
+@@ -62,7 +62,10 @@
+             sql_statements = executor.collect_sql(plan)
+         else:
+             for migration, backwards in plan:
+-                self.output_transaction = migration.atomic
++                # A migration that is atomic on a database that doesn't support
++                # transactional DDL will be wrapped in a transaction by the
++                # database itself, so we don't need to do it here.
++                self.output_transaction = migration.atomic and connection.features.can_rollback_ddl
+                 with connection.schema_editor(collect_sql=True, atomic=migration.atomic) as schema_editor:
+                     if backwards:
+                         migration.apply(project_state, schema_editor, collect_sql=True)
+--- a/tests/migrations/test_commands.py
++++ b/tests/migrations/test_commands.py
+@@ -1,5 +1,6 @@
+ import io
+ from unittest import mock
++
+ from django.core.management import call_command
+ from django.db import connection
+ from django.db.migrations.recorder import MigrationRecorder
+@@ -219,6 +220,20 @@
+             self.assertNotIn(self.get_begin_sql(), output)
+             self.assertNotIn(self.get_commit_sql(), output)
+ 
++    @mock.patch.object(connection.features, 'can_rollback_ddl', False)
++    def test_sqlmigrate_for_database_without_transactional_ddl(self):
++        """
++        sqlmigrate doesn't wrap migrations in a transaction on databases that
++        don't support transactional DDL.
++        """
++        out = io.StringIO()
++        # Use a normal atomic migration.
++        call_command('sqlmigrate', 'migrations', '0001', stdout=out)
++        output = out.getvalue()
++        self.assertIn('CREATE TABLE', output)
++        self.assertNotIn(self.get_begin_sql(), output)
++        self.assertNotIn(self.get_commit_sql(), output)
++
+     @override_settings(MIGRATION_MODULES={'migrations': 'migrations.test_migrations_non_atomic'})
+     def test_sqlmigrate_non_atomic(self):
+         """
+
+```

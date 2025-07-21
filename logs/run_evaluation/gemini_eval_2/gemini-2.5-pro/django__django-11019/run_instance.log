@@ -1,0 +1,2957 @@
+2025-07-22 00:50:09,146 - INFO - Creating container for django__django-11019...
+2025-07-22 00:50:09,466 - INFO - Container for django__django-11019 created: a122f718f86dca3fb8e319afb5161e1b08189fda8a6d60c1e39e4c244759c52e
+2025-07-22 00:50:09,739 - INFO - Container for django__django-11019 started: a122f718f86dca3fb8e319afb5161e1b08189fda8a6d60c1e39e4c244759c52e
+2025-07-22 00:50:09,739 - INFO - Intermediate patch for django__django-11019 written to logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/patch.diff, now applying to container...
+2025-07-22 00:50:09,902 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 00:50:09,999 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 00:50:10,096 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 00:50:10,096 - INFO - >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,101 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,102 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,103 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,104 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,104 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,104 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,104 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,104 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,104 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,104 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,104 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,104 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,104 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,104 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,104 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,104 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,104 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,104 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,105 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 00:50:10,105 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,105 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,105 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,105 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,105 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,105 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,105 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,105 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,105 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,105 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,106 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,107 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,108 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,108 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,108 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,108 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,108 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,108 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,108 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,108 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,108 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,108 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,108 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,108 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,108 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 12 with fuzz 3.
+patch: **** malformed patch at line 49: @@ -94,76 +106,161 @@
+
+
+Check (logs/run_evaluation/gemini_eval_2/gemini-2.5-pro/django__django-11019/run_instance.log) for more information.
+
+2025-07-22 00:50:10,108 - INFO - Attempting to stop container sweb.eval.django__django-11019.gemini_eval_2...
+2025-07-22 00:50:25,441 - INFO - Attempting to remove container sweb.eval.django__django-11019.gemini_eval_2...
+2025-07-22 00:50:25,449 - INFO - Container sweb.eval.django__django-11019.gemini_eval_2 removed.
+2025-07-22 00:50:25,449 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-11019:latest...
+2025-07-22 00:50:25,876 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-11019:latest removed.
