@@ -1,13 +1,16 @@
 {
     "total_instances": 300,
     "submitted_instances": 1,
-    "completed_instances": 0,
-    "resolved_instances": 0,
+    "completed_instances": 1,
+    "resolved_instances": 1,
     "unresolved_instances": 0,
     "empty_patch_instances": 0,
-    "error_instances": 1,
-    "completed_ids": [],
+    "error_instances": 0,
+    "completed_ids": [
+        "django__django-11039"
+    ],
     "incomplete_ids": [
+        "astropy__astropy-12907",
         "astropy__astropy-14182",
         "astropy__astropy-14365",
         "astropy__astropy-14995",
@@ -17,7 +20,6 @@
         "django__django-10924",
         "django__django-11001",
         "django__django-11019",
-        "django__django-11039",
         "django__django-11049",
         "django__django-11099",
         "django__django-11133",
@@ -310,12 +312,12 @@
     ],
     "empty_patch_ids": [],
     "submitted_ids": [
-        "astropy__astropy-12907"
+        "django__django-11039"
     ],
-    "resolved_ids": [],
+    "resolved_ids": [
+        "django__django-11039"
+    ],
     "unresolved_ids": [],
-    "error_ids": [
-        "astropy__astropy-12907"
-    ],
+    "error_ids": [],
     "schema_version": 2
 }

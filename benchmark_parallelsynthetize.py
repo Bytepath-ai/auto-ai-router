@@ -16,17 +16,6 @@ from datasets import load_dataset
 from router import AIRouter
 
 
-def load_swebench_dataset(dataset_name: str = "princeton-nlp/SWE-bench_Lite", split: str = "test", limit: int = None):
-    """Load SWE-bench dataset from HuggingFace"""
-    print(f"Loading dataset: {dataset_name}")
-    dataset = load_dataset(dataset_name, split=split)
-    
-    if limit:
-        dataset = dataset.select(range(min(limit, len(dataset))))
-    
-    return dataset
-
-
 def create_prompt_for_swebench_task(task: Dict[str, Any]) -> str:
     """Create a prompt for the AI models to solve a SWE-bench task"""
     prompt = f"""You are an expert software engineer. You need to solve the following issue by providing a patch.
@@ -94,8 +83,13 @@ def benchmark_parallelsynthetize(
     print("Initializing AI Router...")
     router = AIRouter()
     
-    # Load dataset
-    dataset = load_swebench_dataset(dataset_name, limit=limit)
+    dataset = load_dataset(dataset_name, split="test")
+    
+    if limit:
+        if limit == 1:
+            dataset = dataset.select(range(start_idx+10, start_idx + 11))
+        else:
+            dataset = dataset.select(range(start_idx, min(start_idx + limit, len(dataset))))
     
     # Prepare output file
     if output_file is None:
@@ -216,7 +210,7 @@ def main():
             print(f"  python -m swebench.harness.run_evaluation \\")
             print(f"    --dataset_name {args.dataset} \\")
             print(f"    --predictions_path {predictions_file} \\")
-            print(f"    --max_workers 4 \\")
+            print(f"    --max_workers 8 \\")
             print(f"    --run_id parallelsynthetize_eval")
 
 

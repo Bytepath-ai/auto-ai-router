@@ -1,0 +1,47 @@
+```diff
+--- a/django/core/management/commands/sqlmigrate.py
++++ b/django/core/management/commands/sqlmigrate.py
+@@ -37,7 +37,7 @@
+         migration = loader.get_migration(app_label, migration_name)
+ 
+         # Set transaction pending status
+-        self.output_transaction = migration.atomic
++        self.output_transaction = migration.atomic and connection.features.can_rollback_ddl
+ 
+         # Make a new schema editor for the connection
+         editor = connection.schema_editor(atomic=self.output_transaction, collect_sql=True)
+--- a/tests/migrations/test_commands.py
++++ b/tests/migrations/test_commands.py
+@@ -1,5 +1,6 @@
+ import io
+ import os
+ import sys
++from unittest import mock
+ 
+ from django.apps import apps
+ from django.core.management import CommandError, call_command
+@@ -531,6 +532,22 @@
+         output = out.getvalue()
+         self.assertNotIn(self.TRANSACTION_START, output)
+         self.assertNotIn(self.TRANSACTION_END, output)
++
++    @mock.patch.object(connection.features, 'can_rollback_ddl', False)
++    def test_sqlmigrate_for_db_that_doesnt_support_ddl_transactions(self):
++        """
++        sqlmigrate doesn't wrap migrations in a transaction on databases that
++        don't support transactional DDL.
++        """
++        # We need to launch `migrate` so the migration is available
++        # for `sqlmigrate`.
++        call_command('migrate', 'migrations', '0001', verbosity=0)
++        out = io.StringIO()
++        # Get the output of sqlmigrate
++        call_command('sqlmigrate', 'migrations', '0001', stdout=out)
++        output = out.getvalue()
++        self.assertNotIn(self.TRANSACTION_START, output)
++        self.assertNotIn(self.TRANSACTION_END, output)
+ 
+     def test_sqlmigrate_app_label_no_migration_number(self):
+         """
+
+```
