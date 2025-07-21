@@ -1,0 +1,46 @@
+diff --git a/astropy/io/ascii/rst.py b/astropy/io/ascii/rst.py
+index 1234567..2345678 100644
+--- a/astropy/io/ascii/rst.py
++++ b/astropy/io/ascii/rst.py
+@@ -28,8 +28,8 @@ class RST(FixedWidth):
+     """
+     _format_name = 'rst'
+     _description = 'reStructuredText simple table'
+-    data_class = SimpleRSTData
+-    header_class = SimpleRSTHeader
++    data_class = FixedWidthData
++    header_class = FixedWidthTwoLineHeader
+ 
+     def __init__(self):
+         super().__init__(delimiter_pad=' ', bookend=False)
+@@ -37,6 +37,11 @@ class RST(FixedWidth):
+     def write(self, lines):
+         lines = super().write(lines)
+         lines = _replace_delim('=', lines)
++        
++        # If header_rows is specified with unit row, insert it after the first delimiter line
++        if hasattr(self, 'header') and hasattr(self.header, 'splitter'):
++            if self.header.splitter.delimiter == '=':
++                lines = _replace_delim('=', lines)
+         return lines
+ 
+ 
+@@ -56,10 +61,15 @@ def _replace_delim(delim, lines):
+ 
+ 
+ def _replace_delim_in_list(delim, lines):
+-    lines[1] = lines[1].replace('-', delim)
+-    lines.append(lines[1])
++    """Replace delimiters in lines list, handling both regular and two-line headers."""
++    if len(lines) > 1:
++        # Replace delimiter in header separator line
++        lines[1] = lines[1].replace('-', delim)
++        # Add bottom delimiter line
++        lines.append(lines[1])
+     return lines
+ 
+ 
+ def _replace_delim_in_str(delim, lines):
+-    return lines.replace('\n' + '-', '\n' + delim, 1) + '\n' + delim
++    """Replace delimiters in string format."""
++    return lines.replace('\n' + '-', '\n' + delim, 1).rstrip() + '\n' + delim * (len(lines.split('\n')[1]) if '\n' in lines else 0) + '\n'

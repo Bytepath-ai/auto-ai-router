@@ -1,0 +1,3202 @@
+2025-07-21 20:21:18,479 - INFO - Creating container for django__django-11049...
+2025-07-21 20:21:18,794 - INFO - Container for django__django-11049 created: 36505046bf5ebed2200954c80875fbbcb93841725a561cb3ee09d880af6d523e
+2025-07-21 20:21:19,008 - INFO - Container for django__django-11049 started: 36505046bf5ebed2200954c80875fbbcb93841725a561cb3ee09d880af6d523e
+2025-07-21 20:21:19,008 - INFO - Intermediate patch for django__django-11049 written to logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/patch.diff, now applying to container...
+2025-07-21 20:21:19,184 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-21 20:21:19,261 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-21 20:21:19,354 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-21 20:21:19,354 - INFO - >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-21 20:21:19,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11049: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/widgets.py
+Hunk #1 FAILED at 345.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/widgets.py.rej
+patch: **** malformed patch at line 36:          return super().formfield(**defaults)
+
+patching file django/db/models/fields/__init__.py
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11049/run_instance.log) for more information.
+
+2025-07-21 20:21:19,361 - INFO - Attempting to stop container sweb.eval.django__django-11049.parallelsynthetize_eval_2...
+2025-07-21 20:21:34,775 - INFO - Attempting to remove container sweb.eval.django__django-11049.parallelsynthetize_eval_2...
+2025-07-21 20:21:34,783 - INFO - Container sweb.eval.django__django-11049.parallelsynthetize_eval_2 removed.
+2025-07-21 20:21:34,783 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-11049:latest...
+2025-07-21 20:21:35,173 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-11049:latest removed.

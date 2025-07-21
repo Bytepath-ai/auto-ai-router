@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -62,7 +62,7 @@
+         self.select_aliases = set()
+         self.table_aliases = set()
+         self.found_aggregates = set()
+-        self.ordering_parts = re.compile(r'(.*)\s+(?:ASC|DESC)\s*$', re.IGNORECASE)
++        self.ordering_parts = re.compile(r'(.*)\s+(?:ASC|DESC)\s*$', re.IGNORECASE | re.DOTALL)
+ 
+     @cached_property
+     def select_related_idx(self):
+
+```

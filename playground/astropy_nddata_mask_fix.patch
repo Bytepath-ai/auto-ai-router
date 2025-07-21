@@ -1,0 +1,13 @@
+diff --git a/astropy/nddata/mixins/ndarithmetic.py b/astropy/nddata/mixins/ndarithmetic.py
+index 1234567..abcdefg 100644
+--- a/astropy/nddata/mixins/ndarithmetic.py
++++ b/astropy/nddata/mixins/ndarithmetic.py
+@@ -537,7 +537,7 @@ class NDArithmeticMixin:
+         elif self.mask is None and operand is not None:
+             # Make a copy so there is no reference in the result.
+             return deepcopy(operand.mask)
+-        elif operand is None or getattr(operand, "mask", None) is None:
++        elif operand is None or (operand is not None and operand.mask is None):
+             # first condition lets through masks within collapse operations,
+             # second lets through masks when doing arithmetic on an
+             # operand without a mask:

@@ -1,0 +1,27 @@
+```diff
+--- a/django/http/response.py
++++ b/django/http/response.py
+@@ -246,9 +246,9 @@
+ class HttpResponseBase:
+     def make_bytes(self, value):
+         """Turn a value into a bytestring encoded in the output charset."""
+-        # Handle non-string types
+-        if isinstance(value, bytes):
+-            return value
++        # Handle bytes-like types
++        if isinstance(value, (bytes, memoryview)):
++            return bytes(value)
+         if isinstance(value, str):
+             # If the value is a string, encode it using the response charset.
+             return value.encode(self.charset)
+@@ -321,7 +321,7 @@
+     @content.setter
+     def content(self, value):
+         # Consume iterators upon assignment to allow repeated iteration.
+-        if hasattr(value, "__iter__") and not isinstance(value, (bytes, str)):
++        if hasattr(value, "__iter__") and not isinstance(value, (bytes, str, memoryview)):
+             content = b"".join(self.make_bytes(chunk) for chunk in value)
+             if hasattr(value, "close"):
+                 try:
+
+```

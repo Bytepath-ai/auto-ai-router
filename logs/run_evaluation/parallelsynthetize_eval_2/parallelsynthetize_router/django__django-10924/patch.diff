@@ -1,0 +1,40 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -1798,7 +1798,9 @@
+         ]
+ 
+     def _check_path(self):
+-        if self.path and not os.path.isdir(self.path):
++        if callable(self.path):
++            return []
++        if self.path and not os.path.isdir(self.path):
+             return [
+                 checks.Error(
+                     "'FilePathField.path' must be a directory.",
+@@ -1831,8 +1833,9 @@
+         return name, path, args, kwargs
+ 
+     def formfield(self, **kwargs):
++        path = self.path() if callable(self.path) else self.path
+         return super().formfield(**{
+-            'path': self.path,
++            'path': path,
+             'match': self.match,
+             'recursive': self.recursive,
+             'allow_files': self.allow_files,
+--- a/django/forms/fields.py
++++ b/django/forms/fields.py
+@@ -1088,9 +1088,11 @@
+ 
+     def __init__(self, path, *, match=None, recursive=False, allow_files=True,
+                  allow_folders=False, **kwargs):
+-        self.path = path
++        if callable(path):
++            path = path()
++        self.path = path
+         self.match = match
+         self.recursive = recursive
+         self.allow_files = allow_files
+
+```

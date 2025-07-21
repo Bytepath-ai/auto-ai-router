@@ -181,7 +181,7 @@ def main():
     parser.add_argument("--dataset", default="princeton-nlp/SWE-bench_Lite", 
                        help="Dataset name (default: princeton-nlp/SWE-bench_Lite)")
     parser.add_argument("--output", help="Output file path (default: auto-generated)")
-    parser.add_argument("--limit", type=int, help="Limit number of tasks to process", default=1)
+    parser.add_argument("--limit", type=int, help="Limit number of tasks to process", default=20)
     parser.add_argument("--start-idx", type=int, default=0, 
                        help="Start from this index (for resuming)")
     parser.add_argument("--validate-only", help="Only validate existing predictions file")

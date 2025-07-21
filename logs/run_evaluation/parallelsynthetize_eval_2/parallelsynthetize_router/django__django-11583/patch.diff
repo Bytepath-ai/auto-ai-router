@@ -1,0 +1,21 @@
+```diff
+--- a/django/utils/autoreload.py
++++ b/django/utils/autoreload.py
+@@ -129,7 +129,13 @@
+                     # A path has an embedded null byte.
+                     continue
+             else:
+-                results.add(path.resolve().absolute())
++                # The path is already a Path object.
++                try:
++                    results.add(path.resolve().absolute())
++                except (ValueError, FileNotFoundError):
++                    # path.resolve() may raise ValueError on some platforms if the
++                    # path contains an embedded null byte, or FileNotFoundError
++                    # if the path is a broken symlink.
++                    pass
+         return frozenset(results)
+ 
+ 
+
+```

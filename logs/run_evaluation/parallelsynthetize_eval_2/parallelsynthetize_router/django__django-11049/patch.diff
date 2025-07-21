@@ -1,0 +1,49 @@
+```diff
+--- a/django/contrib/admin/widgets.py
++++ b/django/contrib/admin/widgets.py
+@@ -345,7 +345,7 @@
+ 
+             def get_context(self, name, value, attrs):
+                 context = super().get_context(name, value, attrs)
+-                context['widget']['format'] = _('[DD] [HH:[MM:]]ss[.uuuuuu]')
++                context['widget']['format'] = _('[DD] [[HH:]MM:]ss[.uuuuuu]')
+                 return context
+ 
+ 
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -1862,13 +1862,17 @@
+ class DurationField(Field):
+     empty_strings_allowed = False
+     default_error_messages = {
+-        'invalid': _("'%(value)s' value has an invalid format. It must be in "
+-                     "[DD] [HH:[MM:]]ss[.uuuuuu] format.")
++        'invalid': _(
++            "'%(value)s' value has an invalid format. It must be in "
++            "[DD] [[HH:]MM:]ss[.uuuuuu] format."
++        ),
+     }
+     description = _("Duration")
+ 
+     def formfield(self, **kwargs):
+         from django.forms import DurationField as DurationFormField
+-        defaults = {'form_class': DurationFormField}
++        defaults = {
++            'form_class': DurationFormField,
++            'help_text': _('Enter a duration in [DD] [[HH:]MM:]ss[.uuuuuu] format.'),
++        }
+         defaults.update(kwargs)
+         return super().formfield(**defaults)
+--- a/django/utils/dateparse.py
++++ b/django/utils/dateparse.py
+@@ -102,7 +102,7 @@
+ def parse_duration(value):
+     """
+     Parse a duration string and return a datetime.timedelta.
+-    The format is ``[DD] [HH:[MM:]]ss[.uuuuuu]`` or ISO 8601 format.
++    The format is ``[DD] [[HH:]MM:]ss[.uuuuuu]`` or ISO 8601 format.
+ 
+     Raise ValueError if the input is invalid.
+     """
+
+```

@@ -1,0 +1,11 @@
+--- a/django/core/management/commands/sqlmigrate.py
++++ b/django/core/management/commands/sqlmigrate.py
+@@ -56,7 +56,7 @@ class Command(BaseCommand):
+                 "Cannot find a migration matching '%s' from app '%s'. Is it in "
+                 "INSTALLED_APPS?" % (options["migration_name"], options["app_label"])
+             )
+-        self.output_transaction = migration.atomic
++        self.output_transaction = migration.atomic and connection.features.can_rollback_ddl
+ 
+         # Make a plan that represents just the requested migration and print SQL for it
+         plan = [(migration, options["backwards"])]

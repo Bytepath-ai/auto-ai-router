@@ -1,0 +1,31 @@
+```diff
+--- a/astropy/wcs/wcs.py
++++ b/astropy/wcs/wcs.py
+@@ -1213,6 +1213,11 @@
+ 
+     def _return_single_array(x, origin):
+ 
++        # If the input is empty, return an empty array. This avoids calling
++        # the underlying wcslib which would fail.
++        if x.size == 0:
++            return np.empty((0, self.naxis), dtype=np.double)
++
+         if x.shape[-1] != self.naxis:
+             raise TypeError(
+                 "When providing a single N-dimensional array, the "
+@@ -1236,6 +1241,13 @@
+                     len(axes), self.naxis))
+         # Turn these into a single array of vectors
+         xy = np.vstack(axes).transpose()
++
++        # If the input was empty, xy will have shape (0, naxis). The C
++        # extension will fail on this, so we return empty arrays here. This
++        # makes calls such as ``wcs_pix2world([], [], 0)`` behave intuitively.
++        if xy.shape[0] == 0:
++            return [np.array([], dtype=np.double) for _ in range(self.naxis)]
++
+         if ra_dec_order and sky == 'input':
+             xy = self._denormalize_sky(xy)
+         output = func(xy, origin)
+
+```

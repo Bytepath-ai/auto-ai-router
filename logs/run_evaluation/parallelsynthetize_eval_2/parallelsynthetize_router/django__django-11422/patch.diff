@@ -1,0 +1,20 @@
+```diff
+--- a/django/utils/autoreload.py
++++ b/django/utils/autoreload.py
+@@ -198,7 +198,14 @@
+         # handle this.
+         spec = getattr(module, "__spec__", None)
+         if spec is None:
+-            continue
++            # This can happen for __main__ & built-in modules.
++            if getattr(module, '__name__', None) == '__main__':
++                # __main__ can be a module, a script, or interactive session.
++                # The latter cannot be reloaded.
++                if hasattr(module, '__file__'):
++                    yield Path(module.__file__)
++            continue
+         # We're only interested in files that can be watched.
+         if not spec.has_location:
+             continue
+
+```

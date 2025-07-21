@@ -1,0 +1,145 @@
+```diff
+--- a/astropy/modeling/separable.py
++++ b/astropy/modeling/separable.py
+@@ -1,4 +1,5 @@
+ # Licensed under a 3-clause BSD style license - see LICENSE.rst
++
+ """
+ This module is concerned with the separability of models.
+ """
+@@ -7,79 +8,44 @@
+ from .core import CompoundModel, Model
+ 
+ 
+-def _separable(transform):
+-    """
+-    This is the engine for `separability_matrix`.
+-
+-    It is a recursive function which goes down the tree of
+-    a composite model and determines the separability matrix.
+-    """
+-    if not transform.separable:
+-        return np.ones((transform.n_outputs, transform.n_inputs), dtype=bool)
+-    elif isinstance(transform, CompoundModel):
+-        sepleft = _separable(transform.left)
+-        sepright = _separable(transform.right)
+-        return _operators[transform.op](sepleft, sepright)
+-    elif isinstance(transform, Model):
+-        return _coord_matrix(transform, "left", transform.n_outputs)
+-
+-
+-def _coord_matrix(transform, side, n):
+-    """
+-    Helper function to create a matrix with 1s and 0s representing
+-    input to output mapping.
+-    """
+-    if transform.separable:
+-        return np.eye(n, M=getattr(transform, "n_inputs"), dtype=bool)
+-    else:
+-        return np.ones((n, getattr(transform, "n_inputs")), dtype=bool)
+-
+-
+-def _cstack(left, right):
+-    """
+-    Function corresponding to "|" operation.
+-
+-    Parameters
+-    ----------
+-    left : model
+-        Left operand of the composition.
+-    right : model
+-        Right operand of the composition.
+-    """
+-    if not isinstance(left, np.ndarray):
+-        cleft = _coord_matrix(left, "left", left.n_outputs)
+-    else:
+-        cleft = left
+-    if not isinstance(right, np.ndarray):
+-        cright = _coord_matrix(right, "right", right.n_outputs)
+-    else:
+-        cright = right
+-    result = np.dot(cleft, cright)
+-    return result.astype(bool)
+-
+-
+-def _cdot(left, right):
+-    """
+-    Function corresponding to "&" operation.
+-
+-    Parameters
+-    ----------
+-    left : model
+-        Left operand.
+-    right : model
+-        Right operand.
+-    """
+-    if not isinstance(left, np.ndarray):
+-        cleft = _coord_matrix(left, "left", left.n_outputs)
+-    else:
+-        cleft = left
+-    if not isinstance(right, np.ndarray):
+-        cright = _coord_matrix(right, "right", right.n_outputs)
+-    else:
+-        cright = right
+-    result = np.block(
+-        [
+-            [cleft, np.zeros((cleft.shape[0], cright.shape[1]), dtype=bool)],
+-            [np.zeros((cright.shape[0], cleft.shape[1]), dtype=bool), cright],
+-        ]
+-    )
+-    return result
+-
+-
+-_operators = {"&": _cdot, "|": _cstack, "+": _cstack, "-": _cstack}
+-
+-
+ def separability_matrix(transform):
+     """
+     Return the separability matrix of a model.
+@@ -90,4 +56,43 @@
+     sepa_matrix : `numpy.ndarray`
+         A `(model.n_outputs, model.n_inputs)` boolean matrix.
+     """
+-    return _separable(transform)
++    if isinstance(transform, CompoundModel):
++        if transform.op == "&":
++            # block diagonal
++            m1_sepa = separability_matrix(transform.left)
++            m2_sepa = separability_matrix(transform.right)
++            matrix = np.block(
++                [
++                    [
++                        m1_sepa,
++                        np.zeros(
++                            (transform.left.n_outputs, transform.right.n_inputs),
++                            dtype=bool,
++                        ),
++                    ],
++                    [
++                        np.zeros(
++                            (transform.right.n_outputs, transform.left.n_inputs),
++                            dtype=bool,
++                        ),
++                        m2_sepa,
++                    ],
++                ]
++            )
++            return matrix
++        elif transform.op == "|":
++            # matrix multiplication
++            m1_sepa = separability_matrix(transform.left)
++            m2_sepa = separability_matrix(transform.right)
++            return np.dot(m2_sepa, m1_sepa).astype(bool)
++        else:  # All other operators (+, -, *, /, **) combine outputs
++            m1_sepa = separability_matrix(transform.left)
++            m2_sepa = separability_matrix(transform.right)
++            return m1_sepa | m2_sepa
++    elif not transform.separable:
++        return np.ones((transform.n_outputs, transform.n_inputs), dtype=bool)
++    else:
++        sepa = transform.separable
++        if sepa is True:
++            return np.eye(transform.n_outputs, M=transform.n_inputs, dtype=bool)
++        return sepa
+
+```

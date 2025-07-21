@@ -1,0 +1,68 @@
+```diff
+--- a/django/core/files/storage.py
++++ b/django/core/files/storage.py
+@@ -6,6 +6,7 @@
+ from urllib.parse import urljoin
+ 
+ from django.conf import settings
++from django.urls import get_script_prefix
+ from django.core.exceptions import SuspiciousOperation
+ from django.utils._os import abspathu, safe_join
+ from django.utils.deconstruct import deconstructible
+@@ -112,7 +113,13 @@
+     def url(self, name):
+         if self.base_url is None:
+             raise ValueError("This file is not accessible via a URL.")
+-        return urljoin(self.base_url, filepath_to_uri(name))
++        url = urljoin(self.base_url, filepath_to_uri(name))
++        # If the URL is relative, prefix it with SCRIPT_NAME.
++        if url.startswith('/') and not url.startswith('//'):
++            script_prefix = get_script_prefix()
++            if not url.startswith(script_prefix):
++                url = '%s%s' % (script_prefix.rstrip('/'), url)
++        return url
+ 
+     def _save(self, name, content):
+         full_path = self.path(name)
+--- a/django/templatetags/static.py
++++ b/django/templatetags/static.py
+@@ -2,6 +2,7 @@
+ 
+ from django import template
+ from django.conf import settings
++from django.urls import get_script_prefix
+ from django.utils.encoding import iri_to_uri
+ 
+ register = template.Library()
+@@ -53,7 +54,13 @@
+     def handle_simple(path):
+         if settings.DEBUG:
+             # ...
+-        return urljoin(settings.STATIC_URL, quote(path))
++        url = urljoin(settings.STATIC_URL, quote(path))
++        # If the URL is relative, prefix it with SCRIPT_NAME.
++        if url.startswith('/') and not url.startswith('//'):
++            script_prefix = get_script_prefix()
++            if not url.startswith(script_prefix):
++                url = '%s%s' % (script_prefix.rstrip('/'), url)
++        return url
+ 
+ 
+ def static(path):
+@@ -63,7 +70,13 @@
+     """
+     if settings.DEBUG:
+         # ...
+-    return urljoin(settings.STATIC_URL, quote(path))
++    url = urljoin(settings.STATIC_URL, quote(path))
++    # If the URL is relative, prefix it with SCRIPT_NAME.
++    if url.startswith('/') and not url.startswith('//'):
++        script_prefix = get_script_prefix()
++        if not url.startswith(script_prefix):
++            url = '%s%s' % (script_prefix.rstrip('/'), url)
++    return url
+ 
+ 
+ @register.tag('static')
+
+```

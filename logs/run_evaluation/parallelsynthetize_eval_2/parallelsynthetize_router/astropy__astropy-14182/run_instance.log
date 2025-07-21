@@ -1,0 +1,3447 @@
+2025-07-21 20:18:34,399 - INFO - Creating container for astropy__astropy-14182...
+2025-07-21 20:18:34,601 - INFO - Container for astropy__astropy-14182 created: c166613cab73f7a99b7551df2d0f23dbe8df54eca3bbd43b0dbe2fb8b06a8521
+2025-07-21 20:18:34,820 - INFO - Container for astropy__astropy-14182 started: c166613cab73f7a99b7551df2d0f23dbe8df54eca3bbd43b0dbe2fb8b06a8521
+2025-07-21 20:18:34,820 - INFO - Intermediate patch for astropy__astropy-14182 written to logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/patch.diff, now applying to container...
+2025-07-21 20:18:34,990 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-21 20:18:35,076 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-21 20:18:35,153 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-21 20:18:35,153 - INFO - >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+2025-07-21 20:18:35,158 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-21 20:18:35,158 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,158 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,159 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,160 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,161 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,161 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,161 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,161 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,161 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,161 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,161 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,161 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,161 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,161 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,161 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,161 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,161 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,162 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-21 20:18:35,162 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,162 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,162 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,162 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,162 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,162 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,162 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,162 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,162 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,162 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,162 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,162 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,162 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,162 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,163 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,164 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,165 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14182: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/rst.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 65 with fuzz 3 (offset -1 lines).
+Hunk #3 FAILED at 76.
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 55:  
+
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/astropy__astropy-14182/run_instance.log) for more information.
+
+2025-07-21 20:18:35,166 - INFO - Attempting to stop container sweb.eval.astropy__astropy-14182.parallelsynthetize_eval_2...
+2025-07-21 20:18:51,385 - INFO - Attempting to remove container sweb.eval.astropy__astropy-14182.parallelsynthetize_eval_2...
+2025-07-21 20:18:51,395 - INFO - Container sweb.eval.astropy__astropy-14182.parallelsynthetize_eval_2 removed.
+2025-07-21 20:18:51,395 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.astropy_1776_astropy-14182:latest...
+2025-07-21 20:18:51,580 - INFO - Image swebench/sweb.eval.x86_64.astropy_1776_astropy-14182:latest removed.

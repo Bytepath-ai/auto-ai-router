@@ -1,0 +1,2712 @@
+2025-07-21 20:23:16,783 - INFO - Creating container for django__django-11283...
+2025-07-21 20:23:16,970 - INFO - Container for django__django-11283 created: 398aa63c65c76aac09e27b6f1fdd5d777e32c9505832f583e10f14e8ba0e6b7f
+2025-07-21 20:23:17,153 - INFO - Container for django__django-11283 started: 398aa63c65c76aac09e27b6f1fdd5d777e32c9505832f583e10f14e8ba0e6b7f
+2025-07-21 20:23:17,153 - INFO - Intermediate patch for django__django-11283 written to logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/patch.diff, now applying to container...
+2025-07-21 20:23:17,350 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-21 20:23:17,443 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-21 20:23:17,490 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-21 20:23:17,490 - INFO - >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+2025-07-21 20:23:17,493 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-21 20:23:17,493 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,493 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,493 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,493 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,493 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,493 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,493 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,493 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,494 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,495 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,496 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,498 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,499 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,500 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,500 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,500 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,500 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,500 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,500 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,501 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,502 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,502 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,502 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+Hunk #1 FAILED at 22.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/migrations/0011_update_proxy_permissions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11283/run_instance.log) for more information.
+
+2025-07-21 20:23:17,502 - INFO - Attempting to stop container sweb.eval.django__django-11283.parallelsynthetize_eval_2...
+2025-07-21 20:23:33,526 - INFO - Attempting to remove container sweb.eval.django__django-11283.parallelsynthetize_eval_2...
+2025-07-21 20:23:33,533 - INFO - Container sweb.eval.django__django-11283.parallelsynthetize_eval_2 removed.
+2025-07-21 20:23:33,533 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-11283:latest...
+2025-07-21 20:23:33,926 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-11283:latest removed.

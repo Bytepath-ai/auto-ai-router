@@ -1,0 +1,43 @@
+```diff
+--- a/django/core/management/commands/sqlmigrate.py
++++ b/django/core/management/commands/sqlmigrate.py
+@@ -69,7 +69,12 @@
+                     "Cannot find a migration matching '%s' from app '%s'. Is it in "
+                     "INSTALLED_APPS?" % (migration_name, app_label)
+                 ) from e
+-            self.output_transaction = migration.atomic
++            # Wrap the SQL in a transaction only when the migration is declared
++            # atomic *and* the connection supports rolling back DDL statements,
++            # to match the behavior of the migration executor.
++            self.output_transaction = (
++                migration.atomic and connection.features.can_rollback_ddl
++            )
+ 
+             # Make a plan that represents just the requested migration
+             # The executor will return a list of 2-tuples like [(self.migrationA, False),...],
+--- a/tests/migrations/test_commands.py
++++ b/tests/migrations/test_commands.py
+@@ -370,6 +370,21 @@
+         self.assertNotIn(self.get_begin_sql(), output)
+         self.assertNotIn(self.get_commit_sql(), output)
+ 
++    @mock.patch.object(connection.features, 'can_rollback_ddl', False)
++    def test_sqlmigrate_for_non_transactional_databases(self):
++        """
++        sqlmigrate doesn't wrap migrations in a transaction on databases that
++        don't support transactional DDL.
++        """
++        # Use a migration that is atomic.
++        with override_settings(MIGRATION_MODULES={'migrations': 'migrations.test_migrations'}):
++            out = io.StringIO()
++            # The first migration is atomic.
++            call_command('sqlmigrate', 'migrations', '0001', stdout=out)
++            output = out.getvalue()
++            self.assertNotIn(self.get_begin_sql(), output)
++            self.assertNotIn(self.get_commit_sql(), output)
++
+     @override_settings(INSTALLED_APPS=['migrations', 'django.contrib.auth', 'django.contrib.contenttypes'])
+     def test_sqlmigrate_app_with_no_migrations_module(self):
+         """
+
+```

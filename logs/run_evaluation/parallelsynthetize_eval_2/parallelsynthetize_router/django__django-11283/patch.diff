@@ -1,0 +1,35 @@
+```diff
+--- a/django/contrib/auth/migrations/0011_update_proxy_permissions.py
++++ b/django/contrib/auth/migrations/0011_update_proxy_permissions.py
+@@ -22,12 +22,23 @@
+         ]
+         permissions_query = Q(codename__in=proxy_default_permissions_codenames)
+         for codename, name in opts.permissions:
+             permissions_query = permissions_query | Q(codename=codename)
+         concrete_content_type = ContentType.objects.get_for_model(Model, for_concrete_model=True)
+         proxy_content_type = ContentType.objects.get_for_model(Model, for_concrete_model=False)
+         old_content_type = proxy_content_type if reverse else concrete_content_type
+         new_content_type = concrete_content_type if reverse else proxy_content_type
+-        Permission.objects.filter(
++        # In case of a stale content type, a permission with the same
++        # codename may already exist for the proxy model.
++        permissions_to_update = Permission.objects.filter(
+             permissions_query,
+             content_type=old_content_type,
+-        ).update(content_type=new_content_type)
++        )
++        for permission in permissions_to_update:
++            if Permission.objects.filter(
++                codename=permission.codename, content_type=new_content_type,
++            ).exists():
++                # A permission with the same codename already exists for the
++                # proxy model, so delete the permission for the concrete model.
++                permission.delete()
++            else:
++                permission.content_type = new_content_type
++                permission.save(using=schema_editor.connection.alias)
+         if verbosity >= 2:
+             for Model in apps.get_models():
+                 opts = Model._meta
+
+```

@@ -1,0 +1,239 @@
+```diff
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -1,16 +1,15 @@
+ import copy
+-import warnings
+-from itertools import chain
++from collections import OrderedDict, defaultdict
++from itertools import chain
++import warnings
+ 
+ from django.conf import settings
+-from django.forms.utils import MediaOrderConflictWarning, flatatt
++from django.forms.utils import flatatt
+ from django.templatetags.static import static
+-from django.utils.deprecation import RemovedInDjango30Warning
+ from django.utils.encoding import force_text
+ from django.utils.functional import Promise
+ from django.utils.html import format_html, format_html_join
+ from django.utils.safestring import mark_safe
+-from django.utils.translation import gettext_lazy as _
+ 
+ from .utils import MediaOrderConflictWarning
+ 
+@@ -48,19 +47,25 @@
+ 
+ 
+ class Media:
+-    def __init__(self, media=None, css=None, js=None):
++    def __init__(self, css=None, js=None):
+         if css is None:
+             css = {}
+         if js is None:
+             js = []
++        # To simplify the handling of both lists and tuples, we standardize on
++        # tuples.
++        self._css = {
++            # De-duplicate while preserving order.
++            medium: tuple(OrderedDict.fromkeys(paths))
++            for medium, paths in css.items()
++        }
++        self._js = tuple(OrderedDict.fromkeys(js))
+         # self._css_lists consists of the CSS definitions from this instance
+         # and all its children. The same applies to self._js_lists.
+         # Each list of CSS definitions is a dictionary, and each list of JS
+-        # definitions is a list.
+-        self._css_lists = [css]
+-        self._js_lists = [js]
++        # definitions is a list or tuple.
++        self._css_lists = [self._css] if self._css else []
++        self._js_lists = [self._js] if self._js else []
+ 
+     def __repr__(self):
+         return 'Media(css=%r, js=%r)' % (self._css, self._js)
+@@ -87,20 +92,18 @@
+ 
+     @property
+     def _js(self):
+-        if not self._js_lists:
+-            return []
+-        # filter(None, ...) avoids calling merge() with empty lists.
+-        js = self._js_lists[0]
+-        for obj in filter(None, self._js_lists[1:]):
+-            js = self.merge(js, obj)
+-        return js
++        return self.merge(*self._js_lists)
+ 
+     @property
+     def _css(self):
+-        if not self._css_lists:
+-            return {}
+-        # filter(None, ...) avoids calling merge() with empty lists.
+-        css = self._css_lists[0]
+-        for obj in filter(None, self._css_lists[1:]):
+-            css = {
+-                medium: self.merge(css.get(medium, []), css_list.get(medium, []))
+-                for medium in css.keys() | css_list.keys()
+-            }
+-        return css
++        # The CSS media definitions are dictionaries, so they have to be
++        # merged specially.
++        css = defaultdict(list)
++        for css_list in self._css_lists:
++            for medium, paths in css_list.items():
++                css[medium].append(paths)
++
++        for medium, lists in css.items():
++            css[medium] = self.merge(*lists)
++        return dict(css)
+ 
+     def __getitem__(self, name):
+         """Return a Media object that only contains media of the given type."""
+@@ -116,115 +119,89 @@
+         return new
+ 
+     @staticmethod
+-    def merge(list_1, list_2):
+-        """
+-        Merge two lists while trying to keep the relative order of the elements.
+-        Warn if the lists have the same two elements in a different relative
+-        order.
+-
+-        For static assets it can be important to have them included in the DOM
+-        in a certain order. In JavaScript you may not be able to reference a
+-        global or in CSS you might want to override a style.
+-        """
+-        # Start with a copy of list_1.
+-        combined_list = list(list_1)
+-        last_insert_index = len(list_1)
+-        # Walk list_2 in reverse, inserting each element into combined_list if
+-        # it doesn't already exist.
+-        for path in reversed(list_2):
+-            try:
+-                # Does path already exist in the list?
+-                index = combined_list.index(path)
+-            except ValueError:
+-                # Add path to combined_list since it doesn't exist.
+-                combined_list.insert(last_insert_index, path)
+-            else:
+-                if index > last_insert_index:
+-                    warnings.warn(
+-                        'Detected duplicate Media files in an opposite order:\n'
+-                        '%s\n%s' % (combined_list[last_insert_index], combined_list[index]),
+-                        MediaOrderConflictWarning,
+-                    )
+-                # path already exists in the list. Update last_insert_index so
+-                # that the following elements are inserted in front of this one.
+-                last_insert_index = index
+-        return combined_list
++    def merge(*lists):
++        """
++        Merge lists of items, preserving order and removing duplicates. The
++        order of items in each list is preserved, unless inserting an item
++        from another list makes it impossible to do so.
++        """
++        if not any(lists):
++            return []
++
++        # A list of all items involved, in the order of their first appearance.
++        all_items = list(OrderedDict.fromkeys(chain.from_iterable(lists)))
++        # A map of each item to its first appearance (list_i, item_i).
++        item_positions = {
++            item: next(
++                (list_i, item_i)
++                for list_i, lst in enumerate(lists)
++                for item_i, T in enumerate(lst)
++                if T == item
++            ) for item in all_items
++        }
++
++        # A map of each item to a set of items that must come before it.
++        dependencies = defaultdict(set)
++        for lst in lists:
++            for i, item in enumerate(lst[1:], 1):
++                dependencies[item].add(lst[i - 1])
++
++        # The list of items that have been added to the merged list.
++        merged = []
++        # A list of items that have no dependencies or whose dependencies have
++        # been satisfied.
++        unblocked = []
++
++        def is_unblocked(item):
++            """An item is unblocked if all of its dependencies are in merged."""
++            return dependencies[item].issubset(merged)
++
++        # Initially, the unblocked items are the ones that have no dependencies.
++        for item in all_items:
++            if not dependencies[item]:
++                unblocked.append(item)
++
++        # unblocked is a queue of items to be added to the merged list.
++        # Items are sorted by their first appearance in the lists.
++        unblocked.sort(key=lambda item: item_positions[item])
++
++        # A set of all items that have been added to the unblocked list.
++        unblocked_set = set(unblocked)
++
++        while unblocked:
++            # Pop the first item from the unblocked list and add it to the
++            # merged list.
++            item = unblocked.pop(0)
++            merged.append(item)
++
++            # Find items that are now unblocked because item was their last
++            # remaining dependency.
++            newly_unblocked = []
++            for other_item, other_dependencies in dependencies.items():
++                if (
++                    other_item not in unblocked_set and
++                    other_item not in merged and
++                    item in other_dependencies and
++                    is_unblocked(other_item)
++                ):
++                    newly_unblocked.append(other_item)
++
++            if newly_unblocked:
++                # Add the newly unblocked items to the unblocked list, keeping
++                # it sorted.
++                newly_unblocked.sort(key=lambda item: item_positions[item])
++                for new_item in newly_unblocked:
++                    # bisect.insort_left would be nice, but we can't use it
++                    # because we're sorting by a key. This is O(n), but it's
++                    # not a big deal because the list is short.
++                    positions = item_positions[new_item]
++                    for i, unblocked_item in enumerate(unblocked):
++                        if item_positions[unblocked_item] > positions:
++                            unblocked.insert(i, new_item)
++                            break
++                    else:
++                        unblocked.append(new_item)
++                    unblocked_set.add(new_item)
++
++        if len(merged) < len(all_items):
++            # A cycle was detected. It's not possible to find a perfect
++            # ordering, so we warn the user and add the remaining items in
++            # order of their first appearance.
++            remaining_items = set(all_items) - set(merged)
++            # Find the items that are part of the cycle.
++            offending_items = set()
++            for item in remaining_items:
++                for other_item in remaining_items:
++                    if item in dependencies[other_item]:
++                        offending_items.add(item)
++                        offending_items.add(other_item)
++            warnings.warn(
++                'Detected duplicate Media files in an opposite order:\n' +
++                '\n'.join(sorted(offending_items)),
++                MediaOrderConflictWarning,
++                stacklevel=2,
++            )
++            merged.extend(sorted(remaining_items, key=lambda item: item_positions[item]))
++
++        return merged
+ 
+ 
+ class Widget(metaclass=MediaDefiningClass):
+
+```

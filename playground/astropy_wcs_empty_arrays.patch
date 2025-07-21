@@ -1,0 +1,19 @@
+diff --git a/astropy/wcs/wcs.py b/astropy/wcs/wcs.py
+index 1234567..abcdefg 100644
+--- a/astropy/wcs/wcs.py
++++ b/astropy/wcs/wcs.py
+@@ -1481,7 +1481,13 @@ class WCS(WCSBase):
+ 
+         def _return_list_of_arrays(axes, origin):
+             if any(x.size == 0 for x in axes):
+-                return axes
++                # Return empty arrays with proper shape and number of dimensions
++                try:
++                    axes = np.broadcast_arrays(*axes)
++                except ValueError:
++                    pass
++                # For empty input, return empty output arrays matching naxis dimensions
++                return [np.array([], dtype=np.float64).reshape(axes[0].shape) for _ in range(self.naxis)]
+ 
+             try:
+                 axes = np.broadcast_arrays(*axes)

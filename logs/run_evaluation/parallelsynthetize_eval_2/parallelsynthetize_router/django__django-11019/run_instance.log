@@ -1,0 +1,2712 @@
+2025-07-21 20:20:18,235 - INFO - Creating container for django__django-11019...
+2025-07-21 20:20:18,458 - INFO - Container for django__django-11019 created: e804d1cc693ee5e839c6b491f37b8ba2a41621d99fcf472c055a0368136680a4
+2025-07-21 20:20:18,656 - INFO - Container for django__django-11019 started: e804d1cc693ee5e839c6b491f37b8ba2a41621d99fcf472c055a0368136680a4
+2025-07-21 20:20:18,657 - INFO - Intermediate patch for django__django-11019 written to logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/patch.diff, now applying to container...
+2025-07-21 20:20:18,819 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-21 20:20:18,910 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-21 20:20:18,992 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-21 20:20:18,992 - INFO - >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+2025-07-21 20:20:18,994 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-21 20:20:18,994 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,994 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,994 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,994 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,994 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,994 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,994 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,994 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,995 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,996 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,997 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-21 20:20:18,997 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,997 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,998 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:18,999 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11019: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 55: @@ -87,20 +92,18 @@
+
+Hunk #1 FAILED at 1.
+
+Check (logs/run_evaluation/parallelsynthetize_eval_2/parallelsynthetize_router/django__django-11019/run_instance.log) for more information.
+
+2025-07-21 20:20:19,000 - INFO - Attempting to stop container sweb.eval.django__django-11019.parallelsynthetize_eval_2...
+2025-07-21 20:20:34,405 - INFO - Attempting to remove container sweb.eval.django__django-11019.parallelsynthetize_eval_2...
+2025-07-21 20:20:34,415 - INFO - Container sweb.eval.django__django-11019.parallelsynthetize_eval_2 removed.
+2025-07-21 20:20:34,415 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-11019:latest...
+2025-07-21 20:20:34,910 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-11019:latest removed.
