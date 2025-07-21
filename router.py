@@ -546,7 +546,7 @@ class AIRouter:
     def parallelsynthetize_route(self, 
                                 messages: List[Dict[str, str]], 
                                 **kwargs) -> Tuple[Any, Dict[str, Any]]:
-        """Call all models in parallel and synthesize their responses into one comprehensive answer"""
+        """Call all models in parallel (excluding GPT-4o and GPT-4o-mini) and synthesize their responses into one comprehensive answer"""
         import concurrent.futures
         
         # Extract user prompt
@@ -594,12 +594,16 @@ class AIRouter:
                     "error": True
                 }
         
-        # Call all models in parallel
+        # Call all models in parallel (excluding GPT-4o and GPT-4o-mini)
         responses = []
-        with concurrent.futures.ThreadPoolExecutor(max_workers=len(self.models)) as executor:
+        # Filter out GPT-4o and GPT-4o-mini
+        models_to_call = {k: v for k, v in self.models.items() 
+                          if k not in ['gpt-4o', 'gpt-4o-mini']}
+        
+        with concurrent.futures.ThreadPoolExecutor(max_workers=len(models_to_call)) as executor:
             future_to_model = {
                 executor.submit(call_model, key, profile): key 
-                for key, profile in self.models.items()
+                for key, profile in models_to_call.items()
             }
             
             for future in concurrent.futures.as_completed(future_to_model):
