@@ -210,17 +210,17 @@ def main():
         
     # Run all tests
     try:
-        # test_health_check()
-        # time.sleep(1)  # Small delay between tests
+        test_health_check()
+        time.sleep(1)  # Small delay between tests
         
-        # test_list_models()
-        # time.sleep(1)
+        test_list_models()
+        time.sleep(1)
         
-        # test_route()
-        # time.sleep(1)
+        test_route()
+        time.sleep(1)
         
-        # test_route_with_metadata()
-        # time.sleep(1)
+        test_route_with_metadata()
+        time.sleep(1)
         
         test_parallelbest()
         time.sleep(1)
@@ -228,13 +228,13 @@ def main():
         test_parallelsynthetize()
         time.sleep(1)
         
-        # test_analyze()
-        # time.sleep(1)
+        test_analyze()
+        time.sleep(1)
         
-        # test_error_handling()
-        # time.sleep(1)
+        test_error_handling()
+        time.sleep(1)
         
-        # test_conversation()
+        test_conversation()
         
         print_section("All Tests Completed")
         print("✓ Test suite finished successfully")
