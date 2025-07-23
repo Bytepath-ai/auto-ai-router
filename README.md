@@ -40,6 +40,11 @@ python api.py
 
 The API will be available at `http://localhost:5000`.
 
+6. Test api endpoints:
+```bash
+python test_api.py
+```
+
 ### API Documentation
 
 #### Overview
