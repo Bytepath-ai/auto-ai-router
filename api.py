@@ -116,8 +116,7 @@ def route_request():
         
         # Format response
         return jsonify({
-            "response": response.choices[0].message.content,
-            "model": response.model if hasattr(response, 'model') else "unknown"
+            "response": response.choices[0].message.content
         })
         
     except Exception as e:
@@ -178,16 +177,9 @@ def parallel_best_route():
         # Parallel best route
         response, metadata = router.parallelbest_route(messages, **kwargs)
         
-        # Format response
+        # Format response - return only the best response
         return jsonify({
-            "response": response.choices[0].message.content,
-            "metadata": metadata,
-            "all_responses": [
-                {
-                    "model": r["model_name"],
-                    "response": r["response"][:500] + "..." if len(r["response"]) > 500 else r["response"]
-                } for r in metadata.get("all_responses", [])
-            ]
+            "response": response.choices[0].message.content
         })
         
     except Exception as e:
@@ -216,11 +208,9 @@ def parallel_synthetize_route():
         # Parallel synthetize route
         response, metadata = router.parallelsynthetize_route(messages, **kwargs)
         
-        # Format response
+        # Format response - return only the synthesized response
         return jsonify({
-            "synthesized_response": response.choices[0].message.content,
-            "metadata": metadata,
-            "models_used": metadata.get("models_used", [])
+            "response": response.choices[0].message.content
         })
         
     except Exception as e:
