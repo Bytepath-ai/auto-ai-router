@@ -2,41 +2,6 @@
 
 An intelligent AI model router that automatically selects the best AI model for your prompt or can run multiple models in parallel for optimal results.
 
-## Overview
-
-The AI Router uses GPT-4o to analyze your prompts and intelligently route them to the most suitable AI model based on the task requirements. It supports multiple routing strategies to ensure you get the best possible response for your specific use case.
-
-## Supported Models
-
-- **Claude Code**: Specialized for in-repository software engineering tasks
-  - Code implementation and debugging within repos
-  - File system operations and bash commands
-  - Project structure understanding and refactoring
-  - Test writing and technical documentation
-  
-- **Claude Opus 4**: Optimized for standalone coding tasks
-  - Code generation and algorithm design
-  - Programming solutions and explanations
-  - Code review and API design
-  - Technical documentation
-  
-- **O3**: Designed for complex reasoning
-  - Mathematical proofs and logical analysis
-  - Multi-step problem solving
-  - Scientific reasoning and abstract thinking
-  - Strategic planning
-  
-- **GPT-4o**: General-purpose powerhouse
-  - General knowledge and reasoning
-  - Data analysis and mathematics
-  - Structured output and function calling
-  - Vision capabilities
-  
-- **GPT-4o-mini**: Fast and efficient for simple tasks
-  - Quick responses and basic queries
-  - Straightforward answers
-  - Cost-efficient processing
-
 ## Setup
 
 1. Install the required dependencies:
@@ -44,11 +9,27 @@ The AI Router uses GPT-4o to analyze your prompts and intelligently route them t
 pip install aisuite python-dotenv
 ```
 
-2. Create a `.env` file in the project root with your API keys:
-```env
-OPENAI_API_KEY=your-openai-api-key
-ANTHROPIC_API_KEY=your-anthropic-api-key
+2. Copy the `.env.sample` file to `.env` and fill in your API keys:
+```bash
+cp .env.sample .env
 ```
+
+3. Edit the `.env` file with your API keys. The available keys are:
+   - `OPENAI_API_KEY` - Required for GPT-4o and GPT-4o-mini models
+   - `ANTHROPIC_API_KEY` - Required for Claude models
+   - `XAI_API_KEY` - Required for X.AI models (if using O3)
+   - `GOOGLE_API_KEY` - Required for Google models
+   - `GOOGLE_PROJECT_ID` - Required for Google models
+   - `GOOGLE_APPLICATION_CREDENTIALS` - Path to Google service account JSON
+   - `GOOGLE_REGION` - Google Cloud region
+
+4. Follow the provider-specific setup guides in the `guides/` directory:
+   - [Anthropic Setup Guide](guides/anthropic.md) - For Claude models
+   - [Google Setup Guide](guides/google.md) - For Google models
+   - [OpenAI Setup Guide](guides/openai.md) - For GPT models
+   - [X.AI Setup Guide](guides/xai.md) - For X.AI models
+
+   Each guide contains detailed instructions on how to obtain API keys and configure your environment for that specific provider.
 
 ## Usage
 
