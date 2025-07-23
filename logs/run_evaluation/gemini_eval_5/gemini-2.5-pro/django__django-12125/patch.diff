@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/migrations/serializer.py
++++ b/django/db/migrations/serializer.py
+@@ -261,7 +261,7 @@
+ 
+ class TypeSerializer(BaseSerializer):
+     def serialize(self):
+-        return self.value.__name__, {"import %s" % self.value.__module__}
++        return self.value.__qualname__, {"import %s" % self.value.__module__}
+ 
+ 
+ class DatetimeSerializer(BaseSerializer):
+
+```

@@ -1,0 +1,36 @@
+```diff
+--- a/django/urls/resolver.py
++++ b/django/urls/resolver.py
+@@ -1,4 +1,5 @@
+-from importlib import import_module
++import functools
++from importlib import import_module
+ 
+ from django.core.exceptions import ImproperlyConfigured
+ from django.utils.functional import cached_property
+@@ -148,12 +149,19 @@
+ 
+ 
+ class ResolverMatch:
+-    def __init__(self, func, args, kwargs, url_name=None, app_names=None, namespaces=None, route=None, tried=None):
+-        self.func = func
+-        self.args = args
+-        self.kwargs = kwargs
++    def __init__(self, func, args, kwargs, url_name=None, app_names=None, namespaces=None, route=None, tried=None):
++        if isinstance(func, functools.partial):
++            self.func = func.func
++            self.args = func.args + args
++            self.kwargs = func.keywords.copy()
++            self.kwargs.update(kwargs)
++        else:
++            self.func = func
++            self.args = args
++            self.kwargs = kwargs
++
+         self.url_name = url_name
+         self.route = route
+         self.tried = tried
+ 
+         # Sane defaults for attributes that may not be present.
+
+```

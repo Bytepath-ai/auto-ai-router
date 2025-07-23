@@ -1,0 +1,26 @@
+```diff
+--- a/django/views/debug.py
++++ b/django/views/debug.py
+@@ -483,13 +483,17 @@
+         # Resolve the path. Even with a 404, this should still give us a
+         # resolver match object with a list of patterns tried.
+         resolver = get_resolver(urlconf)
+-        resolver_match = resolver.resolve(request.path_info)
+-    except Resolver404 as e:
+-        # The resolver will raise a Resolver404 if the path is not found.
+-        # In this case, we have no resolver_match object, and we have to
+-        # create one with the patterns that were tried.
+-        resolver_match = e.args[0]
++        try:
++            resolver_match = resolver.resolve(request.path_info)
++        except Http404 as e:
++            if isinstance(e, Resolver404):
++                resolver_match = e.args[0]
++            else:
++                # A different Http404 was raised.
++                resolver_match = {}
+     except Exception:
+         # This is unexpected. Let the normal exception handling take over.
+         # See #24833.
+
+```

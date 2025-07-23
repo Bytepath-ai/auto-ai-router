@@ -1,0 +1,16 @@
+```diff
+--- a/django/utils/decorators.py
++++ b/django/utils/decorators.py
+@@ -119,8 +119,10 @@
+             # Decorator was applied to a method.
+             func = obj
+             def _wrapper(self, *args, **kwargs):
+-                return decorator(partial(func, self))(*args, **kwargs)
++                bound_func = partial(func, self)
++                update_wrapper(bound_func, func)
++                return decorator(bound_func)(*args, **kwargs)
+             # Copy attributes from instance method to wrapper.
+             update_wrapper(_wrapper, func)
+             return _wrapper
+
+```

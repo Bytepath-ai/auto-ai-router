@@ -1,0 +1,35 @@
+```diff
+--- a/django/db/models/lookups.py
++++ b/django/db/models/lookups.py
+@@ -1,4 +1,7 @@
++import warnings
++
+ from django.db.models.expressions import Func, Value
++from django.utils.deprecation import RemovedInDjango40Warning
+ 
+ 
+ class Lookup:
+@@ -462,12 +465,20 @@ class IsNull(BuiltinLookup):
+     lookup_name = 'isnull'
+     prepare_rhs = False
+ 
+     def as_sql(self, compiler, connection):
+-        sql, params = compiler.compile(self.lhs)
+-        if self.rhs:
+-            return "%s IS NULL" % sql, params
+-        else:
+-            return "%s IS NOT NULL" % sql, params
++        if not isinstance(self.rhs, bool):
++            warnings.warn(
++                'Using a non-boolean value for an isnull lookup is '
++                'deprecated. Use True or False instead.',
++                RemovedInDjango40Warning,
++                stacklevel=2,
++            )
++        sql, params = compiler.compile(self.lhs)
++        if self.rhs:
++            return "%s IS NULL" % sql, params
++        else:
++            return "%s IS NOT NULL" % sql, params
+
+```

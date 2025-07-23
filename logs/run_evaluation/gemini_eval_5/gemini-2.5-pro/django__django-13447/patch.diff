@@ -1,0 +1,40 @@
+```diff
+--- a/django/contrib/admin/sites.py
++++ b/django/contrib/admin/sites.py
+@@ -236,7 +236,7 @@
+             'admin/app_index.html'
+         ], context)
+ 
+-    def _build_app_dict(self, request, app_label=None):
++    def build_app_dict(self, request, app_label=None):
+         """
+         Builds the app dictionary. Takes an optional app_label argument to filter
+         the resulting list of apps.
+@@ -257,6 +257,7 @@
+                         'name': capfirst(model._meta.verbose_name_plural),
+                         'object_name': model._meta.object_name,
+                         'perms': perms,
++                        'model': model,
+                     }
+                     if model_admin.has_add_permission(request):
+                         model_dict['add_url'] = reverse('admin:%s_%s_add' % info, current_app=self.name)
+@@ -287,7 +288,7 @@
+         Displays the main admin index page, which lists all of the apps that have
+         been registered in this site.
+         """
+-        app_dict = self._build_app_dict(request)
++        app_dict = self.build_app_dict(request)
+ 
+         # Sort the apps alphabetically.
+         app_list = sorted(app_dict.values(), key=lambda x: x['name'].lower())
+@@ -314,7 +315,7 @@
+         Displays the model list page for a given app.
+         """
+         app_config = apps.get_app_config(app_label)
+-        app_dict = self._build_app_dict(request, app_label)
++        app_dict = self.build_app_dict(request, app_label)
+         if not app_dict:
+             raise Http404('The requested admin page does not exist.')
+         # Sort the models alphabetically within each app.
+
+```

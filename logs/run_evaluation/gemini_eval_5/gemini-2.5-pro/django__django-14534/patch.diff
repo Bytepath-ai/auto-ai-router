@@ -1,0 +1,18 @@
+```diff
+diff --git a/django/forms/widgets.py b/django/forms/widgets.py
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -247,10 +247,9 @@
+     def id_for_label(self):
+         """
+-        Return the ID of this widget, which is used for the <label> 'for' attribute.
++        Return the ID of this widget, which is used for the <label> 'for'
++        attribute.
+         """
+-        return 'id_%s_%s' % (self.data['name'], self.data['index'])
++        return self.data['attrs'].get('id')
+ 
+     def render(self, template_name=None, context=None, renderer=None):
+         """
+
+```

@@ -1,0 +1,107 @@
+```diff
+--- a/django/contrib/staticfiles/storage.py
++++ b/django/contrib/staticfiles/storage.py
+@@ -46,11 +46,11 @@
+         super(StaticFilesStorage, self).__init__(location, base_url,
+                                                  *args, **kwargs)
+ 
+-    def url(self, name):
++    def url(self, name, request=None):
+         if settings.DEBUG:
+-            return super(StaticFilesStorage, self).url(name)
++            return super(StaticFilesStorage, self).url(name, request=request)
+         if not self.hashed_name(name):
+             raise ValueError("The file '%s' could not be found with %r." % (name, self))
+-        return super(StaticFilesStorage, self).url(self.hashed_name(name))
++        return super(StaticFilesStorage, self).url(self.hashed_name(name), request=request)
+ 
+     def path(self, name):
+         if not self.hashed_name(name):
+--- a/django/contrib/staticfiles/templatetags/staticfiles.py
++++ b/django/contrib/staticfiles/templatetags/staticfiles.py
+@@ -36,8 +36,9 @@
+         self.varname = varname
+ 
+     def url(self, context):
+-        path = self.path.resolve(context)
+-        return staticfiles_storage.url(path)
++        path = self.path.resolve(context)
++        request = context.get('request')
++        return staticfiles_storage.url(path, request=request)
+ 
+     def render(self, context):
+         url = self.url(context)
+@@ -58,7 +59,8 @@
+         self.varname = varname
+ 
+     def render(self, context):
+-        prefix = staticfiles_storage.url('')
++        request = context.get('request')
++        prefix = staticfiles_storage.url('', request=request)
+         if self.varname is None:
+             return prefix
+         context[self.varname] = prefix
+--- a/django/core/files/storage.py
++++ b/django/core/files/storage.py
+@@ -3,9 +3,9 @@
+ import os
+ import re
+ try:
+-    from urllib.parse import urljoin
++    from urllib.parse import urljoin, urlparse
+ except ImportError:     # Python 2
+-    from urlparse import urljoin
++    from urlparse import urljoin, urlparse
+ 
+ from django.core.exceptions import ImproperlyConfigured, SuspiciousOperation
+ from django.core.files import File
+@@ -74,7 +74,7 @@
+     def _save(self, name, content):
+         raise NotImplementedError()
+ 
+-    def url(self, name):
++    def url(self, name, request=None):
+         """
+         Returns an absolute URL where the file's contents can be accessed
+         (via a web browser).
+@@ -110,12 +110,15 @@
+     def delete(self, name):
+         os.remove(name)
+ 
+-    def url(self, name):
++    def url(self, name, request=None):
+         if self.base_url is None:
+             raise ValueError("This file is not accessible via a URL.")
+-        return urljoin(self.base_url, quote(name))
++        base_url = self.base_url
++        if request and not urlparse(base_url).scheme:
++            base_url = request.META.get('SCRIPT_NAME', '') + base_url
++        return urljoin(base_url, quote(name))
+ 
+     def _open(self, name, mode='rb'):
+         return File(open(self.path(name), mode))
+ 
+--- a/django/template/defaulttags.py
++++ b/django/template/defaulttags.py
+@@ -1,5 +1,6 @@
+ from __future__ import unicode_literals
+ 
++from django.core.files.storage import default_storage
+ from django.template import (Node, Library, TemplateSyntaxError,
+     VariableDoesNotExist, BLOCK_TAG_START, BLOCK_TAG_END,
+     VARIABLE_TAG_START, VARIABLE_TAG_END, SINGLE_BRACE_START,
+@@ -1023,7 +1024,11 @@
+ 
+ class MediaPrefixNode(Node):
+     def render(self, context):
+-        return settings.MEDIA_URL
++        try:
++            request = context.get('request')
++            return default_storage.url('', request=request)
++        except Exception:
++            return ''
+ 
+ 
+ @register.tag
+
+```

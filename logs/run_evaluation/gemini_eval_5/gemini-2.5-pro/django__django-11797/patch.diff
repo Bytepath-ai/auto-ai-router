@@ -1,0 +1,17 @@
+```diff
+--- a/django/db/models/lookups.py
++++ b/django/db/models/lookups.py
+@@ -231,6 +231,8 @@
+         if self.rhs_is_direct_value():
+             return rhs, rhs_params
+         # rhs is a QuerySet.
+-        self.rhs.query.clear_select_clause()
+-        self.rhs.query.add_fields([self.rhs.query.model._meta.pk.name], True)
++        if not getattr(self.rhs, 'has_select_fields', True):
++            self.rhs.query.clear_select_clause()
++            self.rhs.query.add_fields([self.rhs.query.model._meta.pk.name], True)
+         return rhs, rhs_params
+ 
+ 
+
+```

@@ -1,0 +1,36 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -698,6 +698,8 @@
+ 
+ class SQLCombinedCompiler(SQLCompiler):
+     def as_sql(self, with_col_aliases=False, subquery=False):
++        if not self.query.results:
++            return super(SQLCombinedCompiler, self).as_sql(with_col_aliases=with_col_aliases, subquery=subquery)
+         result = []
+         params = []
+         combinator = ' %s ' % self.query.combinator
+@@ -715,6 +717,8 @@
+         # The count is the number of rows returned by the full query.
+         # For a combination of queries, we need to wrap the query in a
+         # subquery and count the number of rows returned.
++        if not self.query.results:
++            return 0
+         sql, params = self.as_sql()
+         if not sql:
+             return 0
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -1220,6 +1220,10 @@
+         # This is calculated by the first query on the list.
+         self.col_count = 0
+ 
++    def set_empty(self):
++        super(CombinedQuery, self).set_empty()
++        self.results = []
++
+     def clone(self):
+         clone = super(CombinedQuery, self).clone()
+         clone.results = [r.clone() for r in self.results]
+
+```

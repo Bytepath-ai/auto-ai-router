@@ -1,0 +1,36 @@
+```diff
+--- a/django/db/backends/base/schema.py
++++ b/django/db/backends/base/schema.py
+@@ -363,18 +363,28 @@
+         if self.connection.features.supports_index_column_ordering:
+             self.execute(index.remove_sql(model, self))
+         else:
+-            self._delete_composed_index(model, index.fields, {'name': index.name}, self.sql_delete_index)
++            self._delete_composed_index(
++                model,
++                index.fields,
++                {'name': index.name, 'unique': index.unique},
++                self.sql_delete_index,
++            )
+ 
+     def _delete_composed_index(self, model, fields, constraint_kwargs, sql):
+         """
+         Delete an index on a set of columns.
+         """
+         # Try to find the name of the index
+-        constraint_names = self._constraint_names(model, fields, index=True)
++        constraint_names = self._constraint_names(
++            model,
++            fields,
++            index=True,
++            unique=constraint_kwargs.get('unique'),
++        )
+         if len(constraint_names) == 0:
+             # That's okay, it might not exist
+             return
+         if len(constraint_names) > 1:
+             raise ValueError("Found wrong number (%s) of constraints for %s(%s)" % (
+                 len(constraint_names),
+                 model._meta.db_table,
+
+```

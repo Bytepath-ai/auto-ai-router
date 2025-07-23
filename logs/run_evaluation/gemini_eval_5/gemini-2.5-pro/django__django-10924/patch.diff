@@ -1,0 +1,14 @@
+```diff
+--- a/django/forms/fields.py
++++ b/django/forms/fields.py
+@@ -1099,7 +1099,7 @@
+ class FilePathField(ChoiceField):
+     def __init__(self, path, *, match=None, recursive=False, allow_files=True,
+                  allow_folders=False, **kwargs):
+-        self.path = path
++        self.path = path() if callable(path) else path
+         self.match = match
+         self.recursive = recursive
+         self.allow_files = allow_files
+
+```

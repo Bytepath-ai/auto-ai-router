@@ -1,0 +1,19 @@
+```diff
+--- a/django/contrib/sessions/backends/base.py
++++ b/django/contrib/sessions/backends/base.py
+@@ -123,12 +123,11 @@
+         """
+         Decode session data in the pre-Django 1.4 format.
+         """
+-        # This is what Django did prior to moving to JSON-based sessions.
+-        encoded_data = base64.b64decode(session_data.encode('ascii'))
+         try:
++            # This is what Django did prior to moving to JSON-based sessions.
++            encoded_data = base64.b64decode(session_data.encode('ascii'))
+             # It's simple pickled base64 data - ignore the signature.
+             return pickle.loads(encoded_data)
+         except Exception:
+             # The data could be corrupt.
+             return {}
+
+```

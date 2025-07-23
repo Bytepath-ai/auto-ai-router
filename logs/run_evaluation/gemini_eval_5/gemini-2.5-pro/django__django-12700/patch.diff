@@ -1,0 +1,20 @@
+```diff
+--- a/django/views/debug.py
++++ b/django/views/debug.py
+@@ -51,5 +51,11 @@
+             # sensitive.
+             pass
+ 
+-    if isinstance(value, dict):
+-        return {k: cleanse_setting(k, v) for k, v in value.items()}
+-    return value
++    if isinstance(value, list):
++        return [cleanse_setting(key, v) for v in value]
++    elif isinstance(value, tuple):
++        return tuple(cleanse_setting(key, v) for v in value)
++    elif isinstance(value, dict):
++        return {k: cleanse_setting(k, v) for k, v in value.items()}
++    else:
++        return value
+
+```

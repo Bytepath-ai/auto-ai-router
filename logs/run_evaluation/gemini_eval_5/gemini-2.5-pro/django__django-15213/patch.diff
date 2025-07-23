@@ -1,0 +1,32 @@
+```diff
+--- a/django/db/models/expressions.py
++++ b/django/db/models/expressions.py
+@@ -3,11 +3,13 @@
+ 
+ from django.core.exceptions import FieldError
+ from django.db.models.constants import LOOKUP_SEP
+-from django.db.models.fields import Field
++from django.db.models.fields import BooleanField, Field
+ from django.db.models.functions.mixins import (
+     FixDurationInputMixin, NumericOutputFieldMixin,
+ )
+ from django.db.models.query_utils import Q
++from django.db.models.sql.where import EverythingNode, NothingNode
+ from django.utils.deconstruct import deconstructible
+ from django.utils.functional import cached_property
+ 
+@@ -482,6 +484,13 @@
+             return self.expression.as_sql(compiler, connection)
+         # It's a Q object.
+         where = compiler.query.build_where(self.expression)
++        if len(where.children) == 1:
++            child = where.children[0]
++            if isinstance(child, EverythingNode):
++                return compiler.compile(Value(True, output_field=BooleanField()))
++            if isinstance(child, NothingNode):
++                return compiler.compile(Value(False, output_field=BooleanField()))
+         return where.as_sql(compiler, connection)
+ 
+     def get_group_by_cols(self):
+
+```

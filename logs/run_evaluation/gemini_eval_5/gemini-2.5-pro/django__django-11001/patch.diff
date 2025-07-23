@@ -1,0 +1,31 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -382,15 +382,25 @@
+             sql, params = self.compile(col)
+             # Don't add the same ordering clause twice.
+-            if self.connection.features.ordering_parts:
+-                without_ordering = self.connection.ops.ordering_parts.search(sql).group(1)
++            if isinstance(getattr(col, 'expression', None), RawSQL):
++                if sql in seen:
++                    continue
++                seen.add(sql)
++            elif self.connection.features.ordering_parts:
++                # search() will return None if the regex doesn't match.
++                match = self.connection.ops.ordering_parts.search(sql)
++                if match:
++                    without_ordering = match.group(1)
++                else:
++                    without_ordering = sql
+                 if without_ordering in seen:
+                     continue
+                 seen.add(without_ordering)
+             else:
+                 if sql in seen:
+                     continue
+                 seen.add(sql)
+             result.append((sql, params))
+         return result
+ 
+
+```

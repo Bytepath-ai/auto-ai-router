@@ -1,0 +1,42 @@
+```diff
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -742,7 +742,7 @@
+                 root_opts = root_cls._meta
+             select_col_idx = 0
+         else:
+-            opts = cur_model._meta
++            opts = cur_model._meta.concrete_model._meta
+             root_opts = root_cls._meta
+             select_col_idx = -1
+ 
+@@ -1601,6 +1601,7 @@
+             if not new_model:
+                 continue
+ 
++            concrete_model = new_model._meta.concrete_model
+             if not self.deferred_loading[1]:
+                 # .only() fields have been specified.
+                 fields_to_load = set()
+@@ -1617,8 +1618,8 @@
+                             )
+ 
+                 if fields_to_load:
+-                    fields_to_load.add(new_model._meta.pk.attname)
+-                    for f in new_model._meta.local_concrete_fields:
++                    fields_to_load.add(concrete_model._meta.pk.attname)
++                    for f in concrete_model._meta.local_concrete_fields:
+                         if f.attname not in fields_to_load:
+                             # A column is needed for deferred fields.
+                             columns.append(None)
+@@ -1634,7 +1635,7 @@
+                     )
+                     continue
+ 
+-            for f in new_model._meta.local_concrete_fields:
++            for f in concrete_model._meta.local_concrete_fields:
+                 columns.append(f.get_col(from_alias[0], new_model))
+             if fields:
+                 self.select_related_descend(
+
+```

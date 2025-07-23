@@ -1,0 +1,300 @@
+```diff
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -1,5 +1,6 @@
+ """
+ HTML Widget classes
+ """
++import warnings
+ from collections import OrderedDict
+ 
+ from django.core.exceptions import MediaOrderConflictWarning
+@@ -14,101 +15,133 @@
+     """
+     A class that handles the CSS and JavaScript inclusions for a widget.
+     """
+-    _counter = 0
+-
+     def __init__(self, media=None, css=None, js=None):
+         if media:
+-            css = media._css
+-            js = media._js_lists
++            css = media._css_lists
++            js = media._js_lists
+         if css is None:
+             css = {}
++        if isinstance(css, dict):
++            self._css_lists = [css]
++        else:
++            self._css_lists = css
++
+         if js is None:
+             js = []
+-        self._css = css
+         # self._js_lists can be a list of lists, or a list of strings.
+         # If it's a list of strings, convert to a list of lists.
+         if js and not isinstance(js[0], (list, tuple)):
+-            js = [js]
+-        self._js_lists = js
++            self._js_lists = [js]
++        else:
++            self._js_lists = js
+ 
+     def __repr__(self):
+         return 'Media(css=%r, js=%r)' % (self.css, self.js)
+ 
+-    def __str__(self):
+-        return self.render()
+-
+     @property
+     def js(self):
+         return self._js
+ 
+     @property
+     def _js(self):
+-        if not self._js_lists:
++        lists = [l for l in self._js_lists if l]
++        if not lists:
+             return []
+-
+-        # The current implementation of __add__ may produce a list of lists
+-        # that contains some empty lists, so filter them out.
+-        lists = [l for l in self._js_lists if l]
+-        if not lists:
+-            return []
+-
+-        # To provide a consistent merge order, we need to sort the input lists
+-        # by their first item.
+-        lists.sort(key=lambda x: x[0])
+-
+-        # Merge the lists
+-        merged = lists[0]
+-        for lst in lists[1:]:
+-            merged = self.merge(merged, lst)
+-        return merged
++        return self.merge_lists(lists)
+ 
+     @property
+     def css(self):
+         return self._css
+ 
++    @property
++    def _css(self):
++        lists = [d for d in self._css_lists if d]
++        if not lists:
++            return {}
++
++        # Combine all css lists into a single dictionary.
++        css = {}
++        for d in lists:
++            for medium, sublist in d.items():
++                if medium not in css:
++                    css[medium] = []
++                # sublist can be a list or tuple.
++                if isinstance(sublist, (list, tuple)):
++                    css[medium].append(sublist)
++                else:  # Should be a string.
++                    css[medium].append([sublist])
++
++        for medium, medium_lists in css.items():
++            css[medium] = self.merge_lists(medium_lists)
++
++        return css
++
+     def __add__(self, other):
+         new_media = Media()
+-        new_media._css = {
+-            **self._css,
+-            **{
+-                medium: self.merge(self.get(medium, []), other.get(medium, []))
+-                for medium, files in other.css.items()
+-            },
+-        }
++        new_media._css_lists = self._css_lists + other._css_lists
+         new_media._js_lists = self._js_lists + other._js_lists
+         return new_media
+ 
+-    def merge(self, list1, list2):
++    def merge_lists(self, lists):
+         """
+-        Merge two lists of files, preserving order and removing duplicates.
++        Merge a list of lists of files, preserving order and removing
++        duplicates.
+         """
+-        if list1 == list2:
+-            return list1
++        # All items in the order they were first seen.
++        all_items = []
++        # A set of all_items for quick lookups.
++        all_items_set = set()
++        # A list of lists with no duplicate items.
++        lists_no_duplicates = []
++        for sublist in lists:
++            sublist_no_duplicates = []
++            for item in sublist:
++                if item not in all_items_set:
++                    all_items.append(item)
++                    all_items_set.add(item)
++                if item not in sublist_no_duplicates:
++                    sublist_no_duplicates.append(item)
++            if sublist_no_duplicates:
++                lists_no_duplicates.append(sublist_no_duplicates)
+ 
+-        def is_prefix(list1, list2):
+-            if not list1:
+-                return True
+-            if not list2:
+-                return False
+-            return list1 == list2[:len(list1)]
++        if not lists_no_duplicates:
++            return []
+ 
+-        if is_prefix(list1, list2):
+-            return list2
+-        if is_prefix(list2, list1):
+-            return list1
++        # A dictionary of dependencies, e.g. dependencies['a'] is a set of
++        # items that must be included before 'a'.
++        dependencies = {item: set() for item in all_items}
++        for sublist in lists_no_duplicates:
++            for i in range(len(sublist) - 1):
++                # sublist[i] must come before sublist[i+1].
++                dependencies[sublist[i + 1]].add(sublist[i])
+ 
+-        p1 = {x: i for i, x in enumerate(list1)}
+-        p2 = {x: i for i, x in enumerate(list2)}
+-        common = [x for x in list1 if x in p2]
+-        if not common:
+-            return list1 + [x for x in list2 if x not in p1]
++        # The list of items that have been included in the result.
++        result = []
++        result_set = set()
++        # The list of items that are pending inclusion.
++        pending = all_items[:]
++        # A dictionary of each item's index in all_items.
++        all_items_indices = {item: i for i, item in enumerate(all_items)}
+ 
+-        for i in range(len(common) - 1):
+-            for j in range(i + 1, len(common)):
+-                x, y = common[i], common[j]
+-                if p1[x] > p1[y] and p2[x] < p2[y]:
+-                    warnings.warn(
+-                        'Detected duplicate Media files in an opposite order:\n'
+-                        '%s\n%s' % (y, x), MediaOrderConflictWarning, stacklevel=2
+-                    )
+-                    break
+-                if p1[x] < p1[y] and p2[x] > p2[y]:
+-                    warnings.warn(
+-                        'Detected duplicate Media files in an opposite order:\n'
+-                        '%s\n%s' % (x, y), MediaOrderConflictWarning, stacklevel=2
+-                    )
+-                    break
++        while pending:
++            # Find the next item to include in the result. An item can be
++            # included if all of its dependencies have been satisfied.
++            # The order of items in all_items is used to break ties.
++            best_item = None
++            for item in pending:
++                if not (dependencies[item] - result_set):
++                    best_item = item
++                    break
+ 
+-        # The merge logic is to look for a common subsequence. The idea is
+-        # that if list2 contains a subsequence of list1, then we can insert
+-        # the remaining parts of list1 into list2.
+-        merged = self.get_merged_lists_intersection(list1, list2)
+-        p1 = p2 = 0
+-        for item in merged:
+-            if p1 < len(list1) and item == list1[p1]:
+-                p1 += 1
+-            if p2 < len(list2) and item == list2[p2]:
+-                p2 += 1
+-        if p1 < len(list1) or p2 < len(list2):
+-            # There are items in list1 or list2 that don't appear in the
+-            # merged list. This indicates a conflict.
+-            return list1 + [x for x in list2 if x not in list1]
+-        return merged
++            if best_item is None:
++                # A dependency cycle was detected.
++                # Find an item in the pending list that has the fewest
++                # pending dependencies.
++                best_item = min(
++                    pending,
++                    key=lambda item: (
++                        len(dependencies[item] - result_set),
++                        all_items_indices[item],
++                    )
++                )
++                # Find a dependency that creates a cycle.
++                path = [best_item]
++                while True:
++                    # Choose the best dependency to follow. The best one is
++                    # the one that appears latest in all_items.
++                    deps = dependencies[path[-1]] & set(pending)
++                    if not deps:
++                        break
++                    dep = max(deps, key=lambda item: all_items_indices[item])
++                    if dep in path:
++                        # A cycle is found.
++                        warnings.warn(
++                            'Detected media file dependency cycle:\n' +
++                            ' -> '.join(path[path.index(dep):] + [dep]),
++                            MediaOrderConflictWarning, stacklevel=3,
++                        )
++                        break
++                    path.append(dep)
+ 
+-    def get_merged_lists_intersection(self, list1, list2):
+-        """
+-        Return the intersection of two lists of files, preserving order and
+-        removing duplicates.
+-        """
+-        p1 = {x: i for i, x in enumerate(list1)}
+-        p2 = {x: i for i, x in enumerate(list2)}
+-        common = [x for x in list1 if x in p2]
++            result.append(best_item)
++            result_set.add(best_item)
++            pending.remove(best_item)
+ 
+-        for i in range(len(common) - 1):
+-            for j in range(i + 1, len(common)):
+-                x, y = common[i], common[j]
+-                # If x and y are in a different order in list1 and list2,
+-                # there is a conflict.
+-                if (p1[x] > p1[y] and p2[x] < p2[y]) or \
+-                   (p1[x] < p1[y] and p2[x] > p2[y]):
+-                    warnings.warn(
+-                        'Detected duplicate Media files in an opposite order:\n'
+-                        '%s\n%s' % (x, y), MediaOrderConflictWarning, stacklevel=2
+-                    )
+-                    # In case of a conflict, we return the naive merge,
+-                    # i.e. list1 followed by unique items from list2.
+-                    return list1 + [x for x in list2 if x not in p1]
+-
+-        # No conflicts found, so we can merge the lists.
+-        # The merged list is the union of the two lists, with the ordering
+-        # of common elements preserved.
+-        merged = []
+-        p1 = p2 = 0
+-        while p1 < len(list1) and p2 < len(list2):
+-            if list1[p1] == list2[p2]:
+-                merged.append(list1[p1])
+-                p1 += 1
+-                p2 += 1
+-            elif list1[p1] in p2:
+-                merged.append(list2[p2])
+-                p2 += 1
+-            else:
+-                merged.append(list1[p1])
+-                p1 += 1
+-        if p1 < len(list1):
+-            merged.extend(list1[p1:])
+-        if p2 < len(list2):
+-            merged.extend(list2[p2:])
+-        return merged
++        return result
+ 
+     def render(self):
+         """Render the media as a string of HTML."""
+
+```

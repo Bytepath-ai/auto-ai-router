@@ -1,0 +1,14 @@
+```diff
+--- a/astropy/nddata/mixins/ndarithmetic.py
++++ b/astropy/nddata/mixins/ndarithmetic.py
+@@ -494,7 +494,7 @@
+ 
+         # If the operand is an NDData instance but has no mask, the result's
+         # mask is a copy of the self mask.
+-        elif operand is None:
++        elif operand.mask is None:
+             return deepcopy(self.mask)
+ 
+         # If both have masks, they are combined.
+
+```

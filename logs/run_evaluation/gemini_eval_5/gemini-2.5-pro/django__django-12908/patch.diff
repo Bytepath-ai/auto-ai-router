@@ -1,0 +1,26 @@
+```diff
+--- a/django/db/models/query.py
++++ b/django/db/models/query.py
+@@ -21,7 +21,7 @@
+ from django.core.exceptions import (
+     FieldError, MultipleObjectsReturned, ObjectDoesNotExist,
+ )
+-from django.db import connections, router
++from django.db import NotSupportedError, connections, router
+ from django.db.models.constants import LOOKUP_SEP
+ from django.db.models.deletion import Collector
+ from django.db.models.expressions import Case, F, OuterRef, Value, When
+@@ -1000,6 +1000,11 @@
+         """
+         Return a new QuerySet instance that will select only distinct results.
+         """
++        if self.query.combinator:
++            raise NotSupportedError(
++                'Calling QuerySet.distinct() after %s() is not supported.'
++                % self.query.combinator
++            )
+         if field_names:
+             if not self.query.can_filter():
+                 raise TypeError('Cannot call distinct() with fields on a non-queryset.')
+
+```

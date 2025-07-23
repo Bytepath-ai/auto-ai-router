@@ -1,0 +1,37 @@
+```diff
+--- a/astropy/wcs/_wcs.py
++++ b/astropy/wcs/_wcs.py
+@@ -208,6 +208,17 @@
+         else:
+             raise ValueError("pixcrd must be a 1- or 2-D array.")
+ 
++        if nelem == 0:
++            world = np.empty(shape=(0, self.naxis), dtype=np.double)
++            imgcrd = np.empty(shape=(0, self.naxis), dtype=np.double)
++            phi = np.empty(shape=(0), dtype=np.double)
++            theta = np.empty(shape=(0), dtype=np.double)
++            stat = np.empty(shape=(0), dtype=np.int)
++            return {'world': world, 'stat': stat, 'imgcrd': imgcrd,
++                    'phi': phi, 'theta': theta}
++
+         world = np.empty((nelem, self.naxis), dtype=np.double)
+         imgcrd = np.empty((nelem, self.naxis), dtype=np.double)
+         phi = np.empty((nelem), dtype=np.double)
+@@ -288,6 +299,17 @@
+         else:
+             raise ValueError("world must be a 1- or 2-D array.")
+ 
++        if nelem == 0:
++            pixcrd = np.empty(shape=(0, self.naxis), dtype=np.double)
++            imgcrd = np.empty(shape=(0, self.naxis), dtype=np.double)
++            phi = np.empty(shape=(0), dtype=np.double)
++            theta = np.empty(shape=(0), dtype=np.double)
++            stat = np.empty(shape=(0), dtype=np.int)
++            return {'pixcrd': pixcrd, 'stat': stat, 'imgcrd': imgcrd,
++                    'phi': phi, 'theta': theta}
++
+         pixcrd = np.empty((nelem, self.naxis), dtype=np.double)
+         imgcrd = np.empty((nelem, self.naxis), dtype=np.double)
+         phi = np.empty((nelem), dtype=np.double)
+
+```

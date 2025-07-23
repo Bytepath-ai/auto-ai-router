@@ -1,0 +1,16 @@
+```diff
+--- a/django/template/autoreload.py
++++ b/django/template/autoreload.py
+@@ -31,6 +31,10 @@
+     """
+     Signal handler that resets the template cache when a template is changed.
+     """
++    # If a Python file is changed, it's not a template.
++    if file_path.suffix == ".py":
++        return
++
+     for backend in get_template_backends():
+         if not hasattr(backend, "template_dirs"):
+             continue
+
+```

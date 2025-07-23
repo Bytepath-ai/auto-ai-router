@@ -1,0 +1,28 @@
+```diff
+--- a/django/db/migrations/autodetector.py
++++ b/django/db/migrations/autodetector.py
+@@ -700,6 +700,23 @@
+                 new_field = new_model_state.get_field_by_name(field_name)
+                 # Did the field change?
+                 if old_field.deconstruct() != new_field.deconstruct():
++                    # If the field is a related field and the relation target
++                    # has had its primary key renamed, it's not a change we
++                    # should generate an operation for.
++                    if (
++                        new_field.is_relation and new_field.remote_field and
++                        new_field.remote_field.model and
++                        hasattr(new_field.remote_field.model, '_meta')
++                    ):
++                        remote_app_label = new_field.remote_field.model._meta.app_label
++                        remote_model_name = new_field.remote_field.model._meta.model_name
++                        if (remote_app_label, remote_model_name) in from_state.models:
++                            remote_from_model_state = from_state.models[remote_app_label, remote_model_name]
++                            if remote_from_model_state.pk:
++                                pk_name = remote_from_model_state.pk.name
++                                if (remote_app_label, remote_model_name, pk_name) in self.field_renames:
++                                    continue
+                     # It's a change, but is it a move?
+                     if self.swappable_first_party(new_field):
+                         # This is a change to a swappable model. We need to
+
+```

@@ -1,0 +1,4427 @@
+2025-07-22 10:17:27,280 - INFO - Creating container for astropy__astropy-7746...
+2025-07-22 10:17:27,485 - INFO - Container for astropy__astropy-7746 created: f088fada610f5912d1180b6d4cfbb85b1684f4bace3c38ba2ddaff92d1b49b7b
+2025-07-22 10:17:27,708 - INFO - Container for astropy__astropy-7746 started: f088fada610f5912d1180b6d4cfbb85b1684f4bace3c38ba2ddaff92d1b49b7b
+2025-07-22 10:17:27,708 - INFO - Intermediate patch for astropy__astropy-7746 written to logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/patch.diff, now applying to container...
+2025-07-22 10:17:27,876 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 10:17:27,950 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 10:17:28,047 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 10:17:28,047 - INFO - >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+2025-07-22 10:17:28,050 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:17:28,050 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,050 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,050 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,050 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,050 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,050 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,050 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,050 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,050 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,050 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,051 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,052 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-7746: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/astropy/wcs/_wcs.py
+|+++ b/astropy/wcs/_wcs.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: @@ -288,6 +299,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-7746/run_instance.log) for more information.
+
+2025-07-22 10:17:28,057 - INFO - Attempting to stop container sweb.eval.astropy__astropy-7746.gemini_eval_5...
+2025-07-22 10:17:43,449 - INFO - Attempting to remove container sweb.eval.astropy__astropy-7746.gemini_eval_5...
+2025-07-22 10:17:43,455 - INFO - Container sweb.eval.astropy__astropy-7746.gemini_eval_5 removed.
+2025-07-22 10:17:43,455 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.astropy_1776_astropy-7746:latest...
+2025-07-22 10:17:44,313 - INFO - Image swebench/sweb.eval.x86_64.astropy_1776_astropy-7746:latest removed.

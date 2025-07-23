@@ -1,0 +1,51 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -218,6 +218,7 @@
+         return [
+             *self._check_field_name(),
+             *self._check_choices(),
++            *self._check_max_length_for_choices(),
+             *self._check_db_index(),
+             *self._check_null_allowed_for_primary_key(),
+             *self._check_validators(),
+@@ -256,6 +257,38 @@
+                     )
+                 ]
+         return []
++
++    def _check_max_length_for_choices(self):
++        if not hasattr(self, 'max_length') or self.max_length is None or not self.choices:
++            return []
++
++        # Don't perform the check if max_length is not a positive integer,
++        # as another check will already report the error.
++        if not isinstance(self.max_length, int) or isinstance(self.max_length, bool) or self.max_length <= 0:
++            return []
++
++        try:
++            # Catch any error during choices flattening.
++            flat_choices = self.flatten_choices()
++        except (TypeError, ValueError):
++            # Malformed choices will be caught by _check_choices().
++            return []
++
++        if not flat_choices:
++            return []
++
++        max_len = max(len(str(c)) for c, d in flat_choices)
++        if max_len > self.max_length:
++            return [
++                checks.Error(
++                    "'max_length' is too small to fit the longest value in "
++                    "'choices' ({} characters).".format(max_len),
++                    obj=self,
++                    id='fields.E009',
++                )
++            ]
++        return []
+ 
+     def _check_db_index(self, **kwargs):
+         if self.db_index not in (True, False, None):
+
+```

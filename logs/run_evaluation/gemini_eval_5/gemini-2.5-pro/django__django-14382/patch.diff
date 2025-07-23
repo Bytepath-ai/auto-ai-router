@@ -1,0 +1,14 @@
+```diff
+--- a/django/core/management/templates.py
++++ b/django/core/management/templates.py
+@@ -74,7 +74,7 @@
+             # The 'app' template must be rendered in a directory named after the
+             # app.
+             if target:
+-                self.validate_name(os.path.basename(target), 'directory')
++                self.validate_name(os.path.basename(target.rstrip(os.sep)), 'directory')
+             else:
+                 self.validate_name(name, 'name')
+ 
+
+```

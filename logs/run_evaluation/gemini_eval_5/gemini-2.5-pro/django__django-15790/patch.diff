@@ -1,0 +1,44 @@
+```diff
+--- a/django/template/checks.py
++++ b/django/template/checks.py
+@@ -9,29 +9,29 @@
+ @register(Tags.templates)
+ def check_for_template_tags_with_the_same_name(app_configs, **kwargs):
+     errors = []
+-    libraries = defaultdict(list)
++    libraries = defaultdict(set)
+     for conf in settings.TEMPLATES:
+         engine = conf.get("BACKEND")
+         if engine != "django.template.backends.django.DjangoTemplates":
+             continue
+ 
+         options = conf.get("OPTIONS", {})
+         for lib_name, lib_path in options.get("libraries", {}).items():
+-            libraries[lib_name].append(lib_path)
++            libraries[lib_name].add(lib_path)
+ 
+     for app_config in apps.get_app_configs():
+         path = Path(app_config.path) / "templatetags"
+         if not path.exists():
+             continue
+ 
+         for file in path.iterdir():
+             if file.name.startswith("_") or not file.name.endswith(".py"):
+                 continue
+             lib_name = file.stem
+             lib_path = f"{app_config.module.__name__}.templatetags.{lib_name}"
+-            libraries[lib_name].append(lib_path)
++            libraries[lib_name].add(lib_path)
+ 
+     for lib_name, lib_paths in libraries.items():
+         if len(lib_paths) > 1:
+             errors.append(
+                 Error(
+                     f"'{lib_name}' is used for multiple template tag modules: "
+-                    f"{', '.join(lib_paths)}",
++                    f"{', '.join(sorted(lib_paths))}",
+                     id="templates.E003",
+                 )
+             )
+
+```

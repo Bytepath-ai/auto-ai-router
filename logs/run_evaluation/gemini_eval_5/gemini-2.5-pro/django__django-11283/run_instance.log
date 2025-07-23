@@ -1,0 +1,2467 @@
+2025-07-22 10:23:57,726 - INFO - Creating container for django__django-11283...
+2025-07-22 10:23:58,261 - INFO - Container for django__django-11283 created: 908ed26127256424551ee969c205327d0193943c7a29ff27bb80a3e70276e0e7
+2025-07-22 10:23:58,491 - INFO - Container for django__django-11283 started: 908ed26127256424551ee969c205327d0193943c7a29ff27bb80a3e70276e0e7
+2025-07-22 10:23:58,491 - INFO - Intermediate patch for django__django-11283 written to logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/patch.diff, now applying to container...
+2025-07-22 10:23:58,691 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 10:23:58,784 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 10:23:58,858 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 10:23:58,858 - INFO - >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+2025-07-22 10:23:58,860 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:23:58,860 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,860 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,860 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,860 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,860 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,860 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,860 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,860 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,860 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,860 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,860 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,860 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,860 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,860 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,861 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,862 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,863 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,863 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,863 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,863 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,863 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,863 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,863 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,863 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,863 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,864 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,865 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/migrations/0011_update_proxy_permissions.py
+patch: **** malformed patch at line 23: @@ -55,7 +65,17 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-11283/run_instance.log) for more information.
+
+2025-07-22 10:23:58,866 - INFO - Attempting to stop container sweb.eval.django__django-11283.gemini_eval_5...
+2025-07-22 10:24:14,220 - INFO - Attempting to remove container sweb.eval.django__django-11283.gemini_eval_5...
+2025-07-22 10:24:14,230 - INFO - Container sweb.eval.django__django-11283.gemini_eval_5 removed.
+2025-07-22 10:24:14,230 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-11283:latest...
+2025-07-22 10:24:14,638 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-11283:latest removed.

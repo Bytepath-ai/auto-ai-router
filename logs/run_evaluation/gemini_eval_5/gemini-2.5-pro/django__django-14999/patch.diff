@@ -1,0 +1,31 @@
+```diff
+--- a/django/db/migrations/operations/models.py
++++ b/django/db/migrations/operations/models.py
+@@ -160,9 +160,12 @@
+ 
+     def database_forwards(self, app_label, schema_editor, from_state, to_state):
+         new_model = to_state.apps.get_model(app_label, self.new_name)
++        old_model = from_state.apps.get_model(app_label, self.old_name)
++        # If the db_table is unchanged, this is a no-op.
++        if old_model._meta.db_table == new_model._meta.db_table:
++            return
+         if self.allow_migrate_model(schema_editor.connection.alias, new_model):
+-            old_model = from_state.apps.get_model(app_label, self.old_name)
+             # Get the old db_table name
+             old_db_table = old_model._meta.db_table
+             # Get the new db_table name
+@@ -185,9 +188,12 @@
+ 
+     def database_backwards(self, app_label, schema_editor, from_state, to_state):
+         old_model = to_state.apps.get_model(app_label, self.old_name)
++        new_model = from_state.apps.get_model(app_label, self.new_name)
++        # If the db_table is unchanged, this is a no-op.
++        if new_model._meta.db_table == old_model._meta.db_table:
++            return
+         if self.allow_migrate_model(schema_editor.connection.alias, old_model):
+-            new_model = from_state.apps.get_model(app_label, self.new_name)
+             # Get the old db_table name
+             old_db_table = old_model._meta.db_table
+             # Get the new db_table name
+
+```

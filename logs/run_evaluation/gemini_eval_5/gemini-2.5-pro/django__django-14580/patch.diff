@@ -1,0 +1,13 @@
+```diff
+--- a/django/db/migrations/serializer.py
++++ b/django/db/migrations/serializer.py
+@@ -278,7 +278,7 @@
+     def serialize(self):
+         special_cases = [
+-            (models.Model, "models.Model", []),
++            (models.Model, "models.Model", ['from django.db import models']),
+             (type(None), 'type(None)', []),
+         ]
+         for case, string, imports in special_cases:
+
+```

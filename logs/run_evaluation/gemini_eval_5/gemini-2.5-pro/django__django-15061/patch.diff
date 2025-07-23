@@ -1,0 +1,21 @@
+```diff
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -635,10 +635,11 @@
+         return context
+ 
+     def id_for_label(self, id_):
+-        # See the comment for RadioSelect.id_for_label.
+-        if id_:
+-            id_ += '_0'
+-        return id_
++        """
++        Don't render a `for` attribute for the label since this widget
++        is composed of multiple subwidgets.
++        """
++        return ''
+ 
+     def value_from_datadict(self, data, files, name):
+         return [widget.value_from_datadict(data, files, '%s_%s' % (name, i))
+
+```

@@ -1,0 +1,14 @@
+```diff
+--- a/django/contrib/admin/utils.py
++++ b/django/contrib/admin/utils.py
+@@ -101,6 +101,8 @@
+         return formats.number_format(value)
+     elif isinstance(field, (models.IntegerField, models.FloatField)):
+         return formats.number_format(value)
++    elif field.get_internal_type() == 'JSONField':
++        return field.get_prep_value(value)
+     elif isinstance(field, ManyToManyField) and value.__class__.__name__ == 'ManyRelatedManager':
+         return ', '.join(map(str, value.all()))
+     else:
+
+```

@@ -1,0 +1,33 @@
+```diff
+--- a/django/views/decorators/http.py
++++ b/django/views/decorators/http.py
+@@ -54,8 +54,11 @@
+             return response
+         response['Last-Modified'] = http_date(time.mktime(last_modified.utctimetuple()))
+         if_modified_since = request.META.get('HTTP_IF_MODIFIED_SINCE')
+-        if if_modified_since:
+-            if_modified_since = parse_http_date(if_modified_since)
++        if if_modified_since is not None:
++            try:
++                if_modified_since = parse_http_date(if_modified_since)
++            except (TypeError, ValueError):
++                if_modified_since = None
+         if if_modified_since and last_modified:
+             if time.mktime(last_modified.utctimetuple()) <= if_modified_since:
+                 return HttpResponseNotModified()
+@@ -126,8 +126,11 @@
+                 if not_modified:
+                     continue
+                 if_modified_since = request.META.get('HTTP_IF_MODIFIED_SINCE')
+-                if if_modified_since:
+-                    if_modified_since = parse_http_date(if_modified_since)
++                if if_modified_since is not None:
++                    try:
++                        if_modified_since = parse_http_date(if_modified_since)
++                    except (TypeError, ValueError):
++                        if_modified_since = None
+                 if if_modified_since and last_modified:
+                     if time.mktime(last_modified.utctimetuple()) <= if_modified_since:
+                         not_modified = True
+
+```

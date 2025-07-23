@@ -1,0 +1,46 @@
+```diff
+--- a/django/utils/http.py
++++ b/django/utils/http.py
+@@ -1,4 +1,5 @@
+ import base64
++from datetime import datetime
+ import re
+ import time
+ from urllib.parse import (
+@@ -288,12 +289,26 @@
+     Sun Nov  6 08:49:37 1994       ; ANSI C's asctime() format
+     """
+     # All three formats are supported by time.strptime(), but only if the
+     # right format string is used.
+-    for format in ('%a, %d %b %Y %H:%M:%S GMT',
+-                   '%A, %d-%b-%y %H:%M:%S GMT',
+-                   '%a %b %d %H:%M:%S %Y'):
+-        try:
+-            return int(time.mktime(time.strptime(date, format)))
+-        except (ValueError, TypeError):
+-            continue
++    rfc850_format = '%A, %d-%b-%y %H:%M:%S GMT'
++    for format in ('%a, %d %b %Y %H:%M:%S GMT',
++                   rfc850_format,
++                   '%a %b %d %H:%M:%S %Y'):
++        try:
++            t = time.strptime(date, format)
++            if format == rfc850_format:
++                # RFC 850 format can have a two-digit year.
++                # https://tools.ietf.org/html/rfc7231#section-7.1.1.1
++                # "Recipients of a timestamp value in rfc850-date format,
++                # which uses a two-digit year, MUST interpret a timestamp
++                # that appears to be more than 50 years in the future as
++                # representing the most recent year in the past that had
++                # the same last two digits."
++                year = t.tm_year
++                if year > datetime.utcnow().year + 50:
++                    t = t[:0] + (year - 100,) + t[1:]
++            return int(time.mktime(t))
++        except (ValueError, TypeError):
++            continue
+     raise ValueError("%r is not in a valid HTTP date format" % date)
+ 
+ 
+
+```

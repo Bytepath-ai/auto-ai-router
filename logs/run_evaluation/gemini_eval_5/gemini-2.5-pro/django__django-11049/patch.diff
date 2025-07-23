@@ -1,0 +1,36 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -1614,8 +1614,8 @@
+     """
+     default_error_messages = {
+         'invalid': _('“%(value)s” value has an invalid format. It must be in '
+-                     '[DD] [HH:[MM:]]ss[.uuuuuu] format.'),
++                     '[DD] [HH:]MM:ss[.uuuuuu] format.'),
+         'invalid_days': _('“%(value)s” value has an invalid format for days.'),
+         'invalid_time': _('“%(value)s” value has an invalid format for time.'),
+     }
+--- a/django/forms/fields.py
++++ b/django/forms/fields.py
+@@ -630,7 +630,7 @@
+ 
+ class DurationField(Field):
+     default_error_messages = {
+-        'invalid': _('Enter a valid duration.'),
++        'invalid': _('Enter a valid duration in [DD] [HH:]MM:ss[.uuuuuu] format.'),
+     }
+ 
+     def to_python(self, value):
+--- a/django/utils/dateparse.py
++++ b/django/utils/dateparse.py
+@@ -132,8 +132,8 @@
+ def parse_duration(value):
+     """
+     Parse a duration string and return a datetime.timedelta.
+-    The format is ``[DD] [HH:[MM:]]ss[.uuuuuu]``.
++    The format is ``[DD] [HH:]MM:ss[.uuuuuu]``.
+     """
+     match = duration_re.match(value)
+     if not match:
+
+```

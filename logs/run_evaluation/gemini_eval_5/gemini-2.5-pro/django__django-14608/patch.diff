@@ -1,0 +1,11 @@
+```diff
+--- a/docs/topics/forms/formsets.txt
++++ b/docs/topics/forms/formsets.txt
+@@ -630,4 +630,4 @@
+     This method returns an :class:`~django.forms.utils.ErrorList` of errors
+     from :meth:`~BaseFormSet.clean` that are not specific to a particular form.
+ 
+-    When rendered, this will be a ``<ul class="errorlist nonform">``.
++    When rendered, this will be a ``<ul class="nonform">``.
+
+```

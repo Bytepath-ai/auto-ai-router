@@ -1,0 +1,30 @@
+```diff
+--- a/django/db/models/fields/related.py
++++ b/django/db/models/fields/related.py
+@@ -1851,6 +1851,22 @@
+         self.symmetrical = symmetrical
+         self.through_fields = through_fields
+ 
++    def check(self, **kwargs):
++        return [
++            *super().check(**kwargs),
++            *self._check_related_name_is_valid(),
++        ]
++
++    def _check_related_name_is_valid(self):
++        if self.symmetrical and self.remote_field.related_name is not None:
++            return [
++                checks.Error(
++                    "The 'related_name' argument is not supported for symmetrical "
++                    "many-to-many relationships.",
++                    obj=self,
++                    id='fields.E332',
++                )
++            ]
++        return []
++
+     def deconstruct(self):
+         name, path, args, kwargs = super().deconstruct()
+         # If an intermediary model has been used, there are no exceptions
+
+```

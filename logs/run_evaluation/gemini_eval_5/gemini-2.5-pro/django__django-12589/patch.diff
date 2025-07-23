@@ -1,0 +1,47 @@
+```diff
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -1937,11 +1937,21 @@
+         self.group_by = []
+         self.extra_select_mask = None
+         if allow_aliases and self.group_by_related:
++            colliding_columns = None
+             for alias, annotation in self.annotation_select.items():
+                 if alias in self.group_by_related_values:
+-                    self.group_by.extend(annotation.get_group_by_cols())
++                    original_alias = annotation.alias
++                    if colliding_columns is None:
++                        colliding_columns = self.get_colliding_columns()
++                    if alias in colliding_columns:
++                        annotation.alias = None
++                    self.group_by.extend(annotation.get_group_by_cols())
++                    annotation.alias = original_alias
+             return
+ 
+         # The logic below is implemented in two steps because of M2M relations.
+         # The first step with group_by_cols is for all "regular" fields.
+@@ -2329,6 +2339,22 @@
+         """
+         raise NotImplementedError("QuerySet cannot be pickled")
+ 
++    def get_colliding_columns(self):
++        if not hasattr(self, '_colliding_columns_cache'):
++            # A list of all columns that are part of the query.
++            colliding_columns = {
++                f.column for f in self.model._meta.get_fields()
++                if hasattr(f, 'column')
++            }
++            for join in self.alias_map.values():
++                if join.join_field:
++                    colliding_columns.update(
++                        f.column for f in join.join_field.related_model._meta.get_fields()
++                        if hasattr(f, 'column')
++                    )
++            self._colliding_columns_cache = colliding_columns
++        return self._colliding_columns_cache
++
+     def get_compiler(self, using=None, connection=None):
+         # Set up the connection object.
+         if using is None and connection is None:
+
+```

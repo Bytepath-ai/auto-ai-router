@@ -1,0 +1,17 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -756,9 +756,9 @@
+         else:
+             cls._meta.add_field(self, private=True)
+         if self.choices:
+-            setattr(cls, 'get_%s_display' % self.name,
+-                    partialmethod(cls._get_FIELD_display, field=self))
++            if not hasattr(cls, 'get_%s_display' % self.name):
++                setattr(cls, 'get_%s_display' % self.name,
++                        partialmethod(cls._get_FIELD_display, field=self))
+ 
+         if self.column is None:
+             self.column = self.name
+
+```

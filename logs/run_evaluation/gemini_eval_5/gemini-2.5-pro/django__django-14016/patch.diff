@@ -1,0 +1,21 @@
+```diff
+--- a/django/db/models/query_utils.py
++++ b/django/db/models/query_utils.py
+@@ -24,7 +24,13 @@
+         """
+         obj = Node(connector=self.connector, negated=self.negated)
+         obj.__class__ = self.__class__
+-        obj.children = copy.deepcopy(self.children, memodict)
++        # The children are either Q objects or (key, value) tuples.
++        # We need to deepcopy Q objects and shallow copy the tuples.
++        obj.children = []
++        for child in self.children:
++            if isinstance(child, Q):
++                obj.children.append(copy.deepcopy(child, memodict))
++            else:
++                obj.children.append(child)
+         return obj
+ 
+     def _combine(self, other, conn):
+
+```

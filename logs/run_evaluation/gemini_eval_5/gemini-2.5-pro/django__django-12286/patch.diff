@@ -1,0 +1,19 @@
+```diff
+--- a/django/core/checks/translation.py
++++ b/django/core/checks/translation.py
+@@ -1,5 +1,6 @@
+ from django.conf import settings
++from django.utils.translation import check_for_language
+ from django.utils.translation.trans_real import language_code_re
+ 
+ from . import Error, Tags, register
+@@ -44,7 +45,7 @@
+     lang_code = settings.LANGUAGE_CODE
+     if not language_code_re.match(lang_code):
+         errors.append(E001)
+-    if lang_code not in {lang for lang, name in settings.LANGUAGES}:
++    if not check_for_language(lang_code):
+         errors.append(E004)
+     return errors
+
+```

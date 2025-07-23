@@ -1,0 +1,43 @@
+```diff
+--- a/django/contrib/auth/migrations/0011_update_proxy_permissions.py
++++ b/django/contrib/auth/migrations/0011_update_proxy_permissions.py
+@@ -28,8 +28,18 @@
+             for action in ('add', 'change', 'delete', 'view')
+         ]
+         proxy_permissions = permissions.filter(codename__in=codenames)
++        # Find permissions that exist with the proxy content type.
++        existing_permissions = Permission.objects.filter(
++            content_type=proxy_content_type,
++            codename__in=codenames,
++        ).values_list('codename', flat=True)
++        # Delete permissions that conflict with existing ones.
++        proxy_permissions.filter(codename__in=existing_permissions).delete()
+         # Update the permissions to use the proxy content type.
+-        proxy_permissions.update(content_type=proxy_content_type)
++        proxy_permissions.exclude(
++            codename__in=existing_permissions,
++        ).update(content_type=proxy_content_type)
+ 
+ 
+ def revert_proxy_permissions(apps, schema_editor):
+@@ -55,7 +65,17 @@
+             for action in ('add', 'change', 'delete', 'view')
+         ]
+         proxy_permissions = permissions.filter(codename__in=codenames)
+-        proxy_permissions.update(content_type=concrete_content_type)
++        # Find permissions that exist with the concrete content type.
++        existing_permissions = Permission.objects.filter(
++            content_type=concrete_content_type,
++            codename__in=codenames,
++        ).values_list('codename', flat=True)
++        # Delete permissions that conflict with existing ones.
++        proxy_permissions.filter(codename__in=existing_permissions).delete()
++        # Update the permissions to use the concrete content type.
++        proxy_permissions.exclude(
++            codename__in=existing_permissions,
++        ).update(content_type=concrete_content_type)
+ 
+ 
+ class Migration(migrations.Migration):
+
+```

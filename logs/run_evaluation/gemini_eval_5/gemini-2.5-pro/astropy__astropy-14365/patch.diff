@@ -1,0 +1,44 @@
+```diff
+--- a/astropy/io/ascii/qdp.py
++++ b/astropy/io/ascii/qdp.py
+@@ -54,7 +54,7 @@
+ 
+             # If the line is a READ command, then this is the start of a
+             # data block.
+-            elif line.startswith("READ"):
++            elif line.upper().startswith("READ"):
+                 if state != "start":
+                     warnings.warn(
+                         "Skipping extra data table", AstropyWarning, stacklevel=2
+@@ -68,11 +68,11 @@
+                 words = line.split()
+ 
+                 # The second word should be SERR or TERR
+-                if words[1] == "SERR":
++                if words[1].upper() == "SERR":
+                     # Symmetric errors
+                     for i in range(2, len(words)):
+                         err_cols.append(int(words[i]) - 1)
+                     n_cols = len(err_cols) * 2
+-                elif words[1] == "TERR":
++                elif words[1].upper() == "TERR":
+                     # Asymmetric errors
+                     raise ValueError("TERR not supported")
+                 else:
+@@ -86,12 +86,12 @@
+ 
+             # If the line is a NO command, then this is the end of a data
+             # block.
+-            elif line.startswith("NO"):
++            elif line.upper().startswith("NO"):
+                 if state == "in_data":
+                     state = "end_data"
+ 
+             # If the line is a PLOT command, then we can ignore it.
+-            elif line.startswith("PLOT"):
++            elif line.upper().startswith("PLOT"):
+                 pass
+ 
+             # Otherwise, it's either a data line or an error
+
+```

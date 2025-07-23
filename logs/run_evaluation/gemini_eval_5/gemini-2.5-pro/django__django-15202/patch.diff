@@ -1,0 +1,20 @@
+```diff
+--- a/django/core/validators.py
++++ b/django/core/validators.py
+@@ -123,8 +123,12 @@
+         if not isinstance(value, str):
+             raise ValidationError(self.message, code=self.code)
+ 
+-        # Check if the scheme is valid.
+-        scheme = urlsplit(value).scheme
++        # Check if the scheme is valid. urlsplit() raises a ValueError for
++        # some malformed URLs.
++        try:
++            scheme = urlsplit(value).scheme
++        except ValueError:
++            raise ValidationError(self.message, code=self.code)
+         if self.schemes and scheme not in self.schemes:
+             raise ValidationError(self.message, code=self.code)
+ 
+
+```

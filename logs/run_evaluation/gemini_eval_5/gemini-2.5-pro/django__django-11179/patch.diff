@@ -1,0 +1,26 @@
+```diff
+--- a/django/db/models/deletion.py
++++ b/django/db/models/deletion.py
+@@ -272,16 +272,18 @@
+                     if not self.can_fast_delete(instance):
+                         break
+                     count = sql.DeleteQuery(model).delete_batch([instance.pk], self.using)
+-                    return count, {model._meta.label: count}
++                    setattr(instance, model._meta.pk.attname, None)
++                    return count, {model._meta.label: count}
+             else:
+                 # This is the fast-path. If we've reached here, we haven't
+                 # broken out of the loop, so we can be sure that the only
+                 # item in self.data is a single instance of a model with
+                 # no related objects.
+                 for model, instances in self.data.items():
+                     count = sql.DeleteQuery(model).delete_batch(list(instances), self.using)
+-                    return count, {model._meta.label: count}
++                    for instance in instances:
++                        setattr(instance, model._meta.pk.attname, None)
++                    return count, {model._meta.label: count}
+ 
+         with transaction.atomic(using=self.using, savepoint=False):
+             # send pre_delete signals
+
+```

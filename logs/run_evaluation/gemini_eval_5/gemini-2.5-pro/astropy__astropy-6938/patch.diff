@@ -1,0 +1,14 @@
+```diff
+--- a/astropy/io/fits/fitsrec.py
++++ b/astropy/io/fits/fitsrec.py
+@@ -1112,7 +1112,7 @@
+ 
+         # Replace exponent separator in floating point numbers
+         if 'D' in format:
+-            output_field.replace(encode_ascii('E'), encode_ascii('D'))
++            output_field = output_field.replace(encode_ascii('E'), encode_ascii('D'))
+ 
+         # The TNULL value for ASCII table is a string of blanks.
+         # The regular expression is to avoid replacing valid blanks in a
+
+```

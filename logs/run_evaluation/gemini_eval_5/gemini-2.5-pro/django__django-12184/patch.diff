@@ -1,0 +1,17 @@
+```diff
+--- a/django/urls/resolvers.py
++++ b/django/urls/resolvers.py
+@@ -225,6 +225,11 @@
+             # non-named groups. Otherwise, pass all non-named arguments as
+             # positional arguments.
+             kwargs = match.groupdict()
++            # For non-nested optional groups, groupdict() returns None for
++            # the group if it did not match. For nested optional groups,
++            # groupdict() returns None for the inner group if it did not
++            # match, but the key for the outer group is missing.
++            kwargs.update({k: None for k in self.regex.groupindex if k not in kwargs})
+             args = () if kwargs else match.groups()
+             kwargs = {**self.default_args, **kwargs}
+             return ResolverMatch(self.callback, args, kwargs, self.name)
+
+```

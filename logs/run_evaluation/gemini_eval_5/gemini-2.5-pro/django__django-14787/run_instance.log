@@ -1,0 +1,2957 @@
+2025-07-22 10:59:52,210 - INFO - Creating container for django__django-14787...
+2025-07-22 10:59:53,799 - INFO - Container for django__django-14787 created: 2ace88e4a4ef42cbc514f2dec168ae88733de7332c109cec1d95d79dcddf8225
+2025-07-22 10:59:54,006 - INFO - Container for django__django-14787 started: 2ace88e4a4ef42cbc514f2dec168ae88733de7332c109cec1d95d79dcddf8225
+2025-07-22 10:59:54,006 - INFO - Intermediate patch for django__django-14787 written to logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/patch.diff, now applying to container...
+2025-07-22 10:59:54,182 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 10:59:54,257 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 10:59:54,299 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 10:59:54,299 - INFO - >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,301 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,302 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,303 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,304 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14787: >>>>> Patch Apply Failed:
+patching file django/utils/decorators.py
+Hunk #1 FAILED at 119.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/decorators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14787/run_instance.log) for more information.
+
+2025-07-22 10:59:54,305 - INFO - Attempting to stop container sweb.eval.django__django-14787.gemini_eval_5...
+2025-07-22 11:00:09,717 - INFO - Attempting to remove container sweb.eval.django__django-14787.gemini_eval_5...
+2025-07-22 11:00:09,725 - INFO - Container sweb.eval.django__django-14787.gemini_eval_5 removed.
+2025-07-22 11:00:09,725 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-14787:latest...
+2025-07-22 11:00:10,140 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-14787:latest removed.

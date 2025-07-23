@@ -1,0 +1,12 @@
+```diff
+--- a/django/db/models/expressions.py
++++ b/django/db/models/expressions.py
+@@ -271,4 +271,5 @@
+         return sql, []
+ 
+     def rename_table_references(self, new_table):
+-        self.alias = new_table
++        if self.alias:
++            self.alias = new_table
+
+```

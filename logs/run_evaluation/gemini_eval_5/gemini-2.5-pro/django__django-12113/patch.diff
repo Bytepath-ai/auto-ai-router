@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/backends/sqlite3/creation.py
++++ b/django/db/backends/sqlite3/creation.py
+@@ -10,7 +10,7 @@
+         """
+         test_database_name = self.connection.settings_dict['TEST']['NAME']
+         if test_database_name and test_database_name != ':memory:':
+-            return test_database_name
++            return os.path.abspath(test_database_name)
+         return ':memory:'
+ 
+     def _create_test_db(self, verbosity, autoclobber, keepdb=False):
+
+```

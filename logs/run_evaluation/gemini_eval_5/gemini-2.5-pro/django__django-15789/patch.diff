@@ -1,0 +1,65 @@
+```diff
+--- a/docs/ref/utils.txt
++++ b/docs/ref/utils.txt
+@@ -148,6 +148,35 @@
+ 
+ .. autofunction:: lazystr
+ 
++``django.utils.html``
++=====================
++
++.. module:: django.utils.html
++
++.. function:: json_script(value, element_id, encoder=DjangoJSONEncoder)
++
++    Safely output a Python object as JSON, wrapped in a ``<script>`` tag, ready
++    for use with JavaScript.
++
++    **Arguments:**
++
++    * ``value``: The Python object to be serialized to JSON.
++    * ``element_id``: The ID for the resulting ``<script>`` tag.
++    * ``encoder``: The JSON encoder to use for serialization. Defaults to
++      :class:`~django.core.serializers.json.DjangoJSONEncoder`.
++
++    **Example:**
++
++    .. code-block:: python
++
++        from django.utils.html import json_script
++
++        json_script({'a': 'b'}, 'my-data')
++
++    This would output the following HTML:
++
++    .. code-block:: html
++
++        <script id="my-data" type="application/json">{"a": "b"}</script>
++
+ ``django.utils.http``
+ =====================
+ 
+--- a/django/utils/html.py
++++ b/django/utils/html.py
+@@ -9,18 +9,18 @@ from django.utils.translation import gettext_lazy
+ 
+ 
+-def json_script(value, element_id):
++def json_script(value, element_id, encoder=DjangoJSONEncoder):
+     """
+     Escape all the HTML/XML special characters with their unicode escapes, so
+     value can be used safely in a <script> tag.
+     """
+     from django.utils.safestring import mark_safe
+ 
+     json_str = json.dumps(
+         value,
+-        cls=DjangoJSONEncoder,
++        cls=encoder,
+         ensure_ascii=False,
+         separators=(",", ":"),
+     ).replace("<", "\\u003c")
+     return mark_safe(
+         '<script id="{}" type="application/json">{}</script>'.format(
+
+```

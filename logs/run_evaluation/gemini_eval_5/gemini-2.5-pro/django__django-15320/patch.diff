@@ -1,0 +1,16 @@
+```diff
+--- a/django/db/models/expressions.py
++++ b/django/db/models/expressions.py
+@@ -372,8 +372,9 @@
+     template = '(%(subquery)s)'
+ 
+     def __init__(self, queryset, **kwargs):
+-        self.queryset = queryset
++        self.queryset = queryset.all()
++        self.queryset.query.subquery = True
+         self.extra = kwargs
+         super(Subquery, self).__init__(output_field=None)
+ 
+     def as_sql(self, compiler, connection):
+
+```

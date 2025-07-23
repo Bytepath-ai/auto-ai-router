@@ -1,0 +1,4427 @@
+2025-07-22 11:09:50,397 - INFO - Creating container for django__django-15790...
+2025-07-22 11:09:50,851 - INFO - Container for django__django-15790 created: 219596ca32159b0b7e0355b2c928d91468f1f829171f5dcdaebfe761759c302f
+2025-07-22 11:09:51,072 - INFO - Container for django__django-15790 started: 219596ca32159b0b7e0355b2c928d91468f1f829171f5dcdaebfe761759c302f
+2025-07-22 11:09:51,072 - INFO - Intermediate patch for django__django-15790 written to logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/patch.diff, now applying to container...
+2025-07-22 11:09:51,184 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 11:09:51,233 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 11:09:51,329 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 11:09:51,329 - INFO - >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+2025-07-22 11:09:51,336 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 11:09:51,336 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,336 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,336 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,336 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,336 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,336 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,336 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,337 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,338 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,338 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,338 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,338 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,338 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,338 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,338 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,338 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,338 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,338 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,339 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,340 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,340 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,340 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,340 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,340 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,340 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,340 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,340 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,340 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,340 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,340 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,341 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,341 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,341 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,341 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,341 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,341 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,341 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,341 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,341 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,341 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,341 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,341 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,342 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,342 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,342 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,342 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,342 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,342 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,342 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,342 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,342 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,342 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,342 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,342 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,342 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,343 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,343 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,343 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,343 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,343 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,343 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,343 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,343 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,343 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,344 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,344 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,344 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,344 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,344 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,345 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,345 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,345 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,345 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,345 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,345 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,345 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,345 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,345 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,345 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,345 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,345 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,345 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,345 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,345 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,346 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,346 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,346 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,346 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,346 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,346 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,359 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,363 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,363 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,363 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,363 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,363 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,363 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,363 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,363 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,364 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,364 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,364 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,364 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,364 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,364 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,364 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,364 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,365 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,365 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,365 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,365 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,367 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,367 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,367 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,367 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,367 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,367 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,367 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,367 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,367 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,367 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,368 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,368 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,368 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,368 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,368 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,368 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,368 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,368 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,368 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,368 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,368 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,369 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,369 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,369 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,369 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,369 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,369 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,369 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,369 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,370 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,370 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,370 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,370 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,370 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,370 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,370 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,370 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,370 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,370 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,370 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,370 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,371 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,371 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,371 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,371 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,371 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,371 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,371 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,371 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```diff
+|--- a/django/template/checks.py
+|+++ b/django/template/checks.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15790/run_instance.log) for more information.
+
+2025-07-22 11:09:51,372 - INFO - Attempting to stop container sweb.eval.django__django-15790.gemini_eval_5...
+2025-07-22 11:10:06,766 - INFO - Attempting to remove container sweb.eval.django__django-15790.gemini_eval_5...
+2025-07-22 11:10:07,177 - INFO - Container sweb.eval.django__django-15790.gemini_eval_5 removed.
+2025-07-22 11:10:07,177 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-15790:latest...
+2025-07-22 11:10:08,500 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-15790:latest removed.

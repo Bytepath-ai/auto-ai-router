@@ -1,0 +1,44 @@
+```diff
+--- a/django/core/exceptions.py
++++ b/django/core/exceptions.py
+@@ -100,6 +100,35 @@
+     def __repr__(self):
+         return 'ValidationError(%s)' % self
+ 
++    def __eq__(self, other):
++        if not isinstance(other, ValidationError):
++            return NotImplemented
++
++        if hasattr(self, 'error_dict') and hasattr(other, 'error_dict'):
++            if set(self.error_dict.keys()) != set(other.error_dict.keys()):
++                return False
++            for key, self_error_list in self.error_dict.items():
++                other_error_list = other.error_dict[key]
++                if not self._error_lists_equal(self_error_list, other_error_list):
++                    return False
++            return True
++        elif hasattr(self, 'error_dict') or hasattr(other, 'error_dict'):
++            return False
++        else:
++            return self._error_lists_equal(self.error_list, other.error_list)
++
++    def _error_lists_equal(self, list1, list2):
++        if len(list1) != len(list2):
++            return False
++        list2_copy = list(list2)
++        for error1 in list1:
++            for i, error2 in enumerate(list2_copy):
++                if (error1.message == error2.message and
++                        error1.code == error2.code and
++                        error1.params == error2.params):
++                    del list2_copy[i]
++                    break
++            else:
++                return False
++        return True
++
+     def update_error_dict(self, error_dict):
+         if hasattr(self, 'error_dict'):
+             for field, error_list in self.error_dict.items():
+
+```

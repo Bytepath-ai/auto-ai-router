@@ -1,0 +1,22 @@
+```diff
+--- a/django/core/management/commands/sqlmigrate.py
++++ b/django/core/management/commands/sqlmigrate.py
+@@ -60,14 +60,14 @@
+                     from_state = executor.loader.project_state((migration.app_label, migration.name), at_end=False)
+                     to_state = executor.loader.project_state((migration.app_label, migration.name), at_end=True)
+                     migration.apply(from_state, schema_editor, backwards=False)
+-                    self.output_transaction = migration.atomic
++                    self.output_transaction = migration.atomic and connection.features.can_rollback_ddl
+                     sql_statements = schema_editor.collected_sql
+             else:
+                 with connection.schema_editor(collect_sql=True, atomic=migration.atomic) as schema_editor:
+                     from_state = executor.loader.project_state((migration.app_label, migration.name), at_end=True)
+                     to_state = executor.loader.project_state((migration.app_label, migration.name), at_end=False)
+                     migration.apply(from_state, schema_editor, backwards=True)
+-                    self.output_transaction = migration.atomic
++                    self.output_transaction = migration.atomic and connection.features.can_rollback_ddl
+                     sql_statements = schema_editor.collected_sql
+             if not sql_statements:
+                 self.stdout.write("# Nothing to do for %s.%s" % (app_label, migration_name), self.style.SQL_KEYWORD)
+
+```

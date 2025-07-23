@@ -1,0 +1,47 @@
+```diff
+--- a/django/core/checks/model_checks.py
++++ b/django/core/checks/model_checks.py
+@@ -1,9 +1,10 @@
+ from collections import defaultdict
+ from itertools import chain
+ 
+ from django.apps import apps
++from django.conf import settings
+ from django.core.checks import Error, Tags, Warning
+ from django.db import models
+ from django.db.models.fields.related import RECURSIVE_RELATIONSHIP_CONSTANT
+ from django.utils.inspect import func_supports_parameter
+ from django.utils.module_loading import import_string
+@@ -418,15 +419,26 @@
+             continue
+         clashing_models[model._meta.db_table].append(model._meta.label)
+ 
++    if settings.DATABASE_ROUTERS:
++        check = Warning
++        hint = (
++            'You have configured multiple database routers. This check is '
++            'suppressed because it\'s possible to use the same table name in '
++            'different databases.'
++        )
++    else:
++        check = Error
++        hint = None
++
+     errors = []
+     for table, labels in clashing_models.items():
+         if len(labels) > 1:
+             errors.append(
+-                Error(
++                check(
+                     "db_table '%s' is used by multiple models: %s." % (
+                         table,
+                         ', '.join(sorted(labels)),
+                     ),
+-                    obj=table,
++                    hint=hint,
++                    obj=table,
+                     id='models.E028',
+                 )
+             )
+
+```

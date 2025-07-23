@@ -1,0 +1,2467 @@
+2025-07-22 10:45:48,921 - INFO - Creating container for django__django-13265...
+2025-07-22 10:45:48,965 - INFO - Container for django__django-13265 created: 306d712c9d319c0db9ee56b028108afea31be77c16c590a503c59077a0218cf9
+2025-07-22 10:45:49,190 - INFO - Container for django__django-13265 started: 306d712c9d319c0db9ee56b028108afea31be77c16c590a503c59077a0218cf9
+2025-07-22 10:45:49,190 - INFO - Intermediate patch for django__django-13265 written to logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/patch.diff, now applying to container...
+2025-07-22 10:45:49,358 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 10:45:49,438 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 10:45:49,526 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 10:45:49,526 - INFO - >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+2025-07-22 10:45:49,528 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:45:49,528 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,528 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,528 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,528 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,528 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,528 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,528 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,528 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,528 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,528 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,528 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,528 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,528 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,529 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,530 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,531 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:45:49,531 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,531 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,531 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,531 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,531 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,531 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,531 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,531 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,531 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,531 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,531 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,532 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 41: @@ -783,6 +814,7 @@
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13265/run_instance.log) for more information.
+
+2025-07-22 10:45:49,533 - INFO - Attempting to stop container sweb.eval.django__django-13265.gemini_eval_5...
+2025-07-22 10:46:04,900 - INFO - Attempting to remove container sweb.eval.django__django-13265.gemini_eval_5...
+2025-07-22 10:46:04,906 - INFO - Container sweb.eval.django__django-13265.gemini_eval_5 removed.
+2025-07-22 10:46:04,906 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-13265:latest...
+2025-07-22 10:46:05,305 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-13265:latest removed.

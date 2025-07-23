@@ -1,0 +1,2467 @@
+2025-07-22 10:43:29,769 - INFO - Creating container for django__django-13220...
+2025-07-22 10:43:29,898 - INFO - Container for django__django-13220 created: 112e4382fa76705719b1fe41549b7d1cb8dc5e805f2948ffecfdb1fef6047a94
+2025-07-22 10:43:30,118 - INFO - Container for django__django-13220 started: 112e4382fa76705719b1fe41549b7d1cb8dc5e805f2948ffecfdb1fef6047a94
+2025-07-22 10:43:30,119 - INFO - Intermediate patch for django__django-13220 written to logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/patch.diff, now applying to container...
+2025-07-22 10:43:30,296 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 10:43:30,381 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 10:43:30,480 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 10:43:30,480 - INFO - >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,483 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,484 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,485 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,486 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,487 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,488 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+patch: **** malformed patch at line 40:      def update_error_dict(self, error_dict):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13220/run_instance.log) for more information.
+
+2025-07-22 10:43:30,489 - INFO - Attempting to stop container sweb.eval.django__django-13220.gemini_eval_5...
+2025-07-22 10:43:45,783 - INFO - Attempting to remove container sweb.eval.django__django-13220.gemini_eval_5...
+2025-07-22 10:43:45,791 - INFO - Container sweb.eval.django__django-13220.gemini_eval_5 removed.
+2025-07-22 10:43:45,791 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-13220:latest...
+2025-07-22 10:43:46,200 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-13220:latest removed.

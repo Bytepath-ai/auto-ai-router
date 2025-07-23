@@ -1,0 +1,12 @@
+diff --git a/django/db/models/fields/__init__.py b/django/db/models/fields/__init__.py
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -774,7 +774,7 @@
+         if self.choices:
+             # Don't override a get_FOO_display() method defined explicitly on
+             # the model.
+-            if not hasattr(cls, 'get_%s_display' % self.name):
++            if 'get_%s_display' % self.name not in cls.__dict__:
+                 setattr(
+                     cls,
+                     'get_%s_display' % self.name,

@@ -1,0 +1,84 @@
+diff --git a/django/conf/global_settings.py b/django/conf/global_settings.py
+--- a/django/conf/global_settings.py
++++ b/django/conf/global_settings.py
+@@ -470,7 +470,7 @@
+ 
+ # Default file upload permissions for new files.
+ # https://docs.djangoproject.com/en/dev/ref/settings/#file-upload-permissions
+-FILE_UPLOAD_PERMISSIONS = None
++FILE_UPLOAD_PERMISSIONS = 0o644
+ 
+ # Default file upload directory permissions for new directories.
+ # https://docs.djangoproject.com/en/dev/ref/settings/#file-upload-directory-permissions
+diff --git a/docs/howto/deployment/checklist.txt b/docs/howto/deployment/checklist.txt
+--- a/docs/howto/deployment/checklist.txt
++++ b/docs/howto/deployment/checklist.txt
+@@ -101,13 +101,14 @@
+ that the permissions of these files are not overly permissive, to prevent a
+ malicious user from being able to execute a script that they have uploaded.
+ 
+-Check the value of your :setting:`FILE_UPLOAD_PERMISSIONS` setting. The default
+-value of ``None`` may result in different permissions depending on the upload
+-handler and the umask of the process. See the
+-:setting:`FILE_UPLOAD_PERMISSIONS` documentation for more details.
++Check the value of your :setting:`FILE_UPLOAD_PERMISSIONS` setting. The default
++value of ``0o644`` is reasonable for most use cases. If you want the files to
++only be readable by the user that the Web server runs as, you could use
++``0o600``. Files will be saved with these permissions regardless of the
++process's umask.
+ 
+-A reasonable value for this setting might be ``0o644`` (or ``0o600`` if you
+-want the files to only be readable by the user that the Web server runs as).
+-Files will be saved with these permissions regardless of the process's umask.
++If you set this to ``None``, you may get different permissions depending on the
++upload handler and the umask of the process. See the
++:setting:`FILE_UPLOAD_PERMISSIONS` documentation for more details.
+ 
+ ``FILE_UPLOAD_DIRECTORY_PERMISSIONS``
+ -------------------------------------
+diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+--- a/docs/ref/settings.txt
++++ b/docs/ref/settings.txt
+@@ -3242,14 +3242,17 @@
+ 
+ .. versionadded:: 1.1
+ 
+-Default: ``None``
++Default: ``0o644``
+ 
+ The numeric mode (e.g. ``0o644``) to set newly uploaded files to. For more
+ information about what these modes mean, see the documentation for
+ :py:func:`os.chmod`.
+ 
+-If this isn't given or is ``None``, you'll get operating-system dependent
+-behavior. On most platforms, temporary files will have a mode of ``0o600``, and
+-files saved from memory will be saved using the system's standard umask.
++If this is set to ``None``, Django won't set any permissions on uploaded files,
++and they will be left with the operating-system dependent permissions. On most
++platforms, temporary files will have a mode of ``0o600``, and files saved from
++memory will be saved using the system's standard umask. This can result in
++inconsistent permissions for files uploaded with different upload handlers.
+ 
+ For security reasons, these permissions are not applied to temporary files that
+ Django writes in ``FILE_UPLOAD_TEMP_DIR``.
+diff --git a/docs/releases/3.0.txt b/docs/releases/3.0.txt
+new file mode 100644
+index 0000000000..9380217066
+--- /dev/null
++++ b/docs/releases/3.0.txt
+@@ -0,0 +1,11 @@
++==================
++Django 3.0 release notes
++==================
++
++***************************************
++Backwards incompatible changes in 3.0
++***************************************
++
++Settings
++========
++
++* The default value of the :setting:`FILE_UPLOAD_PERMISSIONS` setting is
++  changed from ``None`` to ``0o644``. This change provides more consistent
++  permissions for uploaded files with different upload handlers. To restore
++  the previous behavior, set ``FILE_UPLOAD_PERMISSIONS`` to ``None``.

@@ -1,0 +1,2957 @@
+2025-07-22 10:14:45,875 - INFO - Creating container for astropy__astropy-14365...
+2025-07-22 10:14:46,039 - INFO - Container for astropy__astropy-14365 created: ec99e4dc9476969cc6ee9f55a886ce5e8b51bddf55276009e2f2c6c0b9beea6e
+2025-07-22 10:14:46,251 - INFO - Container for astropy__astropy-14365 started: ec99e4dc9476969cc6ee9f55a886ce5e8b51bddf55276009e2f2c6c0b9beea6e
+2025-07-22 10:14:46,251 - INFO - Intermediate patch for astropy__astropy-14365 written to logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/patch.diff, now applying to container...
+2025-07-22 10:14:46,411 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 10:14:46,492 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 10:14:46,541 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 10:14:46,541 - INFO - >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,543 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,544 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,545 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,546 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,547 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,548 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,549 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,549 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,549 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,549 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,549 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 54.
+Hunk #2 FAILED at 68.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/astropy__astropy-14365/run_instance.log) for more information.
+
+2025-07-22 10:14:46,549 - INFO - Attempting to stop container sweb.eval.astropy__astropy-14365.gemini_eval_5...
+2025-07-22 10:15:01,909 - INFO - Attempting to remove container sweb.eval.astropy__astropy-14365.gemini_eval_5...
+2025-07-22 10:15:01,917 - INFO - Container sweb.eval.astropy__astropy-14365.gemini_eval_5 removed.
+2025-07-22 10:15:01,918 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.astropy_1776_astropy-14365:latest...
+2025-07-22 10:15:02,835 - INFO - Image swebench/sweb.eval.x86_64.astropy_1776_astropy-14365:latest removed.

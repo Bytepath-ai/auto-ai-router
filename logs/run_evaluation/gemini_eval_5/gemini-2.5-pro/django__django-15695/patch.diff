@@ -1,0 +1,28 @@
+```diff
+--- a/django/db/migrations/operations/models.py
++++ b/django/db/migrations/operations/models.py
+@@ -629,13 +629,16 @@
+         schema_editor.rename_index(model, old_name, self.new_name)
+ 
+     def database_backwards(self, app_label, schema_editor, from_state, to_state):
+-        # old_name and new_name are reversed in the backwards operation.
+-        if self.old_name is None:
+-            # The index was unnamed on the from_state.
+-            return
+         model = from_state.apps.get_model(app_label, self.model_name)
+         if not self.allow_migrate_model(schema_editor.connection.alias, model):
+             return
+-        schema_editor.rename_index(model, self.new_name, self.old_name)
++        if self.old_name is None:
++            # The index was unnamed, so restore its auto-generated name.
++            old_name = schema_editor._create_index_name(
++                model._meta.db_table, self.old_fields, suffix="",
++            )
++        else:
++            old_name = self.old_name
++        schema_editor.rename_index(model, self.new_name, old_name)
+ 
+     def describe(self):
+         if self.old_name is not None:
+
+```

@@ -1,0 +1,2467 @@
+2025-07-22 10:58:16,692 - INFO - Creating container for django__django-14730...
+2025-07-22 10:58:16,893 - INFO - Container for django__django-14730 created: b5908e3d4bfb87fcff9900769e188d0cafbd8929115785ce92551208da794a4e
+2025-07-22 10:58:17,093 - INFO - Container for django__django-14730 started: b5908e3d4bfb87fcff9900769e188d0cafbd8929115785ce92551208da794a4e
+2025-07-22 10:58:17,093 - INFO - Intermediate patch for django__django-14730 written to logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/patch.diff, now applying to container...
+2025-07-22 10:58:17,259 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 10:58:17,319 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 10:58:17,400 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 10:58:17,400 - INFO - >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,402 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,403 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,404 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,404 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,404 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,404 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,404 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,404 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,404 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,404 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,404 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,404 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,404 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,404 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,404 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,404 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,404 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,405 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,406 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14730: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+patch: **** malformed patch at line 27:          name, path, args, kwargs = super().deconstruct()
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14730/run_instance.log) for more information.
+
+2025-07-22 10:58:17,407 - INFO - Attempting to stop container sweb.eval.django__django-14730.gemini_eval_5...
+2025-07-22 10:58:32,759 - INFO - Attempting to remove container sweb.eval.django__django-14730.gemini_eval_5...
+2025-07-22 10:58:32,767 - INFO - Container sweb.eval.django__django-14730.gemini_eval_5 removed.
+2025-07-22 10:58:32,767 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-14730:latest...
+2025-07-22 10:58:33,214 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-14730:latest removed.

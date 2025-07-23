@@ -1,0 +1,53 @@
+```diff
+--- a/astropy/io/ascii/core.py
++++ b/astropy/io/ascii/core.py
+@@ -1473,10 +1473,29 @@
+ 
+     def write(self, lines):
+         if not self.cols:
+             return
+-        self.data.header.write(lines)  # Write the data header line
+-        lines.append(self.str_vals([col.name for col in self.cols]))
+-        lines.append(lines[-2])
++
++        if self.header_rows is None:
++            self.header_rows = ['name']
++            if any(col.unit for col in self.cols):
++                self.header_rows.append('unit')
++
++        # Write the top header line
++        self.data.header.write(lines)
++
++        for row_name in self.header_rows:
++            if row_name == 'name':
++                vals = [col.name for col in self.cols]
++            elif row_name == 'unit':
++                vals = [col.unit or '' for col in self.cols]
++            elif row_name == 'dtype':
++                vals = [col.dtype or '' for col in self.cols]
++            elif row_name == 'format':
++                vals = [col.format or '' for col in self.cols]
++            elif row_name == 'description':
++                vals = [col.description or '' for col in self.cols]
++            elif row_name == 'meta':
++                vals = [json.dumps(col.meta) or '' for col in self.cols]
++            else:
++                raise ValueError(f"row_name {row_name!r} is not supported")
++            lines.append(self.str_vals(vals))
++
++        # Write the bottom header line
++        lines.append(lines[-(len(self.header_rows) + 1)])
+ 
+ 
+ class RstData(BaseData):
+@@ -1519,3 +1538,8 @@
+     data_class = RstData
+     # rst tables do not have a comment line syntax
+     comment = None
++
++    def __init__(self, header_rows=None):
++        super().__init__()
++        if header_rows is not None:
++            self.header.header_rows = header_rows
+
+```

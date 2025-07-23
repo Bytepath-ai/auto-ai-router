@@ -1,0 +1,29 @@
+```diff
+--- a/django/forms/models.py
++++ b/django/forms/models.py
+@@ -1155,8 +1155,8 @@
+     # This class is a subclass of ChoiceField for purity, but it doesn't
+     # actually use any of ChoiceField's implementation.
+     default_error_messages = {
+-        'invalid_choice': _('Select a valid choice. That choice is not one of'
+-                            ' the available choices.'),
++        'invalid_choice': _('Select a valid choice. %(value)s is not one of the'
++                            ' available choices.'),
+     }
+     iterator = ModelChoiceIterator
+ 
+@@ -1215,7 +1215,11 @@
+             key = self.to_field_name or 'pk'
+             value = self.queryset.get(**{key: value})
+         except (ValueError, TypeError, self.queryset.model.DoesNotExist):
+-            raise ValidationError(self.error_messages['invalid_choice'], code='invalid_choice')
++            raise ValidationError(
++                self.error_messages['invalid_choice'],
++                code='invalid_choice',
++                params={'value': value},
++            )
+         return value
+ 
+     def valid_value(self, value):
+
+```

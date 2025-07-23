@@ -1,0 +1,2467 @@
+2025-07-22 11:09:50,766 - INFO - Creating container for django__django-15781...
+2025-07-22 11:09:50,851 - INFO - Container for django__django-15781 created: e394f524a1d32237733cf3967917176054228581632689c2726e22e35037e0f5
+2025-07-22 11:09:51,053 - INFO - Container for django__django-15781 started: e394f524a1d32237733cf3967917176054228581632689c2726e22e35037e0f5
+2025-07-22 11:09:51,053 - INFO - Intermediate patch for django__django-15781 written to logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/patch.diff, now applying to container...
+2025-07-22 11:09:51,185 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 11:09:51,234 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 11:09:51,332 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 11:09:51,332 - INFO - >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+2025-07-22 11:09:51,346 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 11:09:51,347 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,347 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,348 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,348 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,348 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,348 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,348 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,348 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,348 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,348 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,348 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,348 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,348 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,349 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,349 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,349 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,349 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,349 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,349 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,349 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,349 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,350 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,350 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,350 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,351 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,351 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,351 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,351 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,351 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,351 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,351 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,352 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,352 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,352 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,353 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,353 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,353 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,353 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,354 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,355 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,355 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,355 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,355 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,355 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,355 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,355 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,355 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,356 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,357 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,358 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,360 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,361 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,362 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,373 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 11:09:51,373 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,373 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,373 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,374 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15781: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 18:          parser.add_argument(
+
+patching file django/core/management/base.py
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-15781/run_instance.log) for more information.
+
+2025-07-22 11:09:51,376 - INFO - Attempting to stop container sweb.eval.django__django-15781.gemini_eval_5...
+2025-07-22 11:10:06,732 - INFO - Attempting to remove container sweb.eval.django__django-15781.gemini_eval_5...
+2025-07-22 11:10:06,740 - INFO - Container sweb.eval.django__django-15781.gemini_eval_5 removed.
+2025-07-22 11:10:06,740 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-15781:latest...
+2025-07-22 11:10:07,176 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-15781:latest removed.

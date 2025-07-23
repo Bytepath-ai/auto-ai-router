@@ -1,0 +1,3447 @@
+2025-07-22 10:48:00,510 - INFO - Creating container for django__django-13447...
+2025-07-22 10:48:01,503 - INFO - Container for django__django-13447 created: d1d88bd8ea7400fb4f1e373b897a45df44fb699c113355e1e3b0afe7147e9e0f
+2025-07-22 10:48:01,734 - INFO - Container for django__django-13447 started: d1d88bd8ea7400fb4f1e373b897a45df44fb699c113355e1e3b0afe7147e9e0f
+2025-07-22 10:48:01,735 - INFO - Intermediate patch for django__django-13447 written to logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/patch.diff, now applying to container...
+2025-07-22 10:48:01,919 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 10:48:01,973 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 10:48:02,050 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 10:48:02,051 - INFO - >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,053 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,054 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,055 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:48:02,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,056 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,057 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13447: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 236.
+Hunk #2 succeeded at 257 with fuzz 3.
+Hunk #3 succeeded at 504 with fuzz 2 (offset 216 lines).
+Hunk #4 succeeded at 535 with fuzz 3 (offset 220 lines).
+1 out of 4 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-13447/run_instance.log) for more information.
+
+2025-07-22 10:48:02,058 - INFO - Attempting to stop container sweb.eval.django__django-13447.gemini_eval_5...
+2025-07-22 10:48:17,452 - INFO - Attempting to remove container sweb.eval.django__django-13447.gemini_eval_5...
+2025-07-22 10:48:17,458 - INFO - Container sweb.eval.django__django-13447.gemini_eval_5 removed.
+2025-07-22 10:48:17,458 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-13447:latest...
+2025-07-22 10:48:17,849 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-13447:latest removed.

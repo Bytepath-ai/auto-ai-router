@@ -1,0 +1,63 @@
+```diff
+--- a/django/db/migrations/recorder.py
++++ b/django/db/migrations/recorder.py
+@@ -1,5 +1,5 @@
+ from django.apps import apps
+-from django.db import models
++from django.db import models, router
+ from django.utils.timezone import now
+ 
+ 
+@@ -32,34 +32,35 @@
+     def migration_qs(self):
+         return self.Migration.objects.using(self.connection.alias)
+ 
+     def ensure_schema(self):
+         """
+         Ensures the table exists and has the correct schema.
++        Returns True if the table exists or was created, False if it was not.
+         """
+         # If the table's there, that's fine - we've never changed its schema
+         # in the codebase.
+         if self.Migration._meta.db_table in self.connection.introspection.get_table_list(self.connection.cursor()):
+-            return
++            return True
+         # Make the table
+-        with self.connection.schema_editor() as editor:
+-            editor.create_model(self.Migration)
++        if router.allow_migrate(self.connection.alias, self.Migration):
++            with self.connection.schema_editor() as editor:
++                editor.create_model(self.Migration)
++            return True
++        return False
+ 
+     def applied_migrations(self):
+         """
+         Returns a set of (app, name) of applied migrations.
+         """
+-        self.ensure_schema()
+-        return set(self.migration_qs.values_list("app", "name"))
++        if self.ensure_schema():
++            return set(self.migration_qs.values_list("app", "name"))
++        else:
++            return set()
+ 
+     def record_applied(self, app, name):
+         """
+         Records a migration as having been applied.
+         """
+-        self.ensure_schema()
+-        self.migration_qs.create(app=app, name=name)
++        if self.ensure_schema():
++            self.migration_qs.create(app=app, name=name)
+ 
+     def record_unapplied(self, app, name):
+         """
+         Records a migration as having been unapplied.
+         """
+-        self.ensure_schema()
+-        self.migration_qs.filter(app=app, name=name).delete()
++        if self.ensure_schema():
++            self.migration_qs.filter(app=app, name=name).delete()
+
+```

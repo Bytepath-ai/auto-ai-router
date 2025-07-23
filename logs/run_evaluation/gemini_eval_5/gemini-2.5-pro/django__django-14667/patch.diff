@@ -1,0 +1,27 @@
+```diff
+--- a/django/db/models/query.py
++++ b/django/db/models/query.py
+@@ -1076,10 +1076,18 @@
+                 True,
+             )
+         else:
+             # This is the "only" state.
+-            clone.query.deferred_loading = (
+-                clone.query.deferred_loading[0].difference(fields),
++            existing = clone.query.deferred_loading[0]
++            field_names = frozenset(fields)
++            if (
++                not existing.difference(field_names) and
++                field_names.difference(existing)
++            ):
++                # All fields in .only() are deferred, and there are new
++                # deferred fields. Switch to defer() mode.
++                clone.query.deferred_loading = (field_names.difference(existing), True)
++                return clone
++            clone.query.deferred_loading = (
++                existing.difference(field_names),
+                 False,
+             )
+         return clone
+
+```

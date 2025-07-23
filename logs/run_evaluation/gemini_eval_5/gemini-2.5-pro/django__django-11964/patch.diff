@@ -1,0 +1,16 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -758,7 +758,9 @@
+         return '%s.%s' % (self.model._meta.object_name, self.name)
+ 
+     def __set__(self, instance, value):
+-        instance.__dict__[self.attname] = value
++        if isinstance(value, enum.Enum):
++            value = value.value
++        instance.__dict__[self.attname] = value
+ 
+     def __get__(self, instance, cls=None):
+         if instance is None:
+
+```

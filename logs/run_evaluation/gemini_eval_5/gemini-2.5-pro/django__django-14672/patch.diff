@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/fields/reverse_related.py
++++ b/django/db/models/fields/reverse_related.py
+@@ -217,7 +217,7 @@
+                 "created. Use a string referring to the model instead."
+             )
+         self.through = through
+-        self.through_fields = through_fields
++        self.through_fields = make_hashable(through_fields)
+         self.db_constraint = db_constraint
+         self.swappable = swappable
+         self.db_table = db_table
+
+```

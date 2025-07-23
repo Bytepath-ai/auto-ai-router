@@ -1,0 +1,29 @@
+```diff
+--- a/django/utils/autoreload.py
++++ b/django/utils/autoreload.py
+@@ -131,12 +131,20 @@
+         if path.suffix in ('.pyc', '.pyo'):
+             path = path.with_suffix('.py')
+         if path.is_file():
+-            results.add(path.resolve().absolute())
++            try:
++                results.add(path.resolve().absolute())
++            except ValueError:
++                # path.resolve() can raise ValueError on some platforms,
++                # e.g. on Linux with paths containing null bytes.
++                pass
+ 
+     for path in extra_files:
+         if path.is_file():
+-            results.add(path.resolve().absolute())
++            try:
++                results.add(path.resolve().absolute())
++            except ValueError:
++                # path.resolve() can raise ValueError on some platforms,
++                # e.g. on Linux with paths containing null bytes.
++                pass
+ 
+     return iter(results)
+ 
+
+```

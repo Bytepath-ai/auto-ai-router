@@ -1,0 +1,28 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -200,15 +200,19 @@
+     def __eq__(self, other):
+-        # Needed for @total_ordering
++        # Needed for @total_ordering, but must be different for fields on
++        # different models.
+         if isinstance(other, Field):
+-            return self.creation_counter == other.creation_counter
++            return self.creation_counter == other.creation_counter and self.model == other.model
+         return NotImplemented
+ 
+     def __lt__(self, other):
+         # This is needed because bisect does not take a comparison function.
+         if isinstance(other, Field):
+-            return self.creation_counter < other.creation_counter
++            # Order by creation counter first, then by model.
++            if self.creation_counter != other.creation_counter:
++                return self.creation_counter < other.creation_counter
++            return self.model._meta.label_lower < other.model._meta.label_lower
+         return NotImplemented
+ 
+     def __hash__(self):
+-        return hash(self.creation_counter)
++        return hash((self.creation_counter, self.model))
+
+```

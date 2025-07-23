@@ -1,0 +1,55 @@
+```diff
+--- a/django/db/migrations/autodetector.py
++++ b/django/db/migrations/autodetector.py
+@@ -907,29 +907,35 @@
+             old_model_state = self.from_state.models[app_label, model_name]
+             new_model_state = self.to_state.models[app_label, model_name]
+             if old_model_state.options.get('unique_together') != new_model_state.options.get('unique_together'):
++                old_fields = old_model_state.get_fields_in_option('unique_together')
++                new_fields = new_model_state.get_fields_in_option('unique_together')
+                 self.add_operation(
+                     app_label,
+                     migrations.AlterUniqueTogether(
+                         name=model_name,
+                         unique_together=new_model_state.options.get('unique_together'),
+                     ),
+-                    dependencies=[(
+-                        app_label,
+-                        model_name,
+-                        field_name,
+-                        'field',
+-                    ) for field_name in new_model_state.get_fields_in_option('unique_together')]
++                    dependencies=[
++                        (app_label, model_name, field_name, 'field')
++                        for field_name in set(old_fields) | set(new_fields)
++                    ],
+                 )
+ 
+     def generate_altered_index_together(self):
+         for app_label, model_name in self.kept_models:
+             old_model_state = self.from_state.models[app_label, model_name]
+             new_model_state = self.to_state.models[app_label, model_name]
+             if old_model_state.options.get('index_together') != new_model_state.options.get('index_together'):
++                old_fields = old_model_state.get_fields_in_option('index_together')
++                new_fields = new_model_state.get_fields_in_option('index_together')
+                 self.add_operation(
+                     app_label,
+                     migrations.AlterIndexTogether(
+                         name=model_name,
+                         index_together=new_model_state.options.get('index_together'),
+                     ),
+-                    dependencies=[(
+-                        app_label,
+-                        model_name,
+-                        field_name,
+-                        'field',
+-                    ) for field_name in new_model_state.get_fields_in_option('index_together')]
++                    dependencies=[
++                        (app_label, model_name, field_name, 'field')
++                        for field_name in set(old_fields) | set(new_fields)
++                    ],
+                 )
+ 
+     def generate_altered_options(self):
+
+```

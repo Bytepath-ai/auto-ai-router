@@ -1,0 +1,32 @@
+```diff
+--- a/django/db/models/checks.py
++++ b/django/db/models/checks.py
+@@ -25,7 +25,7 @@
+     errors = []
+     for model in apps.get_models():
+         if not model._meta.abstract and not model._meta.proxy and not model._meta.swapped:
+-            if not model._meta.pk and not model._meta.parents:
++            if not model._meta.pk and not model._meta.local_parents:
+                 # If there's no primary key and this isn't a child model,
+                 # complain.
+                 errors.append(
+--- a/django/db/models/options.py
++++ b/django/db/models/options.py
+@@ -102,6 +102,7 @@
+         self.proxy_for_model = None
+         self.verbose_name = None
+         self.verbose_name_plural = None
++        self.local_parents = []
+ 
+         # Lists of fields attached to this model.
+         # Do not modify these directly, use the public API instead.
+@@ -403,6 +404,7 @@
+             if not issubclass(base, models.Model) or base._meta.abstract:
+                 continue
+             # The new model is a child of `base`.
++            self.local_parents.append(base)
+             if base in base_meta.parents:
+                 # `base` is a child of another model.
+                 self.parents.update(base_meta.parents)
+
+```

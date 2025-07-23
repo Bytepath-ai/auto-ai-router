@@ -1,0 +1,17 @@
+```diff
+--- a/django/db/models/deletion.py
++++ b/django/db/models/deletion.py
+@@ -272,8 +272,9 @@
+ 
+         # fast deletes
+         for qs in self.fast_deletes:
+-            count = qs._raw_delete(using=self.using)
+-            self.rows_count[qs.model._meta.label] = count
++            count = qs._raw_delete(using=self.using)
++            if count:
++                self.rows_count[qs.model._meta.label] = count
+ 
+         # update fields
+         for model, instances in self.field_updates.items():
+
+```

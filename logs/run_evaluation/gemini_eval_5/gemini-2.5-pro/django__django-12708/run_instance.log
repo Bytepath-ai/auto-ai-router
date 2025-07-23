@@ -1,0 +1,2712 @@
+2025-07-22 10:38:17,293 - INFO - Creating container for django__django-12708...
+2025-07-22 10:38:17,736 - INFO - Container for django__django-12708 created: 337cd7b59bb4a5f8551866f57c0de824e37254e6b444a120edcd98021f916316
+2025-07-22 10:38:17,897 - INFO - Container for django__django-12708 started: 337cd7b59bb4a5f8551866f57c0de824e37254e6b444a120edcd98021f916316
+2025-07-22 10:38:17,897 - INFO - Intermediate patch for django__django-12708 written to logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/patch.diff, now applying to container...
+2025-07-22 10:38:18,073 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 10:38:18,169 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 10:38:18,253 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 10:38:18,254 - INFO - >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,256 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,257 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,259 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,260 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12708: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/schema.py
+Hunk #1 FAILED at 363.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/base/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-12708/run_instance.log) for more information.
+
+2025-07-22 10:38:18,261 - INFO - Attempting to stop container sweb.eval.django__django-12708.gemini_eval_5...
+2025-07-22 10:38:33,604 - INFO - Attempting to remove container sweb.eval.django__django-12708.gemini_eval_5...
+2025-07-22 10:38:33,613 - INFO - Container sweb.eval.django__django-12708.gemini_eval_5 removed.
+2025-07-22 10:38:33,613 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-12708:latest...
+2025-07-22 10:38:33,996 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-12708:latest removed.

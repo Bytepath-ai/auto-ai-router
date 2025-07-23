@@ -1,0 +1,16 @@
+```diff
+--- a/django/http/response.py
++++ b/django/http/response.py
+@@ -262,8 +262,10 @@
+         # to the client without interpreting it.
+         if isinstance(value, bytes):
+             return value
++        if isinstance(value, memoryview):
++            return bytes(value)
+         if isinstance(value, str):
+             return value.encode(self.charset)
+         # Handle non-string types.
+         return str(value).encode(self.charset)
+ 
+
+```

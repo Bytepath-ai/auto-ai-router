@@ -1,0 +1,42 @@
+```diff
+--- a/django/db/models/fields/related.py
++++ b/django/db/models/fields/related.py
+@@ -1310,18 +1310,19 @@
+             if len(possible_targets) > 2:
+                 # More than two ForeignKeys to the target model.
+                 # We can't guess which ones to use.
+-                return [
+-                    checks.Error(
+-                        "The model '%s' has more than two ForeignKeys to model "
+-                        "'%s', which is ambiguous and is not permitted. "
+-                        "Please specify which two ForeignKeys Django should use "
+-                        "via the through_fields keyword argument."
+-                        % (self.through._meta.label, self.remote_field.model._meta.label),
+-                        hint=(
+-                            'If you want to create a recursive relationship, '
+-                            'use ForeignKey("%s", symmetrical=False, through="%s").'
+-                        ) % (self.remote_field.model._meta.label, self.through._meta.label),
+-                        obj=self,
+-                        id='fields.E335',
+-                    )
+-                ]
++                error = checks.Error(
++                    "The model '%s' has more than two ForeignKeys to model "
++                    "'%s', which is ambiguous and is not permitted. "
++                    "Please specify which two ForeignKeys Django should use "
++                    "via the through_fields keyword argument."
++                    % (self.through._meta.label, self.remote_field.model._meta.label),
++                    obj=self,
++                    id='fields.E335',
++                )
++                if self.model == self.remote_field.model:
++                    error.add_note(
++                        'If this is a recursive relationship, use '
++                        'ManyToManyField("self", through="%s").' % self.through._meta.label
++                    )
++                return [error]
+ 
+             # There are two ForeignKeys to the target model.
+             # We can't guess which one is the source, and which one is the
+
+```

@@ -1,0 +1,20 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -165,10 +165,11 @@
+ 
+     def __init__(cls, name, bases, attrs):
+         super().__init__(name, bases, attrs)
+-        if not cls.__module__.startswith("django.db.models.fields"):
+-            return
+-        if name in ("AutoField", "BigAutoField", "SmallAutoField"):
++        if any(b in cls._subclasses for b in bases):
++            cls._subclasses.add(cls)
++        elif cls.__module__.startswith("django.db.models.fields") and name in (
++            "AutoField", "BigAutoField", "SmallAutoField",
++        ):
+             cls._subclasses.add(cls)
+ 
+     def __subclasscheck__(cls, subclass):
+
+```

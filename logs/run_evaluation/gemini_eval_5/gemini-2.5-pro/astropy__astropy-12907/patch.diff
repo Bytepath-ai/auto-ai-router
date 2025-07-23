@@ -1,0 +1,32 @@
+```diff
+--- a/astropy/modeling/core.py
++++ b/astropy/modeling/core.py
+@@ -1012,19 +1012,13 @@
+ 
+         if op == '&':
+             if isinstance(left, CompoundModel) and left.op == '&':
+-                if isinstance(right, CompoundModel) and right.op == '&':
+-                    # Both are compound models with &
+-                    # TODO: This should be made to use a list of models
+-                    # instead of a binary tree
+-                    self.left = left
+-                    self.right = right
+-                else:
+-                    # Left is a compound model, right is a basic model
+-                    self.left = left
+-                    self.right = right
++                self.left = left
++                self.right = right
+             elif isinstance(right, CompoundModel) and right.op == '&':
+                 # Left is a basic model, right is a compound model
+-                # Swap them
+-                self.left = right
+-                self.right = left
++                # Flatten the tree
++                self.left = CompoundModel('&', left, right.left)
++                self.right = right.right
+             else:
+                 # Both are basic models
+                 self.left = left
+
+```

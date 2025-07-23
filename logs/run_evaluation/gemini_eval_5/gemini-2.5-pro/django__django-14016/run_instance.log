@@ -1,0 +1,2467 @@
+2025-07-22 10:50:57,648 - INFO - Creating container for django__django-14016...
+2025-07-22 10:50:57,782 - INFO - Container for django__django-14016 created: f6d28b2b2af4baa262ca041a7ad184ce159eb24c4d5f57a651db0e58d5890cf7
+2025-07-22 10:50:58,024 - INFO - Container for django__django-14016 started: f6d28b2b2af4baa262ca041a7ad184ce159eb24c4d5f57a651db0e58d5890cf7
+2025-07-22 10:50:58,024 - INFO - Intermediate patch for django__django-14016 written to logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/patch.diff, now applying to container...
+2025-07-22 10:50:58,194 - INFO - Failed to apply patch to container: git apply --verbose
+2025-07-22 10:50:58,282 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-07-22 10:50:58,372 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-07-22 10:50:58,373 - INFO - >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,375 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,376 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,377 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,377 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,377 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,377 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,377 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,377 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,377 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,377 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,378 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Traceback (most recent call last):
+  File "/home/burny/josef/auto-ai-router/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-14016: >>>>> Patch Apply Failed:
+patching file django/db/models/query_utils.py
+patch: **** malformed patch at line 19:      def _combine(self, other, conn):
+
+
+Check (logs/run_evaluation/gemini_eval_5/gemini-2.5-pro/django__django-14016/run_instance.log) for more information.
+
+2025-07-22 10:50:58,379 - INFO - Attempting to stop container sweb.eval.django__django-14016.gemini_eval_5...
+2025-07-22 10:51:13,752 - INFO - Attempting to remove container sweb.eval.django__django-14016.gemini_eval_5...
+2025-07-22 10:51:13,761 - INFO - Container sweb.eval.django__django-14016.gemini_eval_5 removed.
+2025-07-22 10:51:13,761 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-14016:latest...
+2025-07-22 10:51:14,170 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-14016:latest removed.

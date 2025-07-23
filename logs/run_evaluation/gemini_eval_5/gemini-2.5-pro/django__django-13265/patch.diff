@@ -1,0 +1,51 @@
+```diff
+--- a/django/db/migrations/autodetector.py
++++ b/django/db/migrations/autodetector.py
+@@ -765,6 +765,37 @@
+         self.optimize_migrations()
+         return self.migrations
+ 
++    def _reorder_altered_indexes(self):
++        """
++        Reorder AddIndex operations to come after AlterOrderWithRespectTo.
++        """
++        for app_label, ops in self.migrations.items():
++            i = 0
++            while i < len(ops):
++                op = ops[i]
++                if not isinstance(op, operations.AlterOrderWithRespectTo):
++                    i += 1
++                    continue
++                # Find AddIndex operations on the same model that reference
++                # _order and move them after this operation.
++                add_indices_to_move = []
++                for j, other_op in enumerate(ops):
++                    if (
++                        j < i and
++                        isinstance(other_op, operations.AddIndex) and
++                        other_op.model_name == op.name and
++                        '_order' in other_op.index.fields
++                    ):
++                        add_indices_to_move.append((j, other_op))
++                # Reorder AddIndex to come after AlterOrderWithRespectTo.
++                if add_indices_to_move:
++                    for j, add_index_op in reversed(add_indices_to_move):
++                        # Move the AddIndex operation after this
++                        # AlterOrderWithRespectTo operation.
++                        ops.insert(i + 1, ops.pop(j))
++                i += 1
++
+     def sort_operations(self):
+         """
+         Sorts the operations in each migration.
+@@ -783,6 +814,7 @@
+         """
+         for app_label in self.migrations:
+             # Do a sort that is stable
+             self.migrations[app_label].sort(key=lambda x: x.stable_sort_key)
++        self._reorder_altered_indexes()
+ 
+     def optimize_migrations(self):
+         """
+
+```
