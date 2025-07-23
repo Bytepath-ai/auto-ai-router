@@ -19,6 +19,7 @@ import aisuite as ai
 from dotenv import load_dotenv
 from datetime import datetime
 import threading
+import sqlite3
 
 # Load environment variables from .env file
 load_dotenv()
@@ -170,7 +171,7 @@ class AIRouter:
             user_prompt=user_prompt
         )
     
-    def __init__(self, config: Optional[Dict[str, Any]] = None, stats_file: str = "parallel_route_stats.txt"):
+    def __init__(self, config: Optional[Dict[str, Any]] = None, stats_db: str = "parallel_route_stats.db"):
         """Initialize the router with configuration"""
         self.client = ai.Client()
         
@@ -300,8 +301,53 @@ class AIRouter:
         self.router_model = "google:gemini-2.5-pro"
         
         # Statistics tracking
-        self.stats_file = stats_file
+        self.stats_db = stats_db
         self.stats_lock = threading.Lock()
+        
+        # Initialize database
+        self._init_database()
+    
+    def _init_database(self):
+        """Initialize SQLite database with statistics table"""
+        with self.stats_lock:
+            conn = sqlite3.connect(self.stats_db)
+            cursor = conn.cursor()
+            
+            # Create statistics table if it doesn't exist
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS route_statistics (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    timestamp TEXT NOT NULL,
+                    task_name TEXT NOT NULL,
+                    task_category TEXT NOT NULL,
+                    user_prompt TEXT,
+                    claude_code_score REAL,
+                    claude_opus_score REAL,
+                    o3_score REAL,
+                    gpt4o_score REAL,
+                    gpt4o_mini_score REAL,
+                    grok4_score REAL,
+                    gemini_25_pro_score REAL,
+                    best_model TEXT NOT NULL,
+                    scoring_reasoning TEXT,
+                    evaluation_reasoning TEXT
+                )
+            ''')
+            
+            # Create index on task_category for faster queries
+            cursor.execute('''
+                CREATE INDEX IF NOT EXISTS idx_task_category 
+                ON route_statistics(task_category)
+            ''')
+            
+            # Create index on best_model for faster queries
+            cursor.execute('''
+                CREATE INDEX IF NOT EXISTS idx_best_model 
+                ON route_statistics(best_model)
+            ''')
+            
+            conn.commit()
+            conn.close()
     
     def _transform_kwargs_for_model(self, model_id: str, kwargs: Dict[str, Any]) -> Dict[str, Any]:
         """Transform kwargs based on model requirements"""
@@ -813,72 +859,63 @@ class AIRouter:
         }
     
     def _save_statistics(self, stats_data: Dict[str, Any]):
-        """Save statistics to file with proper locking"""
+        """Save statistics to SQLite database"""
         with self.stats_lock:
-            # First, load existing statistics
-            existing_stats = self._load_statistics_raw()
+            conn = sqlite3.connect(self.stats_db)
+            cursor = conn.cursor()
             
-            # Update the statistics
-            category = stats_data['task_category']
-            model = stats_data['best_model']
+            cursor.execute('''
+                INSERT INTO route_statistics (
+                    timestamp, task_name, task_category, user_prompt,
+                    claude_code_score, claude_opus_score, o3_score,
+                    gpt4o_score, gpt4o_mini_score, grok4_score, gemini_25_pro_score,
+                    best_model, scoring_reasoning, evaluation_reasoning
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ''', (
+                stats_data['timestamp'],
+                stats_data['task_name'],
+                stats_data['task_category'],
+                stats_data['user_prompt'],
+                stats_data['claude_code_score'],
+                stats_data['claude_opus_score'],
+                stats_data['o3_score'],
+                stats_data['gpt4o_score'],
+                stats_data['gpt4o_mini_score'],
+                stats_data['grok4_score'],
+                stats_data['gemini_25_pro_score'],
+                stats_data['best_model'],
+                stats_data['scoring_reasoning'],
+                stats_data['evaluation_reasoning']
+            ))
             
-            if category not in existing_stats:
-                existing_stats[category] = {}
-            if model not in existing_stats[category]:
-                existing_stats[category][model] = 0
-            existing_stats[category][model] += 1
-            
-            # Write the aggregated statistics
-            with open(self.stats_file, 'w', encoding='utf-8') as f:
-                for cat, models in sorted(existing_stats.items()):
-                    model_counts = []
-                    for mod, count in sorted(models.items(), key=lambda x: -x[1]):  # Sort by count desc
-                        if count > 1:
-                            model_counts.append(f"{mod} {count}x")
-                        else:
-                            model_counts.append(mod)
-                    f.write(f"{cat}: {', '.join(model_counts)}\n")
+            conn.commit()
+            conn.close()
     
     def _load_statistics_raw(self) -> Dict[str, Dict[str, int]]:
-        """Load raw statistics from file, handling both old and new formats"""
+        """Load aggregated statistics from SQLite database"""
         stats = {}
         try:
-            with open(self.stats_file, 'r', encoding='utf-8') as f:
-                for line in f:
-                    line = line.strip()
-                    if not line:
-                        continue
-                    
-                    # Handle new format: "category: model1 2x, model2"
-                    if ': ' in line:
-                        category, models_str = line.split(': ', 1)
-                        if category not in stats:
-                            stats[category] = {}
-                        
-                        for model_entry in models_str.split(', '):
-                            model_entry = model_entry.strip()
-                            if model_entry.endswith('x'):
-                                # Extract count from "model 2x" format
-                                parts = model_entry.rsplit(' ', 1)
-                                if len(parts) == 2 and parts[1].endswith('x'):
-                                    model = parts[0]
-                                    count = int(parts[1][:-1])
-                                    stats[category][model] = count
-                                else:
-                                    stats[category][model_entry] = 1
-                            else:
-                                stats[category][model_entry] = 1
-                    
-                    # Handle old format: "category,model"
-                    elif ',' in line:
-                        category, model = line.split(',', 1)
-                        if category not in stats:
-                            stats[category] = {}
-                        if model not in stats[category]:
-                            stats[category][model] = 0
-                        stats[category][model] += 1
-        except FileNotFoundError:
-            pass
+            conn = sqlite3.connect(self.stats_db)
+            cursor = conn.cursor()
+            
+            # Query to get counts of best models per category
+            cursor.execute('''
+                SELECT task_category, best_model, COUNT(*) as count
+                FROM route_statistics
+                GROUP BY task_category, best_model
+                ORDER BY task_category, count DESC
+            ''')
+            
+            for row in cursor.fetchall():
+                category = row[0]
+                model = row[1]
+                count = row[2]
+                
+                if category not in stats:
+                    stats[category] = {}
+                stats[category][model] = count
+            
+            conn.close()
         except Exception as e:
             print(f"Warning: Error loading statistics: {e}")
         

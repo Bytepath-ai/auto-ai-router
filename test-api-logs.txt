@@ -1,0 +1,280 @@
+burny@burny:~/josef/auto-ai-router$ python test_api.py
+AI Router API Test Suite
+Testing API at: http://localhost:5000
+Note: Make sure the API server is running with 'python api.py'
+
+============================================================
+ Testing Health Check Endpoint
+============================================================
+
+Endpoint: GET /health
+Status Code: 200
+Response: {
+  "service": "AI Router API",
+  "status": "healthy",
+  "version": "1.0.0"
+}
+----------------------------------------
+
+============================================================
+ Testing Models Listing Endpoint
+============================================================
+
+Endpoint: GET /models
+Status Code: 200
+Response: {
+  "models": {
+    "claude-code": {
+      "cost_per_1k_tokens": 0.0,
+      "model_id": "claude",
+      "name": "Claude Code",
+      "provider": "claude_code",
+      "strengths": [
+        "in repo software engineering",
+        "in repo code implementation",
+        "in repo debugging",
+        "in repo file system operations",
+        "in repo bash commands",
+        "in repo project structure understanding",
+        "in repo refactoring",
+        "in repo test writing",
+        "in repo technical documentation",
+        "in repo CLI tool development"
+      ]
+    },
+    "claude-opus": {
+      "cost_per_1k_tokens": 0.015,
+      "model_id": "claude-opus-4-20250514",
+      "name": "Claude Opus 4",
+      "provider": "anthropic",
+      "strengths": [
+        "code generation",
+        "programming solutions",
+        "algorithm design",
+        "code explanation",
+        "technical documentation",
+        "code review",
+        "debugging assistance",
+        "API design"
+      ]
+    },
+    "gemini-2.5-pro": {
+      "cost_per_1k_tokens": 0.0125,
+      "model_id": "gemini-2.5-pro",
+      "name": "Gemini 2.5 Pro",
+      "provider": "google",
+      "strengths": [
+        "multimodal understanding",
+        "long context window",
+        "complex reasoning",
+        "code generation",
+        "mathematical analysis",
+        "creative writing",
+        "multilingual capabilities",
+        "structured data analysis"
+      ]
+    },
+    "gpt-4o": {
+      "cost_per_1k_tokens": 0.00375,
+      "model_id": "gpt-4o",
+      "name": "GPT-4o",
+      "provider": "openai",
+      "strengths": [
+        "general knowledge",
+        "reasoning",
+        "mathematics",
+        "data analysis",
+        "structured output",
+        "function calling",
+        "vision capabilities",
+        "fast response time"
+      ]
+    },
+    "gpt-4o-mini": {
+      "cost_per_1k_tokens": 0.00015,
+      "model_id": "gpt-4o-mini",
+      "name": "GPT-4o-mini",
+      "provider": "openai",
+      "strengths": [
+        "quick responses",
+        "simple queries",
+        "basic information",
+        "lightweight tasks",
+        "cost efficiency",
+        "fast processing",
+        "straightforward answers",
+        "basic explanations"
+      ]
+    },
+    "grok-4": {
+      "cost_per_1k_tokens": 0.01,
+      "model_id": "grok-4-0709",
+      "name": "Grok-4",
+      "provider": "xai",
+      "strengths": [
+        "real-time information",
+        "current events analysis",
+        "social media understanding",
+        "humor and wit",
+        "conversational responses",
+        "technical explanations",
+        "creative writing",
+        "contextual understanding"
+      ]
+    },
+    "o3": {
+      "cost_per_1k_tokens": 0.02,
+      "model_id": "o3",
+      "name": "O3",
+      "provider": "openai",
+      "strengths": [
+        "complex reasoning",
+        "mathematical proofs",
+        "logical analysis",
+        "problem solving",
+        "strategic thinking",
+        "scientific reasoning",
+        "multi-step reasoning",
+        "abstract thinking"
+      ]
+    }
+  },
+  "router_model": "google:gemini-2.5-pro"
+}
+----------------------------------------
+
+============================================================
+ Testing Route Endpoint
+============================================================
+
+Test 1: Simple routing
+Endpoint: POST /route
+Status Code: 200
+Response: {
+  "response": "A blank screen awaits,\nLogic flows from mind to hand,\nThe world says, \"Hello.\""
+}
+----------------------------------------
+
+Test 2: With max_tokens parameter
+Endpoint: POST /route
+Status Code: 200
+Response: {
+  "response": "Recursion is a programming technique where a function calls itself to solve smaller instances of the same problem until it reaches a base case."
+}
+----------------------------------------
+
+============================================================
+ Testing Route with Metadata Endpoint
+============================================================
+
+Endpoint: POST /route_with_metadata
+Status Code: 200
+Response: {
+  "metadata": {
+    "confidence": 1.0,
+    "estimated_cost_per_1k": 0.00015,
+    "model_id": "openai:gpt-4o-mini",
+    "reasoning": "The user is asking a simple, factual question that requires basic general knowledge. GPT-4o-mini is specifically designed for quick responses to simple queries, making it the most efficient and cost-effective choice. The historical performance data also indicates it is the best model for simple tasks.",
+    "selected_model": "gpt-4o-mini"
+  },
+  "response": "The capital of France is Paris."
+}
+----------------------------------------
+
+============================================================
+ Testing Parallel Best Route Endpoint
+============================================================
+
+Endpoint: POST /parallelbest
+Status Code: 200
+Response: {
+  "response": "Of course! Here is a collection of creative story titles, categorized by mood and genre, to spark your imagination.\n\n### For Fantasy & Mythic Tales\n*   The Serpent's Tooth Crown\n*   A Court of Rust and Bone\n*   Where the Ash-Trees Weep\n*   The Last Whisper of the Fae\n*   The God in the Gilded Cage\n*   An Almanac of Forgotten Kings\n*   The Clockwork Nightingale\n*   Whispers on a Salt-Stained Wind\n\n### For Science Fiction & Dystopian Futures\n*   The Last Echo of a Dying Star\n*   Chrome and Chrysanthemum\n*   We Who Inhale Dust\n*   The City of Forgotten Circuits\n*   Zero-Sum Genesis\n*   Titanfall's Lullaby\n*   The Electric-Heart Rebellion\n*   Where the Neon Bleeds\n\n### For Mystery & Thriller\n*   The Seventh Confession\n*   What the Gardener Buried\n*   The Silence in the Walls\n*   A Perfect Stranger's Memory\n*   The Faceless Man in the Photograph\n*   Every Silent Thing\n*   The Cyanide Sonata\n*   No One Ever Leaves This Town\n\n### For Horror & Gothic\n*   The Hunger That Wears a Human Skin\n*   It Weeps in the Walls\n*   A Lullaby for the Rotting\n*   The Salt-Stained Grimoire\n*   Hollow is the Night\n*   The Anatomy of a Shadow\n*   Where the Children Don't Come Back\n*   The Marrow-Thief\n\n### For Literary & Poetic Fiction\n*   The Geography of a Half-Lived Life\n*   The Museum of Forgotten Tastes\n*   Where Light is a Language\n*   An Almanac of Goodbyes\n*   The Weight of a Sparrow's Heart\n*   How to Mend a Broken Sun\n*   The Theory of Unsent Letters\n*   A Brief History of the Color Blue\n\n### Short & Punchy\n*   Dustborn\n*   The Shiver\n*   Iron-Kissed\n*   Hollowpoint\n*   The Bloom\n*   Glasskin\n*   Echobound\n*   Rustline"
+}
+----------------------------------------
+
+============================================================
+ Testing Parallel Synthetize Route Endpoint
+============================================================
+
+Endpoint: POST /parallelsynthetize
+Status Code: 200
+Response: {
+  "response": "Exercise is one of the most effective ways to improve your overall health and well-being, with benefits backed by extensive research from organizations like the World Health Organization (WHO). It doesn't have to be intense gym sessions; activities like brisk walking, swimming, yoga, or cycling all provide significant advantages.\n\nHere is a comprehensive breakdown of the benefits of exercise.\n\n### I. Physical Health Benefits\n\n**1. Improves Cardiovascular Health**\nRegular exercise strengthens your heart muscle, allowing it to pump blood more efficiently with less effort. This improves circulation, lowers blood pressure, reduces the risk of heart disease and stroke, and can help raise \"good\" HDL cholesterol while lowering \"bad\" LDL cholesterol.\n\n**2. Aids in Weight Management**\nPhysical activity burns calories and builds muscle. This combination boosts your resting metabolic rate, meaning your body burns more calories even when you're not active, making it easier to maintain a healthy weight and prevent obesity.\n\n**3. Strengthens Muscles and Bones**\nWeight-bearing and strength-training exercises increase muscle mass and stimulate bone formation. This enhances bone density, reducing the risk of osteoporosis and injuries, which is especially crucial for maintaining mobility and balance as you age.\n\n**4. Reduces Risk of Chronic Diseases**\nConsistent exercise is proven to lower the risk of developing numerous chronic conditions, including type 2 diabetes (by improving insulin sensitivity), metabolic syndrome, stroke, and certain types of cancer (such as colon, breast, and lung).\n\n**5. Enhances Immune Function**\nModerate, regular exercise boosts your body's defense systems by improving the circulation of immune cells, making you less susceptible to common illnesses like the cold and flu.\n\n**6. Improves Sleep Quality**\nPhysical activity can help you fall asleep faster, enjoy deeper and more restorative sleep, and regulate your sleep-wake cycle (circadian rhythm).\n\n**7. Increases Energy Levels**\nWhile it may seem counterintuitive, expending energy through exercise actually boosts your overall energy. It improves the delivery of oxygen and nutrients to your tissues, helping your entire cardiovascular system work more efficiently and fighting feelings of fatigue.\n\n### II. Mental and Emotional Health Benefits\n\n**1. Reduces Stress, Anxiety, and Depression**\nExercise is a powerful natural mood elevator. It stimulates the production of endorphins (\"feel-good\" hormones), reduces the body's stress hormones like cortisol and adrenaline, and increases mood-regulating neurotransmitters like serotonin and norepinephrine. For mild to moderate depression, its effects can be comparable to antidepressant medication.\n\n**2. Enhances Cognitive Function and Memory**\nExercise increases blood flow to the brain and stimulates the growth of new brain cells (neurogenesis), particularly in the hippocampus, the area responsible for learning and memory. This leads to sharper focus, better concentration, and a reduced risk of cognitive decline and diseases like Alzheimer's.\n\n**3. Boosts Self-Esteem and Confidence**\nAchieving fitness goals, feeling your body get stronger, and noticing positive physical changes can provide a powerful sense of accomplishment, improving your body image and overall self-worth.\n\n### III. Long-Term and Lifestyle Benefits\n\n**1. Promotes Longevity and Quality of Life**\nPeople who exercise regularly tend to live longer, healthier lives, with studies showing a significant reduction in all-cause mortality. More importantly, it adds \"life to your years,\" not just \"years to your life,\" by improving daily functioning, energy, and vitality.\n\n**2. Provides Social Opportunities**\nJoining a sports team, taking a fitness class, or hiking with friends combines physical activity with social interaction, which helps combat loneliness and fosters a sense of community.\n\n**3. Can Improve Libido**\nRegular exercise can enhance sexual arousal and function by increasing blood flow, boosting energy levels, and improving body confidence.\n\n### How to Get Started\n\nTo maximize these benefits, aim for a well-rounded routine that includes:\n*   **Aerobic exercise** (walking, running, swimming, cycling)\n*   **Strength training** (weights, bodyweight exercises)\n*   **Flexibility and balance** (stretching, yoga)\n\nThe WHO recommends at least 150 minutes of moderate-intensity activity per week for adults. If you're new to exercise, start small\u2014even 15-20 minutes a day can make a significant difference. The key is consistency and finding activities you genuinely enjoy, as that is the best way to make it a regular, lifelong habit."
+}
+----------------------------------------
+
+============================================================
+ Testing Analyze Prompt Endpoint
+============================================================
+
+Endpoint: POST /analyze
+Status Code: 200
+Response: {
+  "confidence": 0.95,
+  "estimated_cost_per_1k": 0.00015,
+  "model_id": "openai:gpt-4o-mini",
+  "reasoning": "The prompt is a very simple and common coding request. GPT-4o-mini is optimized for quick, lightweight, and cost-effective tasks, making it the most suitable choice for generating a straightforward Python function without the need for more complex reasoning or extensive context.",
+  "selected_model": "gpt-4o-mini"
+}
+----------------------------------------
+
+============================================================
+ Testing Error Handling
+============================================================
+
+Test 1: Missing messages field
+Endpoint: POST /route (invalid)
+Status Code: 400
+Response: {
+  "error": "messages field is required"
+}
+----------------------------------------
+
+Test 2: Empty messages list
+Endpoint: POST /route (invalid)
+Status Code: 400
+Response: {
+  "error": "messages list cannot be empty"
+}
+----------------------------------------
+
+Test 3: Invalid message format
+Endpoint: POST /route (invalid)
+Status Code: 400
+Response: {
+  "error": "Each message must be a dictionary"
+}
+----------------------------------------
+
+Test 4: Missing prompt field in analyze
+Endpoint: POST /analyze (invalid)
+Status Code: 400
+Response: {
+  "error": "prompt field is required"
+}
+----------------------------------------
+
+Test 5: 404 Not Found
+Endpoint: GET /nonexistent
+Status Code: 404
+Response: {
+  "error": "Endpoint not found"
+}
+----------------------------------------
+
+============================================================
+ Testing Multi-turn Conversation
+============================================================
+
+Endpoint: POST /route (conversation)
+Status Code: 200
+Response: {
+  "response": "Excellent question! It's smart to ask for a roadmap. Learning in a structured way will help you build a solid foundation and prevent you from getting overwhelmed.\n\nThink of it like building a house. You need to lay the foundation before you can put up the walls and a roof. Here is a proven, step-by-step path that I recommend.\n\n---\n\n### Phase 1: The Absolute Core Fundamentals (The Foundation)\n\nFocus on understanding these concepts inside and out. Don't just read about them\u2014write small programs for each one.\n\n1.  **Basic Syntax & \"Hello, World!\"**\n    *   **What it is:** How to write a Python command that the computer can understand.\n    *   **Your Goal:** Write and run your first Python script. The classic is a program that just prints `Hello, World!` to the screen. This teaches you how to use your code editor and run Python.\n\n2.  **Variables and Basic Data Types**\n    *   **What it is:** Storing information in named containers (variables). Python has several basic types of information.\n    *   **Your Goal:** Understand and use the most common types:\n        *   `string`: Text, like `\"Alice\"` or `\"Hello Python\"`.\n        *   `integer`: Whole numbers, like `10`, `0`, or `-50`.\n        *   `float`: Numbers with a decimal point, like `3.14` or `-0.5`.\n        *   `boolean`: Represents `True` or `False`.\n\n3.  **Basic Operators**\n    *   **What it is:** The symbols you use to perform operations on your variables.\n    *   **Your Goal:** Do simple math (`+`, `-`, `*`, `/`), compare values (`==`, `!=`, `>`, `<`), and combine boolean logic (`and`, `or`, `not`).\n\n4.  **Data Structures (The Containers)**\n    *   **What it is:** Ways to store and organize collections of data. This is a hugely important topic.\n    *   **Your Goal:** Learn the four main types and when to use them:\n        *   **`list`**: An ordered, changeable collection of items. Your go-to for most things. Ex: `my_shopping_list = [\"apples\", \"bread\", \"milk\"]`\n        *   **`dictionary`**: A collection of key-value pairs. Great for labeling information. Ex: `user = {\"name\": \"Bob\", \"age\": 35}`\n        *   **`tuple`**: Like a list, but its contents cannot be changed after it's created (immutable).\n        *   **`set`**: An unordered collection of unique items.\n\n5.  **Control Flow (Making Decisions and Repeating Actions)**\n    *   **What it is:** Directing the flow of your program.\n    *   **Your Goal:**\n        *   Use **`if`**, **`elif`**, and **`else`** to make your program do different things based on certain conditions.\n        *   Use **`for` loops** to repeat an action for every item in a sequence (like a list).\n        *   Use **`while` loops** to repeat an action as long as a condition is true.\n\n6.  **Functions**\n    *   **What it is:** Creating reusable blocks of code to perform a specific task. This is how you organize your programs and avoid repeating yourself.\n    *   **Your Goal:** Write your own simple functions that take arguments (inputs) and `return` a value (output).\n\n---\n\n### Phase 2: Solidifying Your Knowledge (Building the Walls)\n\nOnce you're comfortable with the basics, move on to these topics. They are essential for writing any real-world program.\n\n7.  **String Manipulation**\n    *   **What it is:** Working with text is extremely common. You'll need to know how to format it, search it, and change it.\n    *   **Your Goal:** Learn about f-strings for easy formatting, and methods like `.upper()`, `.lower()`, `.strip()`, and `.split()`.\n\n8.  **File I/O (Input/Output)**\n    *   **What it is:** Reading data from files and writing data to files.\n    *   **Your Goal:** Learn how to use `with open(...)` to read a `.txt` file and write content to a new one.\n\n9.  **Exception Handling**\n    *   **What it is:** Gracefully handling errors that might crash your program.\n    *   **Your Goal:** Learn to use `try` and `except` blocks to catch potential errors (like trying to divide by zero or opening a file that doesn't exist) without stopping the whole program.\n\n10. **Modules and the Standard Library**\n    *   **What it is:** Python comes with a huge \"standard library\" of pre-written code (modules) that you can use.\n    *   **Your Goal:** Learn how to `import` modules like `math` (for more math functions), `random` (to generate random numbers), and `datetime` (to work with dates and times).\n\n---\n\n### My Single Biggest Piece of Advice\n\n**Code every day.** Even for 15 minutes. The most important thing is not just to *watch* or *read* about Python, but to **write Python code**.\n\n*   **Start Small:** Try to write a program that asks for your name and then says hello.\n*   **Build a Project:** A simple \"Guess the Number\" game is a fantastic first project that uses variables, loops, and `if` statements. A simple calculator is great for practicing functions.\n\n### Free Resources to Get You Started:\n\n1.  **freeCodeCamp's Python for Everybody Course:** A full-length university-level course available for free on YouTube. It's excellent for absolute beginners.\n2.  **The Official Python Tutorial:** Written by the creators of Python. It's a bit direct, but it's authoritative and accurate.\n3.  **Automate the Boring Stuff with Python:** A fantastic (and free!) online book that teaches you Python through practical, real-world automation tasks.\n\nDon't get overwhelmed by this list. Just start with **#1** and move to **#2** when you feel ready. Be patient with yourself, celebrate small victories, and welcome to the wonderful world of Python"
+}
+----------------------------------------
+
+============================================================
+ All Tests Completed
+============================================================
+
+✓ Test suite finished successfully
